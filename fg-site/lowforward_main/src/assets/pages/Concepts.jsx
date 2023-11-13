@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Concepts() {
     return( <div className="conceptStyles">
         <h1>Concepts</h1>
@@ -6,10 +8,10 @@ export default function Concepts() {
         starting with the preface so you understand how the guides are structured.</p>
         <h2>Beginner</h2>
         <ul>
-        <a href="https://lowforward.com/preface">Preface</a>
-        <a href="https://lowforward.com/antiairs">Anti-airs</a>
-        <a href="https://lowforward.com/bnbs">Basic Combos and How to Learn Them</a>
-        <a href="https://lowforward.com/meaties_and_confirms">Meaties and Hit Confirms</a>
+        <Link to="/preface">Preface</Link>
+        <Link to="/antiairs">Anti-airs</Link>
+        <Link to="/bnbs">Basic Combos and How to Learn Them</Link>
+        <Link to="/meaties_and_confirms">Meaties and Hit Confirms</Link>
         </ul>
         
         <hr className="divider"></hr>
