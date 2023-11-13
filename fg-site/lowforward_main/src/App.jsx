@@ -19,13 +19,13 @@ function App() {
   <div className="container">
   <Routes>
     <Route path="/" element={<Home />} />
-    <Route path="resources" element={<Resources />} />
-    <Route path="concepts" element={<Concepts />} />
-    <Route path="support" element={<Support />} />
-    <Route path="preface" element={<Preface />} />
-    <Route path="antiairs" element={<Antiairs />} />
-    <Route path="bnbs" element={<Bnbs />} />
-    <Route path="meaties_and_confirms" element={<Confirms />} />
+    <Route path="/resources" element={<Resources />} />
+    <Route path="/concepts" element={<Concepts />} />
+    <Route path="/support" element={<Support />} />
+    <Route path="/preface" element={<Preface />} />
+    <Route path="/antiairs" element={<Antiairs />} />
+    <Route path="/bnbs" element={<Bnbs />} />
+    <Route path="/meaties_and_confirms" element={<Confirms />} />
     <Route path="*" element={<NotFound />} />
   </Routes>
   </div>
