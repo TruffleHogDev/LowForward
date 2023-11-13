@@ -8,7 +8,7 @@ export default function Concepts() {
         starting with the preface so you understand how the guides are structured.</p>
         <h2>Beginner</h2>
         <ul>
-        <Link to="/preface" replace>Preface</Link>
+        <Link to="/preface">Preface</Link>
         <Link to="/antiairs">Anti-airs</Link>
         <Link to="/bnbs">Basic Combos and How to Learn Them</Link>
         <Link to="/meaties_and_confirms">Meaties and Hit Confirms</Link>
