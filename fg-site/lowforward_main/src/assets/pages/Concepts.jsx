@@ -1,4 +1,4 @@
-import { Link, useMatch, useResolvedPath } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Concepts() {
     return( <div className="conceptStyles">
@@ -67,9 +67,4 @@ export default function Concepts() {
         </ul>
         </div>
     )
-}
-
-function Link({ to, children, ...props }) {
-    const resolvedPath = useResolvedPath(to)
-    const isActive = useMatch({ path: resolvedPath.pathname, end: true })
 }
