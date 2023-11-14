@@ -178,7 +178,7 @@ return (
             you press the normal you're canceling them from.</p>
 
             <figure>
-            <img src="{crossCut}" alt="Training mode 50% playback speed"></img>
+            <img src="/src/assets/images/slowmo.jpg" alt="Training mode 50% playback speed"></img>
             <figcaption>Training mode slow-mo. Practice the motions slowly and with intent. Don't be afraid of mistakes, that's what this is
             for.</figcaption>
             </figure>
@@ -212,8 +212,4 @@ return (
             <hr className="divider"></hr>
     </div>
 )
-}
-
-function crossCut() {
-    document.getElementById('hero-img').src = 'src/assets/videos/crosscut'
 }
