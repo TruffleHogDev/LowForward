@@ -33,7 +33,7 @@ export default function Confirms() {
     </p>
 
     <figure>
-            <video src="/src/assets/videos/meaty.mp4" type="video/mp4" preload="metadata" controls></video>
+            <video src="/src/assets_static/videos/meaty.mp4" type="video/mp4" preload="metadata" controls></video>
             <figcaption>Comparison of frame advantage when blocking Cammy 2HP normally vs blocking it meaty. Challenging on plus frames 
             is incredibly risky.
             </figcaption>
@@ -59,7 +59,7 @@ export default function Confirms() {
             </p>
 
             <figure>
-            <video src="/src/assets/videos/lightcombopractice.mp4" type="video/mp4" preload="metadata" controls></video>
+            <video src="/src/assets_static/videos/lightcombopractice.mp4" type="video/mp4" preload="metadata" controls></video>
             <figcaption>Various light confirm strings with Ken. Use this video for help seeing manually timed 4-5 frame lights + throws 
             in action.
             </figcaption>
@@ -94,7 +94,7 @@ export default function Confirms() {
         </p>
 
         <figure>
-        <img src="/src/assets/images/confirmSettings.jpg" alt="Wakeup settings for hit confirm practice."></img>
+        <img src="/src/assets_static/images/confirmSettings.jpg" alt="Wakeup settings for hit confirm practice."></img>
         <figcaption>Wakeup settings for hit confirm practice using the Ryu dummy. Optionally enable anything toggled OFF for practice 
         reacting to other common options.</figcaption>
         </figure>
@@ -109,7 +109,7 @@ export default function Confirms() {
         that to give yourself some more breathing room.</p>
 
         <figure>
-            <video src="/src/assets/videos/confirmDrill.mp4" type="video/mp4" preload="metadata" controls></video>
+            <video src="/src/assets_static/videos/confirmDrill.mp4" type="video/mp4" preload="metadata" controls></video>
             <figcaption>Full 10 rep set of light confirm practice. Remember to switch sides after you get 10 in a row on one!
             </figcaption>
             </figure>

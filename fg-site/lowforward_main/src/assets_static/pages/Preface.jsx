@@ -52,7 +52,7 @@ export default function Preface() {
            a fairly standardized way of communicating inputs across multiple 2d fighting games, so it's mostly for clarity.</p>
 
         <figure className="numpadImg">
-           <img src="/src/assets/images/numpad.jpg" alt="Numpad notation"></img>
+           <img src="/src/assets_static/images/numpad.jpg" alt="Numpad notation"></img>
         <figcaption>Guide to numpad notation- author unknown</figcaption>
         </figure>
 
