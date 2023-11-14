@@ -1,3 +1,6 @@
+import crosscut from '/src/assets/videos/crosscut.mp4'
+document.getElementById().src = crosscut
+
 export default function Antiairs() {
     return (
         <div className="articleStyles">
@@ -77,6 +80,3 @@ export default function Antiairs() {
         </div>
     )
 }
-
-import crosscut from '/src/assets/videos/crosscut.mp4'
-document.getElementById().src = crosscut
