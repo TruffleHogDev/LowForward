@@ -1,6 +1,3 @@
-import crosscut from '/src/assets/videos/crosscut.mp4'
-document.getElementById().src = crosscut
-
 export default function Antiairs() {
     return (
         <div className="articleStyles">
@@ -51,7 +48,7 @@ export default function Antiairs() {
         you, your DP will autocorrect sides and hit them. Since the timing can be fairly difficult, this is something you can practice
         later as a lower priority when you feel more confident if it's too much to start with.</p>
 
-        <video src="{crosscut}" type="video/mp4" preload="metadata" controls></video>
+        <video src="src/assets/videos/crosscut.mp4" type="video/mp4" preload="metadata" controls></video>
 
         <p>You may find after some practice in real matches that you can consistently anti-air opponents that jump predictably, 
         but get caught out when they jump on you while you're focusing on the ground game. This is normal, and the theory behind
