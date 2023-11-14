@@ -1,3 +1,5 @@
+const aaTraining = new URL('../src/assets/images/AA training.jpg', import.meta.url).href
+
 export default function Antiairs() {
     return (
         <div className="articleStyles">
@@ -11,7 +13,7 @@ export default function Antiairs() {
         in Street Fighter 6, many characters' 2HP is a reliable option, though this is by no means universal 
         (A.K.I, Zangief, Dhalsim, Dee Jay, etc). In the training menu, go into simple training settings and select anti-air practice.</p>
 
-        <img src="/src/assets/images/AA training.jpg" alt="Anti-Air Practice"></img>
+        <img src={aaTraining} alt="Anti-Air Practice"></img>
 
         <p>While you're trying out your anti-air normals, one of the first things you'll notice is likely going to be that even your
         reliable options have to be timed manually and don't cover every jump angle, especially from closer jump ins. When you notice
