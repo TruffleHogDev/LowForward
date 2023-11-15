@@ -67,7 +67,7 @@ export default function Preface() {
         practice. Losing is part of everyone's journey, and so is an uneven path of progression.</p>
 
         <p>Never compare your results or rate of progression to others or else you will never be happy- your only goal in this regard
-        should be to be stronger than your past self. WIth all that in mind, you're ready to dig in to the rest of the content here. I 
+        should be to be stronger than your past self. With all that in mind, you're ready to dig in to the rest of the content here. I 
         hope you find it informative.</p>
 
         <hr className="divider"></hr>
