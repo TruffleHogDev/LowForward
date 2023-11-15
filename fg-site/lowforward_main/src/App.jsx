@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
 import Navbar from './Navbar.jsx';
-import Home from './assets_static/pages/Home'
-import Resources from './assets_static/pages/Resources.jsx';
-import Concepts from './assets_static/pages/Concepts.jsx';
-import Support from './assets_static/pages/Support.jsx';
-import Preface from './assets_static/pages/Preface.jsx';
-import Antiairs from './assets_static/pages/Antiairs.jsx';
-import Bnbs from './assets_static/pages/Bnbs.jsx';
-import NotFound from './assets_static/pages/NotFound.jsx';
-import Confirms from './assets_static/pages/MeatiesAndConfirms.jsx';
+import Home from './Home.jsx';
+import Resources from './Resources.jsx';
+import Concepts from './Concepts.jsx';
+import Support from './Support.jsx';
+import Preface from './Preface.jsx';
+import Antiairs from './Antiairs.jsx';
+import Bnbs from './Bnbs.jsx';
+import NotFound from './NotFound.jsx';
+import Confirms from './MeatiesAndConfirms.jsx';
 import { Route, Routes } from "react-router-dom" //allows defining and grouping of all of our routes
 
 function App() {

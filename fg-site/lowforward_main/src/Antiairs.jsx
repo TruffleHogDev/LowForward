@@ -1,3 +1,8 @@
+import aaTraining from "../src/assets/images/AA training.jpg";
+import airToAir from "../src/assets/images/airtoair.jpg";
+import crossCut from "../src/assets/videos/crosscut.mp4";
+import cornerAA from "../src/assets/images/cornerAA.jpg";
+
 export default function Antiairs() {
     return (
         <div className="articleStyles">
@@ -11,7 +16,7 @@ export default function Antiairs() {
         in Street Fighter 6, many characters' 2HP is a reliable option, though this is by no means universal 
         (A.K.I, Zangief, Dhalsim, Dee Jay, etc). In the training menu, go into simple training settings and select anti-air practice.</p>
 
-        <img src='/src/assets_static/images/AA training.jpg' alt="Anti-Air Practice"></img>
+        <img src={aaTraining} alt="Anti-Air Practice"></img>
 
         <p>While you're trying out your anti-air normals, one of the first things you'll notice is likely going to be that even your
         reliable options have to be timed manually and don't cover every jump angle, especially from closer jump ins. When you notice
@@ -23,7 +28,7 @@ export default function Antiairs() {
         a poorly spaced, highly committal option like a shoryuken.</p>
 
         <figure>
-        <img src='/src/assets_static/images/airtoair.jpg' alt="Air to Air"></img>
+        <img src={airToAir} alt="Air to Air"></img>
         <figcaption>Grounded options not consistent? Try an air to air!</figcaption>
         </figure>
 
@@ -48,7 +53,7 @@ export default function Antiairs() {
         you, your DP will autocorrect sides and hit them. Since the timing can be fairly difficult, this is something you can practice
         later as a lower priority when you feel more confident if it's too much to start with.</p>
 
-        <video src="src/assets_static/videos/crosscut.mp4" type="video/mp4" preload="metadata" controls></video>
+        <video src={crossCut} type="video/mp4" preload="metadata" controls></video>
 
         <p>You may find after some practice in real matches that you can consistently anti-air opponents that jump predictably, 
         but get caught out when they jump on you while you're focusing on the ground game. This is normal, and the theory behind
@@ -64,7 +69,7 @@ export default function Antiairs() {
          way to start your offense if they jump, and giving you ample time to check a grounded approach if they don't.</p>
 
         <figure>
-        <img src="/src/assets_static/images/cornerAA.jpg" alt="Corner AA sweet spot"></img>
+        <img src={cornerAA} alt="Corner AA sweet spot"></img>
         <figcaption>Ideal spacing for checking corner forward jumps.</figcaption>
         </figure>
 
