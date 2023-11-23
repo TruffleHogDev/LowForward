@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import numPadNotation from "../src/assets/images/numpad.jpg";
+import frameData from "../src/assets/images/frameData.jpg";
+
 
 export default function Preface() {
     return (
@@ -11,7 +13,15 @@ export default function Preface() {
 
         <h4>Important note: if you are brand new to fighting games, check out the Supercombo Wiki's 
         <Link to="https://wiki.supercombo.gg/w/Street_Fighter_6/Game_Data"> Game Data guide</Link> for an introduction to the concept 
-        of framedata. It is mandatory to understand framedata in order to understand fighting games. </h4>
+        of framedata. It is mandatory to understand framedata in order to understand fighting games. You can also see a quick explanation
+        in SF6's training mode below. </h4>
+
+        <figure>
+            <img src={frameData} alt="Brief explanation of framedata."></img>
+            <figcaption>Brief explanation of framedata. You must understand concepts like startup and frame advantage for many lessons to
+            make sense. 
+            </figcaption>
+            </figure>
 
         <hr className="divider"></hr>
 

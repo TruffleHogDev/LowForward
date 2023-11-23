@@ -29,7 +29,7 @@ export default function Resources() {
         <hr className="smallDivider"></hr>
 
         <h3>
-        <Link to="https://www.dustloop.com/w/Main_Page">Fighting Game Glossary</Link>
+        <Link to="https://glossary.infil.net/">Fighting Game Glossary</Link>
         </h3>
         <p>As the name implies, it's a fighting game glossary for multiple games. Very helpful for learning all the various jargon 
         the FGC uses. I try to explain new terms in my articles, but if I miss something or if you otherwise aren't familiar with a term, 

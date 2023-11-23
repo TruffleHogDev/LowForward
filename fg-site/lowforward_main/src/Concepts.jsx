@@ -12,6 +12,7 @@ export default function Concepts() {
         <Link to="/antiairs">Anti-airs</Link>
         <Link to="/bnbs">Basic Combos and How to Learn Them</Link>
         <Link to="/meaties_and_confirms">Meaties and Hit Confirms</Link>
+        <Link to="/strikethrow">Fundamentals of Strike/Throw Offense</Link>
         </ul>
         
         <hr className="divider"></hr>
@@ -26,7 +27,6 @@ export default function Concepts() {
 
         <ul>
         <h3>Upcoming beginner content:</h3>
-        <li>Basics of strike/throw offense</li>
         <li>Making your punishes count</li>
         <li>Playing around reversals</li>
         <li>Fundamental defensive options</li>
