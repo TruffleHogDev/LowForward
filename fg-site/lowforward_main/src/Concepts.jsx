@@ -27,7 +27,6 @@ export default function Concepts() {
 
         <ul>
         <h3>Upcoming beginner content:</h3>
-        <li>Making your punishes count</li>
         <li>Playing around reversals</li>
         <li>Fundamental defensive options</li>
         <li>Satsui no Hado: the power of (doing) nothing</li>

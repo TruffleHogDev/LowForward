@@ -6,7 +6,7 @@ import stringEnder from "../src/assets/images/stringEnder.jpg";
 import shimmy from "../src/assets/videos/shimmy.mp4";
 import stagger from "../src/assets/videos/stagger.mp4";
 import jumpScare from "../src/assets/videos/jumpScare.mp4";
-
+import diReset from "../src/assets/videos/diReset.mp4";
 
 export default function StrikeThrow() {
     return (
@@ -38,7 +38,7 @@ export default function StrikeThrow() {
 
             <h3>When do I get strike/throw opportunities?</h3>
             <p>
-                In SF6, overwhelming the the most common way to get a strike/throw mixup is off of a knockdown that leaves you with enough 
+                In SF6, overwhelmingly the most common way to get a strike/throw mixup is off of a knockdown that leaves you with enough 
                 advantage to approach your opponent and force them to guess between a meaty strike and a meaty throw. Putting your opponent 
                 in a position where they must immediately choose between two unreactable options that can't be defended 
                 against by the same option is known colloquially
@@ -57,6 +57,9 @@ export default function StrikeThrow() {
                 those spots, you can use those plus frames to walk up and throw them. This is risky because it does lose to mashing, 
                 but can be devastating to an opponent's mental stack if you succeed. 
             </p>
+
+            <p>It's also important to note that regular parries do not affect frame data on block- a move that's -2 normally is also 
+            -2 when parried.</p>
 
             <p>If you have a fast command grab, your offense becomes much more potent because you cannot tech command grabs. Their priority
             over throws is what makes grappler offense so terrifying.</p>
@@ -113,7 +116,8 @@ export default function StrikeThrow() {
         <p> It's important to remember to 
         play around the things that your opponent is actually doing, rather than what they could potentially do. If that Chun player 
         has gotten hit by the last 4 meaty light strings in a row, there's no need to shimmy to try and bait a throw or a reversal- they 
-        haven't tried to do anything but mash out of your offense.</p>
+        haven't tried to do anything but mash out of your offense. You generally don't need to do anything more advanced than meaty 
+        strike/throw with your basic light and medium blockstrings until your opponents demonstrate they can defend against them.</p>
 
         <h4 className="bold">3: Avoid being predictable when they do adjust. </h4>
         <p>Basically, if you're finding it impossible to open up your opponents
@@ -136,7 +140,8 @@ export default function StrikeThrow() {
         almost zero downside.</p>
 
         <h4 className="bold">5: Reserve high risk options for when your opponent doesn't have the resources to check them or is consistently defending 
-        against your safer options.</h4> <p>This can be as simple as only going for Drive Impacts when your opponent is blocking you in burnout 
+        against your safer options.</h4> 
+        <p>This can be as simple as only going for Drive Impacts when your opponent is blocking you in burnout 
         and has no super meter to stop you, or as advanced as going for a shimmy setup because you noticed your opponent is delay 
         teching all your strike/throw mixups. It's okay to sometimes go for high risk options in situations where your opponent can 
         respond to them, but you want to err on the side of caution if they haven't given you a reason to go for them yet. Hit them with
@@ -158,7 +163,7 @@ export default function StrikeThrow() {
 
         <hr className="smallDivider" />
 
-        <h3>What techniques can I use to stay unpredictable?</h3>
+        <h3>What more advanced techniques can I use to stay unpredictable?</h3>
         
         <h4 className="bold">1: Tick throws</h4>
 
@@ -173,7 +178,8 @@ export default function StrikeThrow() {
         walking forward, and starting your string from the beginning. You can use this to help open up overly passive opponents who are 
         content to sit and block for extended periods of time, or who try to tech when they expect a tick throw. Like tick throws, 
         there is a gap where your opponent can mash to interrupt you as you walk forward, so you don't want to do this recklessly.
-        You can also use this to open up patient defenders with repeated low-hitting lights.</p>
+        You can also use this to open up patient defenders with repeated low-hitting lights. Once your opponent begins pressing buttons, 
+        you can simply go back to doing your safer blockstrings and hit confirming them again.</p>
 
         <figure>
             <video src={stagger} type="video/mp4" preload="metadata" controls></video>
@@ -187,8 +193,9 @@ export default function StrikeThrow() {
 
         <p>Shimmies are a classic way to call out throws and invincible reversals, and they also have extra use as the main way of 
         beating delay techs, which is an advanced technique where you do a slightly delayed tech on wakeup so that you can automatically 
-        defend against meaty strikes and meaty throws. If your opponent is guessing a little bit too consistently with your meaties, 
-        they're probably cdelay teching. To do a shimmy, you back up out of your opponent's throw range, block for a brief moment, and then 
+        defend against meaty strikes and meaty throws (typically about 4 frames after blockstun ends in SF6). 
+        If your opponent is guessing a little bit too consistently with your meaties and teching every single throw, 
+        they're probably delay teching. To do a shimmy, you back up out of your opponent's throw range, block for a brief moment, and then 
         press a button that you can confirm off of. Note that you're not actually reacting to whether they whiffed a throw, you're 
         simply doing a delayed button and then hit confirming that. Since this option gives up your turn on offense, it's usually 
         best to not do it unless they're doing a lot of wakeup reversals or are consistently delay teching. Shimmies are susceptible to 
@@ -206,8 +213,10 @@ export default function StrikeThrow() {
 
             <p>These are your haymakers that are usually too reactable or unsafe to be reliable options. Think your DIs, your slow command 
             grabs, overheads, or plus on block command normals like Ryu's 6HP. These are best used when your opponent is under a lot 
-            of stress and worried about 4 or 5 different options, like when they're low on life or in burnout. You don't want to go 
-            for these under most circumstances due to their all-in nature, but are great for securing KOs in a pinch.</p>
+            of stress and worried about 4 or 5 different options, like when they're low on life or in burnout. These can also be 
+            used to reset your combos, intentionally ending them early and attempting to hit them with a new combo starter.
+            You don't want to go for these under most circumstances due to their all-in nature, 
+            but are great for securing KOs or making comebacks in a pinch.</p>
 
             <figure>
             <video src={jumpScare} type="video/mp4" preload="metadata" controls></video>
@@ -216,7 +225,31 @@ export default function StrikeThrow() {
             </figcaption>
             </figure>
 
+            <figure>
+            <video src={diReset} type="video/mp4" preload="metadata" controls></video>
+            <figcaption>A sneaky DI reset commonly used after Jamie's level 3 that takes advantage of the opponent's expectation of a 
+            longer combo.
+            </figcaption>
+            </figure>
+
             <hr className="smallDivider"></hr>
+
+            <h3>Where do I start with all this?</h3>
+            <p>If you're new or not confident in your regular strike/throw, start with your basic meaties and hit confirms. 
+            Focus on your light and medium BnB blockstrings and don't worry about more difficult confirms that may require counterhits or 
+            frame perfect meaties. Practice perfecting your strike and throw timing to beat wakeup mashing as the goal for your next 
+            session(s). Try to react to wakeup DIs during your blockstrings to shut down that as an option, especially if you're below 
+            Diamond. Don't worry about anything more complicated on offense until you can't open up your opponents anymore and are forced 
+            to adapt- you want them to be doing all the thinking on defense. Your most basic goal as the attacker is to see 
+            how they respond to stop your basic strike/throw, and then adjust to beat that response (unless they keep getting hit, in 
+            which case keep doing it until you win).</p>
+
+            <p>By now, you should have a basic ability to anti-air, a good set of BnBs that you can hit confirm, and the ability to 
+            pressure your opponents when you score a knockdown. You might even be getting good at reacting to wakeup DIs and seeing 
+            patterns in how your opponents defend. But you may have noticed a conspicuous absence among defensive options covered in this 
+            article- what about wakeup DP and super? What about when they start to DP and perfect parry my frametraps? Is there anything 
+            that I can do besides give up my turn and try to bait it? All of those questions and more will be covered in the 
+            next article, dedicated to playing around reversals.</p>
         </div>
     )
 
