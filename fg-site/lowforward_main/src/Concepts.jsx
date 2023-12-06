@@ -13,6 +13,7 @@ export default function Concepts() {
         <Link to="../bnbs">Basic Combos and How to Learn Them</Link>
         <Link to="../meaties_and_confirms">Meaties and Hit Confirms</Link>
         <Link to="../strikethrow">Fundamentals of Strike/Throw Offense</Link>
+        <Link to="../reversals">Playing Around Reversals</Link>
         </ul>
         
         <hr className="divider"></hr>
@@ -27,7 +28,6 @@ export default function Concepts() {
 
         <ul>
         <h3>Upcoming beginner content:</h3>
-        <li>Playing around reversals</li>
         <li>Fundamental defensive options</li>
         <li>Satsui no Hado: the power of (doing) nothing</li>
         <li>Holding your ground and controlling space</li>
