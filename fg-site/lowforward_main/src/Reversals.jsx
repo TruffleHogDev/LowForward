@@ -1,5 +1,8 @@
 import amnesia from "../src/assets/videos/amnesia.mp4";
-import levelOnePunish from "../src/assets/videos/levelOnePunish.mp4"
+import levelOnePunish from "../src/assets/videos/levelOnePunish.mp4";
+import safeJump from "../src/assets/videos/safeJump.mp4";
+import dontSendIt from "../src/assets/images/dontSendIt.jpg";
+
 
 
 export default function Reversals() {
@@ -145,6 +148,86 @@ export default function Reversals() {
 
         <p>Level 3 supers also boast full invulnerability, including to projectiles; notably, some long-range supers like Cammy and JP's 
         can punish fireballs on reaction from nearly full screen, making them significantly more dangerous to engage from long range.</p>
+
+    <hr className="smallDivider" />
+
+    <h2>Safejumps</h2>
+
+    <hr className="smallDivider" />
+
+        <p>Safejumps are a way of landing a meaty jump-in that is extremely advantageous on hit or on block, while recovering quickly 
+        enough to block a wakeup reversal. Every character in SF6 has access to safejumps, but the way you route into them varies heavily 
+        by character since they require a specific amount of advantage on knockdown- typically in the range of +41 to +43. Incorporating 
+        safejumps into your game is a quick and easy way to test your opponents' matchup knowledge; against players who block, you get
+        guaranteed pressure, or can even go for empty jump (jumping without attacking) into a throw or a low once they have been
+        conditioned to respect the overhead. Note that safejumps can be perfect parried.</p>
+
+        <figure>
+        <video src={safeJump} type="video/mp4" preload="metadata" controls></video>
+            <figcaption>An extremely common Marisa safejump with a punish included. Safejumps are an easy way to bait reversals and
+            maintain your offense. 
+            </figcaption>
+            </figure>
+
+        <hr className="smallDivider" />
+
+      <h2>Understanding when to respect reversals</h2>
+
+        <hr className="smallDivider" />
+
+        <p>Now that we understand the properties of the reversals in this game, we can talk about when to respect them. As a general
+        rule, you shouldn't play around reversals until your opponents actually start to do them; it's almost always a bad idea to 
+        play around the options they aren't representing. Instead, keep bullying them on offense with your meaty strike/throw pressure 
+        until they get frustrated enough to use a reversal. If you get hit by a wakeup DP or level one, that's fine! It shouldn't bother
+        you, since they 1. just spent two drive bars to reset back to neutral (which you presumably have won at least once already and can 
+        win again) and 2: now you have a better idea of when they like to use their reversals and can leverage that against them. 
+          </p>
+
+          <p>One thing beginner and intermediate players do very poorly is manage their meter, so pay close attention to how much drive 
+          and super gauge both players have. Generally speaking, the less drive your opponent has when they DP, the better it is for you, 
+          since they have put themselves closer to burnout and also will probably struggle to win neutral with a significant drive 
+          disadvantage. You can even harass them with long range pokes and fireballs to chip away at their drive and compel them to take 
+          a risk to avoid burning out.</p>
+
+          <p>In low life situations where your opponent has a large life lead, using a reversal super is almost always a bad idea if you 
+          can conserve the meter for the next round;
+          a very common mistake is someone doing a wakeup super with almost no hp and then immediately dying right after, forcing
+          them to play the next round at a meter disadvantage and making their comeback even harder for no justifiable reason. 
+          If you can safely tank the hit, it's usually okay to eat a super to the face closing out a round. If it is a game-deciding
+          gamble, the most important thing is to remain calm and make an educated guess based on your opponent's habits. If you can 
+          set up reversal-safe pressure, this is one of the best times to do so. Personally, the less fundamentally solid my opponents are, 
+          the more comfortable I am with giving up my turn when we're both low and waiting for them to try one last gamble, and then 
+          interrupting or punishing it. I always like to think "I've come back from worse" whenever I'm in a stressful situation, and that 
+          helps a lot when you need to be clutch to win. If you lose, it's better to figure out what lead to you being in such a 
+          precarious situation so you can avoid repeating it instead of agonizing over guessing wrong.</p>
+
+          <figure>
+            <img src={dontSendIt} alt="Don't send it"></img>
+            <figcaption> Example of a horrible time to use an invincible reversal. Even if flash kick connects, Guile will get burnt out
+            and almost certainly lose to chip, and if level 1 lands, he's still in a losing position and no longer has a meter lead.
+            It's best to try to make the comeback without reversals, and conserve meter for the next round if it doesn't work out.
+            </figcaption>
+            </figure>
+
+          <p>You should respect reversals when your opponents use them frequently in the same spots, or if you notice they're a type that 
+          likes to gamble a lot- against those players, once they start hitting you with DPs, you can switch your tactics from running 
+          strike/throw offense to respecting their wakeup and punishing their all-ins. You should also be wary of level 3s in 
+          low life situations, or in situations where you might want to attempt a fireball or a slow move like an overhead or a 
+          drive impact- several of them will go through your move and hit you (even from further away; JP and Cammy's level 3s are 
+          especially notoriously good nearly full screen supers that punish attempted fireballs), and can be done reliably on 
+          reaction since your character is the only thing they have to pay attention to. 
+          One of the nice things about shimmies is 
+          that you can bait techs and reversals at the same time if your offense is already making them throw. Sometimes backing off 
+          when you expect a delay tech or a throw can be a good spot to see if they want to DP or super.</p>
+
+          <p>On the flipside, if your opponent has predictable offense or autopilots the same blockstrings, it can be a good idea to use 
+          a reversal to call them out and throw off their cadence. If they keep autopiloting, you can keep punishing (as long as you 
+          pay attention to your meter), but it's usually best to see if they adapt and start to vary their strings or their options first.
+          Remember that with reversals, the reward on hit usually isn't great, so it's something that should be used sparingly and with 
+          intent.</p>
+
+          <p>Now that you hopefully have a better understanding of the mindgames around reversals and how to approach them, we can 
+          build on that in the next lesson, focusing on all of Street Fighter's fundamental defensive options.</p>
 
     </div>
     )
