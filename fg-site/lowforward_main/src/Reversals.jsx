@@ -40,7 +40,7 @@ export default function Reversals() {
 
         <h3>1: DPs/Flash Kicks</h3>
 
-        <p>DPs are the most commonly used type of reversal. In SF6, they are fullly invincible on frame 1 and cost 2 drive bars per use.
+        <p>DPs are the most commonly used type of reversal. In SF6, they are fully invincible on frame 1 and cost 2 drive bars per use.
         Their strength as a wakeup option comes from their versatility, as they are available at the beginning of a round and can be 
         used multiple times while preserving super meter for later in the game. </p>
 
@@ -82,11 +82,29 @@ export default function Reversals() {
                 <li>A list of all pseudo-reversals and their properties
                 are as follows:</li>
 
-                <li>E. Honda's OD Sumo Headbutt- two hits of armour, loses to throws.</li>
-                <li>Marisa's OD Scutum- two hits of armour, loses to throws. Non-OD is not frame 1 armoured and also loses to lows.</li>
-                <li>Lily's OD Tomahawk Buster- throw and anti-air invuln, loses to strikes.</li>
-                <li>JP's OD Amnesia- this is a counter stance that only loses to projectiles.</li>
-                <li>A.K.I's OD Snake Step- strike/projectile invuln, loses to throws.</li>
+                <dl>
+
+                <dt>E. Honda</dt> 
+                
+                <dd>OD Sumo Headbutt- two hits of armour, loses to throws.</dd>
+
+                <dt>Marisa</dt> 
+                
+                <dd>OD Scutum- two hits of armour, loses to throws. Non-OD is not frame 1 armoured and also loses to lows.</dd>
+
+                <dt>Lily</dt>
+                
+                <dd>OD Tomahawk Buster- throw and anti-air invuln, loses to strikes.</dd>
+
+                <dt>JP</dt> 
+                
+                <dd>OD Amnesia- this is a counter stance that only loses to projectiles.</dd>
+
+                <dt>A.K.I</dt> 
+                
+                <dd>OD Snake Step- strike/projectile invuln, loses to throws.</dd>
+                
+                </dl>
 
         <p>JP's counter has distinction in that it not only parries strikes and throws, but also command grabs and even non-projectile 
         supers. The frame advantage situation on activation also changes depending on the move used to proc it. Essentially, 

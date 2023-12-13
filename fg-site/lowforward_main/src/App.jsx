@@ -12,6 +12,7 @@ import NotFound from './NotFound.jsx';
 import Confirms from './MeatiesAndConfirms.jsx';
 import StrikeThrow from './StrikeThrow.jsx';
 import Reversals from './Reversals.jsx';
+import Defense from './Defense.jsx';
 import { Route, Routes } from "react-router-dom" //allows defining and grouping of all of our routes
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
     <Route path="/meaties_and_confirms" element={<Confirms />} />
     <Route path="/strikethrow" element={<StrikeThrow />} />
     <Route path="/reversals" element={<Reversals />} />
+    <Route path="/defense" element={<Defense />} />
     <Route path="*" element={<NotFound />} />
   </Routes>
   </div>
