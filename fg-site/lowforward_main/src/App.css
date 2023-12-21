@@ -157,9 +157,14 @@ padding: 2px;
 
   .articleStyles dt {
     font-weight: bold;
+    font-size: 1.3em;
+    padding: 2px;
   }
 
   .articleStyles dd {
+    max-width: 60%;
+    margin:auto;
+    padding: .4rem;
     margin-bottom: 1em;
   }
 
