@@ -20,6 +20,7 @@ body {
   background-color:rgb(18, 18, 22);
   color:whitesmoke;
   display:flex;
+  position:relative;
   justify-content:space-between;
   align-items: stretch;
   gap: 2rem;
