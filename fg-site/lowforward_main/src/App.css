@@ -36,7 +36,7 @@ body {
   font-size: 2rem;
   font-style:italic;
   display:flex;
-  max-width:30%;
+  max-width:20%;
 }
 
 .nav ul {
@@ -44,7 +44,7 @@ body {
   margin: 0;
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: .5rem;
 }
 
 .nav a {
