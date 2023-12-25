@@ -33,7 +33,7 @@ body {
 }
 
 .site-title {
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-style:italic;
   display:flex;
   max-width:20%;
@@ -45,6 +45,7 @@ body {
   list-style: none;
   display: flex;
   gap: .5rem;
+  max-width:20%;
 }
 
 .nav a {
