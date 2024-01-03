@@ -15,6 +15,7 @@ export default function Concepts() {
         <Link to="../strikethrow">Fundamentals of Strike/Throw Offense</Link>
         <Link to="../reversals">Playing Around Reversals</Link>
         <Link to="../defense">Fundamental Defensive Options</Link>
+        <Link to="../low_commitment_neutral">Satsui no Hado: the Power of (doing) Nothing</Link>
         </ul>
         
         <hr className="divider"></hr>
@@ -29,7 +30,6 @@ export default function Concepts() {
 
         <ul>
         <h3>Upcoming beginner content:</h3>
-        <li>Satsui no Hado: the power of (doing) nothing</li>
         <li>Holding your ground and controlling space</li>
         <li>Pokes and how to use them</li>
         <li>It's okay to lose</li>
