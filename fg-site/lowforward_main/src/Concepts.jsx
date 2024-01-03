@@ -6,7 +6,11 @@ export default function Concepts() {
         <p> Here you will find all articles, sorted by beginner to advanced. All planned content at the bottom!</p> 
         <p className="font-bold">I highly suggest 
         starting with the preface so you understand how the guides are structured.</p>
+
+
         <h2>Beginner</h2>
+
+        <hr className="smallDivider"></hr>
         <ul>
         <Link to="../preface">Preface</Link>
         <Link to="../antiairs">Anti-airs</Link>
@@ -18,15 +22,14 @@ export default function Concepts() {
         <Link to="../low_commitment_neutral">Satsui no Hado: the Power of (doing) Nothing</Link>
         </ul>
         
-        <hr className="divider"></hr>
 
         <h2>Intermediate</h2>
 
-        <hr className="divider"></hr>
+        <hr className="smallDivider"></hr>
 
         <h2>Advanced</h2>
 
-        <hr className="divider"></hr>
+        <hr className="smallDivider"></hr>
 
         <ul>
         <h3>Upcoming beginner content:</h3>
@@ -36,7 +39,7 @@ export default function Concepts() {
         <li>Putting it all together- forming a strong baseline</li>
         </ul>
         
-        <hr className="divider"></hr>
+        <hr className="smallDivider"></hr>
 
         <ul>
         <h3>Upcoming intermediate content:</h3>
@@ -50,7 +53,7 @@ export default function Concepts() {
         <li>Basic option selects: buffers and delay techs</li>
         </ul>
 
-        <hr className="divider"></hr>
+        <hr className="smallDivider"></hr>
 
         <ul>
         <h3>Upcoming advanced content:</h3>
