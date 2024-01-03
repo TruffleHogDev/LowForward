@@ -17,7 +17,7 @@ export default function Preface() {
         in SF6's training mode below. </h4>
 
         <figure>
-            <img src={frameData} alt="Brief explanation of framedata."></img>
+            <img className="w-5/6 sm:w-3/4 md:w-4/6" src={frameData} alt="Brief explanation of framedata."></img>
             <figcaption>Brief explanation of framedata. You must understand concepts like startup and frame advantage for many lessons to
             make sense. 
             </figcaption>
@@ -63,7 +63,7 @@ export default function Preface() {
            a fairly standardized way of communicating inputs across multiple 2d fighting games, so it's mostly for clarity.</p>
 
         <figure className="numpadImg">
-           <img src={numPadNotation} alt="Numpad notation"></img>
+           <img className="w-5/6 sm:w-3/4 md:w-4/6" src={numPadNotation} alt="Numpad notation"></img>
         <figcaption>Guide to numpad notation- author unknown</figcaption>
         </figure>
 

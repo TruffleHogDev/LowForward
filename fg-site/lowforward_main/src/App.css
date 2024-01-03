@@ -70,6 +70,14 @@ text-decoration: none;
 padding: 2px;
 }
 
+.conceptStyles p {
+  display: flex;
+  text-align:center;
+  margin: auto;
+  max-width: 50%; 
+  padding: .4rem;
+}
+
 .conceptStyles a {
     text-decoration: none;
     display:block;
@@ -78,6 +86,7 @@ padding: 2px;
     color:whitesmoke;
     margin-left: 25%;
     margin-right: 25%;
+    padding:5px;
     /*---Fade out--- */
     background: auto;
     transition: 0.1s;
@@ -89,7 +98,6 @@ padding: 2px;
 }
 
 .conceptStyles a:focus {
-  color:aliceblue;
   background-color: #e5e2f146;
 }
 
@@ -156,7 +164,6 @@ padding: 2px;
   display:block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
   padding-top: 1.5rem;
   padding-bottom: 1rem;
 }
@@ -173,7 +180,6 @@ padding: 2px;
   display:flex;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
   padding-top: 1.5rem;
   padding-bottom: 1rem;
 }
@@ -182,7 +188,6 @@ padding: 2px;
   display:block;
   margin-left:auto;
   margin-right:auto;
-  width: 70%;
 }
 
 /*-----Error page styles -----*/

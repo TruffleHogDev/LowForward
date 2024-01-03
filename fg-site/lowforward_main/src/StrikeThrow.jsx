@@ -29,7 +29,7 @@ export default function StrikeThrow() {
             </p>
 
             <figure>
-            <img src={frameData} alt="Brief explanation of framedata."></img>
+            <img className="w-5/6 sm:w-3/4 md:w-4/6" src={frameData} alt="Brief explanation of framedata."></img>
             <figcaption>A lot of strike/throw offense is based around exploiting your frame advantage to force your opponent to guess.
             </figcaption>
             </figure>
@@ -65,7 +65,7 @@ export default function StrikeThrow() {
             over throws is what makes grappler offense so terrifying.</p>
 
             <figure>
-            <video src={ryuSequence} type="video/mp4" preload="metadata" controls></video>
+            <video className="w-5/6 sm:w-3/4 md:w-4/6" src={ryuSequence} type="video/mp4" preload="metadata" controls></video>
             <figcaption>Example pressure sequence that revolves around the threat of the plus frames and damage granted by meaty 5MP
             to enable throws. Includes sample tick
             throw and frametrap with 5LP. Try adding meaty throws to make it harder to defend against!
@@ -86,14 +86,14 @@ export default function StrikeThrow() {
             </p>
 
             <figure>
-            <video src={spacingTrap} type="video/mp4" preload="metadata" controls></video>
+            <video className="w-5/6 sm:w-3/4 md:w-4/6" src={spacingTrap} type="video/mp4" preload="metadata" controls></video>
             <figcaption>Example of a frametrap sequence utilizing plus frames on hit- Ken will commonly 2MK or 5LK here, 
             which will discourage challenging.
             </figcaption>
             </figure>
 
             <figure>
-            <video src={conditionedThrow} type="video/mp4" preload="metadata" controls></video>
+            <video className="w-5/6 sm:w-3/4 md:w-4/6" src={conditionedThrow} type="video/mp4" preload="metadata" controls></video>
             <figcaption>The threat of being hit by the above example can enable throws, too. 
             You can use the momentum gained from strong fundamental strike/throw offense to form openings like this for some truly explosive 
             sequences. 
@@ -155,7 +155,7 @@ export default function StrikeThrow() {
         be feeling immense pressure because they know how dangerous your offense is and is likely to lash out in desperation.</p>
 
         <figure>
-            <img src={stringEnder} alt="Training mode 50% playback speed"></img>
+            <img className="w-5/6 sm:w-3/4 md:w-4/6" src={stringEnder} alt="Training mode 50% playback speed"></img>
             <figcaption> Be comfortable ending your blockstrings and waiting. The pressure caused by your patience at this range can make 
             any player crack when they know what happens if they overextend.
             </figcaption>
@@ -182,7 +182,7 @@ export default function StrikeThrow() {
         you can simply go back to doing your safer blockstrings and hit confirming them again.</p>
 
         <figure>
-            <video src={stagger} type="video/mp4" preload="metadata" controls></video>
+            <video className="w-5/6 sm:w-3/4 md:w-4/6" src={stagger} type="video/mp4" preload="metadata" controls></video>
             <figcaption>Showcasing ways you can pressure overly passive defenders into pressing something. Tick throws and staggers can be 
             challenged, so use these sparingly.
             </figcaption>
@@ -203,7 +203,7 @@ export default function StrikeThrow() {
         timed.</p>
 
         <figure>
-            <video src={shimmy} type="video/mp4" preload="metadata" controls></video>
+            <video className="w-5/6 sm:w-3/4 md:w-4/6" src={shimmy} type="video/mp4" preload="metadata" controls></video>
             <figcaption>A shimmy bait and punish, used for beating delay techs. If they are wakeup teching instead of delay teching, 
             stick to meaty strikes.
             </figcaption>
@@ -219,14 +219,14 @@ export default function StrikeThrow() {
             but are great for securing KOs or making comebacks in a pinch.</p>
 
             <figure>
-            <video src={jumpScare} type="video/mp4" preload="metadata" controls></video>
+            <video className="w-5/6 sm:w-3/4 md:w-4/6" src={jumpScare} type="video/mp4" preload="metadata" controls></video>
             <figcaption>An example of a "jumpscare" DI. Useful for breaking through heavily conditioned opponents who are too busy 
             thinking about other things to react in time.
             </figcaption>
             </figure>
 
             <figure>
-            <video src={diReset} type="video/mp4" preload="metadata" controls></video>
+            <video className="w-5/6 sm:w-3/4 md:w-4/6" src={diReset} type="video/mp4" preload="metadata" controls></video>
             <figcaption>A sneaky DI reset commonly used after Jamie's level 3 that takes advantage of the opponent's expectation of a 
             longer combo.
             </figcaption>

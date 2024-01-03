@@ -38,7 +38,7 @@ export default function Confirms() {
     </p>
 
     <figure>
-            <video src={meaty} type="video/mp4" preload="metadata" controls></video>
+            <video className="w-5/6 sm:w-3/4 md:w-4/6" src={meaty} type="video/mp4" preload="metadata" controls></video>
             <figcaption>Comparison of frame advantage when blocking Cammy 2HP normally vs blocking it meaty. Challenging on plus frames 
             is incredibly risky.
             </figcaption>
@@ -64,7 +64,7 @@ export default function Confirms() {
             </p>
 
             <figure>
-            <video src={lightCombo} type="video/mp4" preload="metadata" controls></video>
+            <video className="w-5/6 sm:w-3/4 md:w-4/6" src={lightCombo} type="video/mp4" preload="metadata" controls></video>
             <figcaption>Various light confirm strings with Ken. Use this video for help seeing manually timed 4-5 frame lights + throws 
             in action.
             </figcaption>
@@ -99,7 +99,7 @@ export default function Confirms() {
         </p>
 
         <figure>
-        <img src={confirmSettings} alt="Wakeup settings for hit confirm practice."></img>
+        <img className="w-5/6 sm:w-3/4 md:w-4/6" src={confirmSettings} alt="Wakeup settings for hit confirm practice."></img>
         <figcaption>Wakeup settings for hit confirm practice using the Ryu dummy. Optionally enable anything toggled OFF for practice 
         reacting to other common options.</figcaption>
         </figure>
@@ -114,7 +114,7 @@ export default function Confirms() {
         that to give yourself some more breathing room.</p>
 
         <figure>
-            <video src={confirmDrill} type="video/mp4" preload="metadata" controls></video>
+            <video className="w-5/6 sm:w-3/4 md:w-4/6" src={confirmDrill} type="video/mp4" preload="metadata" controls></video>
             <figcaption>Full 10 rep set of light confirm practice. Remember to switch sides after you get 10 in a row on one!
             </figcaption>
             </figure>

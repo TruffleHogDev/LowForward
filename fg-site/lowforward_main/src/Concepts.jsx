@@ -4,7 +4,7 @@ export default function Concepts() {
     return( <div className="conceptStyles">
         <h1>Concepts</h1>
         <p> Here you will find all articles, sorted by beginner to advanced. All planned content at the bottom!</p> 
-        <p>I highly suggest 
+        <p className="font-bold">I highly suggest 
         starting with the preface so you understand how the guides are structured.</p>
         <h2>Beginner</h2>
         <ul>

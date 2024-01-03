@@ -117,7 +117,7 @@ export default function Reversals() {
         super options and strong abare tools make him uniquely dangerous to pressure. </p>
 
         <figure>
-            <video src={amnesia} type="video/mp4" preload="metadata" controls></video>
+            <video className="w-5/6 sm:w-3/4 md:w-4/6" src={amnesia} type="video/mp4" preload="metadata" controls></video>
             <figcaption>Demonstrating some of the properties of OD Amnesia. If you proc it with a move that leaves you at advantage, 
             quickly go for a strike/throw mixup and immediately parry/block if you don't land a throw.
             </figcaption>
@@ -151,7 +151,7 @@ export default function Reversals() {
         reversals, however.</p>
 
         <figure>
-            <video src={levelOnePunish} type="video/mp4" preload="metadata" controls></video>
+            <video className="w-5/6 sm:w-3/4 md:w-4/6" src={levelOnePunish} type="video/mp4" preload="metadata" controls></video>
             <figcaption>Fireballs are a great way of stopping level one supers in their tracks. 
             </figcaption>
             </figure>
@@ -181,7 +181,7 @@ export default function Reversals() {
         conditioned to respect the overhead. Note that safejumps can be perfect parried.</p>
 
         <figure>
-        <video src={safeJump} type="video/mp4" preload="metadata" controls></video>
+        <video className="w-5/6 sm:w-3/4 md:w-4/6" src={safeJump} type="video/mp4" preload="metadata" controls></video>
             <figcaption>An extremely common Marisa safejump with a punish included. Safejumps are an easy way to bait reversals and
             maintain your offense. 
             </figcaption>
@@ -220,7 +220,7 @@ export default function Reversals() {
           precarious situation so you can avoid repeating it instead of agonizing over guessing wrong.</p>
 
           <figure>
-            <img src={dontSendIt} alt="Don't send it"></img>
+            <img className="w-5/6 sm:w-3/4 md:w-4/6" src={dontSendIt} alt="Don't send it"></img>
             <figcaption> Example of a horrible time to use an invincible reversal. Even if flash kick connects, Guile will get burnt out
             and almost certainly lose to chip, and if level 1 lands, he's still in a losing position and no longer has a meter lead.
             It's best to try to make the comeback without reversals, and conserve meter for the next round if it doesn't work out.

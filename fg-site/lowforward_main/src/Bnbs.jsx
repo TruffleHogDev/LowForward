@@ -48,7 +48,7 @@ return (
             </ul>
 
             <figure>
-            <video src={lightBnb} type="video/mp4" preload="metadata" controls></video>
+            <video className="w-5/6 sm:w-3/4 md:w-4/6" src={lightBnb} type="video/mp4" preload="metadata" controls></video>
             <figcaption>A simple and reliable 3-hit low confirm BnB. Watch the virtual controller for help doing special cancel DPs-
             hold forward during the string!
             </figcaption>
@@ -78,7 +78,7 @@ return (
             in certain punish counter or drive rush routes when nothing else will reach.</ul>
 
             <figure>
-            <video src={medBnb} type="video/mp4" preload="metadata" controls></video>
+            <video className="w-5/6 sm:w-3/4 md:w-4/6" src={medBnb} type="video/mp4" preload="metadata" controls></video>
             <figcaption>A basic meaty 5MP combo. The 5LK is guaranteed to combo on any type of hit, safe on block, 
             and can still be canceled into DI on reaction.
             </figcaption>
@@ -105,7 +105,7 @@ return (
             strongest jump-in combo and extend with drive or supers if desired.</ul>
 
             <figure>
-            <video src={diCombo} type="video/mp4" preload="metadata" controls></video>
+            <video className="w-5/6 sm:w-3/4 md:w-4/6" src={diCombo} type="video/mp4" preload="metadata" controls></video>
             <figcaption>A PC DI punish. Make them afraid to try it again!
             </figcaption>
             </figure>
@@ -126,7 +126,7 @@ return (
             be careful and deliberate about when you go for jumps- I taught you anti-airs first for a reason.</ul>
 
             <figure>
-            <video src={jumpIn} type="video/mp4" preload="metadata" controls></video>
+            <video className="w-5/6 sm:w-3/4 md:w-4/6" src={jumpIn} type="video/mp4" preload="metadata" controls></video>
             <figcaption>A basic jump-in into medium BnB that has advantage on block on the first two moves, 
             leading to potential strike/throw mixups while being DI safe.
             </figcaption>
@@ -148,7 +148,7 @@ return (
             you get one of these openings, you can substitute your best medium or heavy BnB that will reach and do quite well.</ul>
 
             <figure>
-            <video src={heavyBnb} type="video/mp4" preload="metadata" controls></video>
+            <video className="w-5/6 sm:w-3/4 md:w-4/6" src={heavyBnb} type="video/mp4" preload="metadata" controls></video>
             <figcaption>A simple heavy punish with optional drive rush extensions shown. First drive rush rep is the core loop, second is corner optimal.
             </figcaption>
             </figure>
@@ -185,7 +185,7 @@ return (
             you press the normal you're canceling them from.</p>
 
             <figure>
-            <img src={slowMo} alt="Training mode 50% playback speed"></img>
+            <img className="w-5/6 sm:w-3/4 md:w-4/6" src={slowMo} alt="Training mode 50% playback speed"></img>
             <figcaption>Training mode slow-mo. Practice the motions slowly and with intent. Don't be afraid of mistakes, that's what this is
             for.</figcaption>
             </figure>

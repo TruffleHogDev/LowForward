@@ -43,7 +43,7 @@ export default function Defense() {
                 </dd>
 
             <figure>
-            <video src={badMistake} type="video/mp4" preload="metadata" controls></video>
+            <video className="w-5/6 sm:w-3/4 md:w-4/6" src={badMistake} type="video/mp4" preload="metadata" controls></video>
             <figcaption>Parries can be strong options for covering both jump-ins and crossups, but be aware of the counterplay.
             </figcaption>
             </figure>
@@ -59,7 +59,7 @@ export default function Defense() {
                 either kill or can otherwise be justified with utility, such as a midscreen combo with high corner carry and strong okizeme.</dd>
 
              <figure>
-            <video src={ppdr} type="video/mp4" preload="metadata" controls></video>
+            <video className="w-5/6 sm:w-3/4 md:w-4/6" src={ppdr} type="video/mp4" preload="metadata" controls></video>
             <figcaption>Drive rush cancels from perfect parrying projectiles are a great way to close the gap on zoners.
             </figcaption>
             </figure>
@@ -81,7 +81,7 @@ export default function Defense() {
             no invincibility frames, so they lose to strikes, but it's a useful option in a pinch.</dd>
 
             <figure>
-            <video src={backDash} type="video/mp4" preload="metadata" controls></video>
+            <video className="w-5/6 sm:w-3/4 md:w-4/6" src={backDash} type="video/mp4" preload="metadata" controls></video>
             <figcaption>Showcasing the properties of backdash vs strikes, throws, and command grabs.
             </figcaption>
             </figure>
@@ -105,7 +105,7 @@ export default function Defense() {
             specialized or more expensive. Drive Reversals are -8 on block, making them fairly punishable on a bait.</dd>
 
             <figure>
-            <video src={driveReversal} type="video/mp4" preload="metadata" controls></video>
+            <video className="w-5/6 sm:w-3/4 md:w-4/6" src={driveReversal} type="video/mp4" preload="metadata" controls></video>
             <figcaption>Demonstrating some ways to bait and punish Drive Reversal, and a good example of when to do it. Observant players may
             notice the hitstop OS done during the first blockstring- the 5MP is timed to not come out during drive reversal, but will 
             otherwise.
@@ -131,7 +131,7 @@ export default function Defense() {
             check opponents who overuse committal, non-cancelable buttons either in neutral or on offense.</dd>
 
             <figure>
-            <video src={reversalDI} type="video/mp4" preload="metadata" controls></video>
+            <video className="w-5/6 sm:w-3/4 md:w-4/6" src={reversalDI} type="video/mp4" preload="metadata" controls></video>
             <figcaption>Defensive DI is a great way to blow up opponents who autopilot unsafe blockstrings that are otherwise hard 
             to challenge.
             </figcaption>
@@ -147,7 +147,7 @@ export default function Defense() {
             the flash from DI.</dd>
 
             <figure>
-            <video src={superBuffer} type="video/mp4" preload="metadata" controls></video>
+            <video className="w-5/6 sm:w-3/4 md:w-4/6" src={superBuffer} type="video/mp4" preload="metadata" controls></video>
             <figcaption>Buffering level 3 behind DI-unsafe sequences can punish opponents who would otherwise correctly react to them.
             </figcaption>
             </figure>
