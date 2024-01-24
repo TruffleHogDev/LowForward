@@ -15,6 +15,8 @@ import Reversals from './Reversals.jsx';
 import Defense from './Defense.jsx';
 import Nothing from './Nothing.jsx';
 import { Route, Routes } from "react-router-dom" //allows defining and grouping of all of our routes
+import SpaceControl from './SpaceControl.jsx';
+import Pokes from './Pokes.jsx';
 
 function App() {
   return ( 
@@ -34,6 +36,8 @@ function App() {
     <Route path="/reversals" element={<Reversals />} />
     <Route path="/defense" element={<Defense />} />
     <Route path="/low_commitment_neutral" element={<Nothing />} />
+    <Route path="/space_control" element={<SpaceControl />} />
+    <Route path="/pokes" element={<Pokes />} />
     <Route path="*" element={<NotFound />} />
   </Routes>
   </div>

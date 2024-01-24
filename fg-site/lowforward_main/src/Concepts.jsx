@@ -20,21 +20,21 @@ export default function Concepts() {
         <Link to="../reversals">Playing Around Reversals</Link>
         <Link to="../defense">Fundamental Defensive Options</Link>
         <Link to="../low_commitment_neutral">Satsui no Hado: the Power of (doing) Nothing</Link>
+        <Link to="../pokes">Pokes and How to Use Them</Link>
         </ul>
         
-
-        <h2>Intermediate</h2>
-
-        <hr className="smallDivider"></hr>
-
-        <h2>Advanced</h2>
+    
+      {/*  <h2>Intermediate</h2>
 
         <hr className="smallDivider"></hr>
+
+        <h2>Advanced</h2> */}
+
+        <hr className="smallDivider"></hr> 
 
         <ul>
         <h3>Upcoming beginner content:</h3>
         <li>Holding your ground and controlling space</li>
-        <li>Pokes and how to use them</li>
         <li>It's okay to lose</li>
         <li>Putting it all together- forming a strong baseline</li>
         </ul>
@@ -47,10 +47,6 @@ export default function Concepts() {
         <li>Combo utility and why damage isn't everything</li>
         <li>Meter management and resource awareness</li>
         <li>The drive gauge and you</li>
-        <li>Drive rush extensions</li>
-        <li>Routing into supers</li>
-        <li>Whiff punishes, spacing traps, and shimmies</li>
-        <li>Basic option selects: buffers and delay techs</li>
         </ul>
 
         <hr className="smallDivider"></hr>
@@ -58,8 +54,6 @@ export default function Concepts() {
         <ul>
         <h3>Upcoming advanced content:</h3>
         <li>Focusing on your opponent's character</li>
-        <li>How to quickly learn your opponent's habits</li>
-        <li>Adapting to knowledgable opponents</li>
         <li>Layering your pressure: offensive conditioning</li>
         <li>Layering your options: midscreen conditioning</li>
         <li>Layering your defense: creating opportunities</li>

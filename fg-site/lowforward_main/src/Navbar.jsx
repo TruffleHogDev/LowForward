@@ -8,7 +8,7 @@ export default function Navbar() {
     const handleClick = () => {
         setClick(!click);
     }
-    const content = <>
+    const content = <> {/*Mobile navbar/dropdown*/}
         <div className="lg:hidden md:hidden block absolute top-16 w-full left-0 right-0 bg-nav-background transition">
 
         <ul className="text-center text-xl p-20">
