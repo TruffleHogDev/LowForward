@@ -21,6 +21,7 @@ export default function Concepts() {
         <Link to="../defense">Fundamental Defensive Options</Link>
         <Link to="../low_commitment_neutral">Satsui no Hado: the Power of (doing) Nothing</Link>
         <Link to="../pokes">Pokes and How to Use Them</Link>
+        <Link to="../space_control">Holding Your Ground and Controlling Space</Link>
         </ul>
         
     
@@ -34,7 +35,6 @@ export default function Concepts() {
 
         <ul>
         <h3>Upcoming beginner content:</h3>
-        <li>Holding your ground and controlling space</li>
         <li>It's okay to lose</li>
         <li>Putting it all together- forming a strong baseline</li>
         </ul>
