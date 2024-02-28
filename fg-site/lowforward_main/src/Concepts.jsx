@@ -35,7 +35,6 @@ export default function Concepts() {
 
         <ul>
         <h3>Upcoming beginner content:</h3>
-        <li>It's okay to lose</li>
         <li>Putting it all together- forming a strong baseline</li>
         </ul>
         

@@ -70,6 +70,7 @@ export default function Reversals() {
             <li>Ken</li>
             <li>Chun-Li</li>
             <li>Rashid</li>
+            <li>Ed</li>
 
             <hr className="smallDivider" />
 
@@ -138,8 +139,7 @@ export default function Reversals() {
         and defend against something like a wakeup DI or fully invincible reversal.</p>
 
         <p>It's important to note that Zangief does not have a traditional level 1 or 2 reversal super- while his level 1 is invincible, 
-        it notably does not hit grounded opponents, nor is it a consistent anti-air. For these reasons, it's largely considered to be the 
-        worst level 1 in the game. His level 2 is invincible from frames 1-18, but it also isn't active until frame 18, making it 
+        it notably does not hit grounded opponents. His level 2 is invincible from frames 1-18, but it also isn't active until frame 18, making it 
         unreliable as a traditional wakeup reversal given the enormous window for his opponent to recover from their meaty and block. As 
         such, he is forced to rely on his level 3 as his only true reversal.</p>
         
