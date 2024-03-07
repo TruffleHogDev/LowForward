@@ -1,9 +1,14 @@
 import { Link } from 'react-router-dom';
+import BnbBanner from './banners/BnbBanner';
 
 export default function Resources() {
     return (
-    <div className="resourceStyles">
-    <h1>External Resources</h1>
+        <>
+         <BnbBanner />
+         <div className="container">
+         <article className="resourceStyles">
+
+         <h1>External Resources</h1>
         <p>
         Here you'll find some external resources that are invaluable for learning fighting games, along with a brief description.
         </p>
@@ -41,7 +46,8 @@ export default function Resources() {
 
         <hr className="smallDivider"></hr>
 
-
+        </article>
     </div>
+    </>
     )
 }

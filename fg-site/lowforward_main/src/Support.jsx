@@ -1,8 +1,12 @@
 import { Link } from 'react-router-dom';
+import BnbBanner from './banners/BnbBanner';
 
 export default function Support() {
     return (
-        <div className="notFound">
+        <>
+        <BnbBanner />
+        <div className="container">
+        <article className="notFound">
         <h2>Support</h2>
         <p className="text-wrap">As an aspiring developer in the middle of switching careers, I have limited time and funds to continue producing content for 
         the website. If you have the means to do so comfortably and find the guides here to be of value, consider supporting my work. 
@@ -16,6 +20,8 @@ export default function Support() {
         <p>Please DM me there if there are any site-breaking bugs or
         display errors, and let me know what browser you're using so I can fix it ASAP. This is my first real project and I'm still getting 
         the hang of accessibility.</p>
+        </article>
         </div>
+        </>
     )
 }

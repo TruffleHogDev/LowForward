@@ -10,6 +10,7 @@ export default {
         'whitesmoke': '#f5f5f5', 
         'nav-hover': '#cecade27',
         'nav-focus': '#e5e2f146',
+        'site-bg': '#1f2022',
       }
     },
   },

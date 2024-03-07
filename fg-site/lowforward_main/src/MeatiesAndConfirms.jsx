@@ -2,10 +2,14 @@ import meaty from "../src/assets/videos/meaty.mp4";
 import lightCombo from "../src/assets/videos/lightcombopractice.mp4";
 import confirmDrill from "../src/assets/videos/confirmDrill.mp4";
 import confirmSettings from "../src/assets/images/confirmSettings.jpg";
+import BnbBanner from "../src/banners/BnbBanner.jsx";
 
 export default function Confirms() {
     return (
-    <div className="articleStyles">
+        <>
+        <BnbBanner />
+    <div className="container">
+    <article className="articleStyles">
     <h1>Meaties and Hit Confirms</h1>
     <p>Now that we've got a set of combos to work with, we can use them as a starting point for our strike offense, using our combo
     starters to begin our blockstrings and visually confirming whether the attacks hit or not to determine if we should complete them.
@@ -152,7 +156,9 @@ export default function Confirms() {
             effort was well worth it, and you'll also likely notice yourself picking up confirms incredibly quickly in other fighting games
             as well. With these tools, we're now
             ready to learn some fundamental concepts of strike/throw pressure in the next article.</p>
-
+        
+        </article>
     </div>
+    </>
     )
  }

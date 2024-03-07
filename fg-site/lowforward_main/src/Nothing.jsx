@@ -1,8 +1,12 @@
 import aCrumbOfFootsies from "../src/assets/videos/aCrumbOfFootsies.mp4";
+import BnbBanner from "../src/banners/BnbBanner.jsx";
 
 export default function Nothing() {
     return (
-        <div className="articleStyles">
+        <>
+        <BnbBanner />
+        <div className="container">
+        <article className="articleStyles">
             <h1>Satsui no Hado: The Power of (doing) Nothing</h1>
 
             <p>If you've been following the guides to this point, you should now have AAs, combos and confirms, and a basic understanding of 
@@ -116,8 +120,8 @@ export default function Nothing() {
             we deepen our understanding of how to hold our ground and control space.</p>
 
             <hr className="smallDivider" />
-
+        </article>
         </div>
-        
+        </>
     )
 }

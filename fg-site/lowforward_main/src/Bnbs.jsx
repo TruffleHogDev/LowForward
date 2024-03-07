@@ -4,10 +4,15 @@ import diCombo from "../src/assets/videos/pcdi.mp4";
 import jumpIn from "../src/assets/videos/jumpin.mp4";
 import heavyBnb from "../src/assets/videos/heavypunish.mp4";
 import slowMo from "../src/assets/images/slowmo.jpg";
+import BnbBanner from "../src/banners/BnbBanner.jsx";
 
 export default function Bnbs() {
 return (
-    <div className="articleStyles">
+        <>
+        <BnbBanner />
+    <div className="container">
+
+        <article className="articleStyles">
         <h1>BnBs: Basic Combos and How to Learn Them</h1>
         <p>Now that you have a handle on anti-airs, we can work on BnBs- a common abbreviation for bread and butter combos: your staple, 
         easy, go-to routes from a given starter. As cool as flashy, max damage optimals are, you only need a few 
@@ -217,6 +222,8 @@ return (
             block them.</p>
 
             <hr className="divider"></hr>
+            </article>
     </div>
+    </>
 )
 }

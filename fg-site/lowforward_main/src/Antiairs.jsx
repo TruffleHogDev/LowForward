@@ -2,10 +2,16 @@ import aaTraining from "../src/assets/images/AA training.jpg";
 import airToAir from "../src/assets/images/airtoair.jpg";
 import crossCut from "../src/assets/videos/crosscut.mp4";
 import cornerAA from "../src/assets/images/cornerAA.jpg";
+import BnbBanner from "../src/banners/BnbBanner.jsx";
 
 export default function Antiairs() {
     return (
-        <div className="articleStyles">
+        <>
+        <BnbBanner />
+        <div className="container">
+
+        <article className="articleStyles">
+
         <h1>Anti-Airs</h1>
         <p>One of the first and most important skills you should learn as a fighting game player is how to anti-air. Aside from the
         free damage it racks up against impatient opponents, it's a crucial tool for controlling their movements and limiting their
@@ -79,6 +85,8 @@ export default function Antiairs() {
 
          <hr className="smallDivider"></hr>
 
+            </article>
         </div>
+        </>
     )
 }

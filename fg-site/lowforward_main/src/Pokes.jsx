@@ -1,8 +1,12 @@
 import lucidDream from "../src/assets/videos/lucidDream.mp4";
+import BnbBanner from "../src/banners/BnbBanner.jsx";
 
 export default function Pokes() {
     return(
-        <div className="articleStyles">
+        <>
+        <BnbBanner />
+        <div className="container">
+        <article className="articleStyles">
             <h1>Pokes and How to Use Them</h1>
             <p>Understanding how to use pokes properly can be an especially vague and intimidating concept for someone trying to learn 
             how their character works. Fewer things are more frustrating than knowing that your character's buttons are supposed to be 
@@ -97,7 +101,8 @@ export default function Pokes() {
         exactly everything combines to allow you to hold your ground and control space. </p>
 
         <hr className="smallDivider" />
-
+        </article>
         </div>
+        </>
     )
 }

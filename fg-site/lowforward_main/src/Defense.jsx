@@ -4,10 +4,16 @@ import badMistake from "../src/assets/videos/badMistake.mp4";
 import driveReversal from "../src/assets/videos/driveReversal.mp4";
 import reversalDI from "../src/assets/videos/reversalDI.mp4";
 import superBuffer from "../src/assets/videos/superBuffer.mp4";
+import BnbBanner from "../src/banners/BnbBanner.jsx";
 
 export default function Defense() {
     return (
-        <div className="articleStyles">
+            <>
+            <BnbBanner />
+          <div className="container">
+
+            <article className="articleStyles">
+
             <h1>Fundamental Defensive Options</h1>
             <p>On this page, we will cover every common defensive option 
             in SF6 in terms of their properties, general use cases, and weaknesses. 
@@ -167,6 +173,8 @@ export default function Defense() {
 
             <hr className="smallDivider" />
 
+            </article>
         </div>
+        </>
     )
 }

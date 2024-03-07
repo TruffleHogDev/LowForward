@@ -2,12 +2,17 @@ import amnesia from "../src/assets/videos/amnesia.mp4";
 import levelOnePunish from "../src/assets/videos/levelOnePunish.mp4";
 import safeJump from "../src/assets/videos/safeJump.mp4";
 import dontSendIt from "../src/assets/images/dontSendIt.jpg";
+import BnbBanner from "../src/banners/BnbBanner.jsx";
 
 
 
 export default function Reversals() {
     return (
-    <div className="articleStyles">
+        <>
+            <BnbBanner />
+            <div className="container">
+            <article className="articleStyles">
+    
     
         <h1>Playing Around Reversals</h1>
 
@@ -247,6 +252,8 @@ export default function Reversals() {
           <p>Now that you hopefully have a better understanding of the mindgames around reversals and how to approach them, we can 
           build on that in the next lesson, focusing on all of Street Fighter's fundamental defensive options.</p>
 
+          </article>
     </div>
+    </>
     )
 }

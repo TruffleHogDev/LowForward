@@ -7,10 +7,14 @@ import shimmy from "../src/assets/videos/shimmy.mp4";
 import stagger from "../src/assets/videos/stagger.mp4";
 import jumpScare from "../src/assets/videos/jumpScare.mp4";
 import diReset from "../src/assets/videos/diReset.mp4";
+import BnbBanner from "../src/banners/BnbBanner.jsx";
 
 export default function StrikeThrow() {
     return (
-        <div className="articleStyles">
+        <>
+        <BnbBanner />
+        <div className="container">
+        <article className="articleStyles">
             <h1>Fundamentals of Strike/Throw Offense</h1>
             <p>
                 Strike/throw mixups are the cornerstone of Street Fighter offense and can be both very simple and incredibly complicated.
@@ -250,7 +254,9 @@ export default function StrikeThrow() {
             article- what about wakeup DP and super? What about when they start to DP and perfect parry my frametraps? Is there anything 
             that I can do besides give up my turn and try to bait it? All of those questions and more will be covered in the 
             next article, dedicated to playing around reversals.</p>
+            </article>
         </div>
+        </>
     )
 
 }

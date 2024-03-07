@@ -109,7 +109,7 @@ padding: 2px;
   align-items:center;
   text-indent: 2em;
   margin: auto;
-  max-width: 70%; 
+  max-width: 60%; 
   padding: .4rem;
 }
 
@@ -160,16 +160,9 @@ padding: 2px;
     color:blueviolet;
   }
 
-.articleStyles img { /*For image aspect ratios of 1824x1026, primarily for game screenshots */
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 1.5rem;
-  padding-bottom: 1rem;
-}
-
 .articleStyles figcaption {
   margin:auto;
+  padding-top: 1rem;
   font-style: italic;
   font-size: 0.9rem;
   max-width: 55%;

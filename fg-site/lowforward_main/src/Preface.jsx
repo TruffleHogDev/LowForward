@@ -1,11 +1,15 @@
 import { Link } from 'react-router-dom';
 import numPadNotation from "../src/assets/images/numpad.jpg";
 import frameData from "../src/assets/images/frameData.jpg";
+import BnbBanner from './banners/BnbBanner';
 
 
 export default function Preface() {
     return (
-        <div className="articleStyles">
+        <>
+        <BnbBanner />
+        <div className="container">
+        <article className='articleStyles'>
         <h1>Preface</h1>
         <h3>The learning process, training plans, input notation, and more.</h3>
 
@@ -81,6 +85,8 @@ export default function Preface() {
         hope you find it informative.</p>
 
         <hr className="divider"></hr>
+        </article>
         </div>
+        </>
     )
 }

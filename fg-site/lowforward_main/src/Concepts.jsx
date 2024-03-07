@@ -1,8 +1,15 @@
 import { Link } from "react-router-dom";
+import BnbBanner from "./banners/BnbBanner";
+import conceptImg from "../src/assets/images/conceptImg.png";
 
 export default function Concepts() {
-    return( <div className="conceptStyles">
-        <h1>Concepts</h1>
+    return(
+        <>
+        <BnbBanner />
+        <div className="container">
+
+        <article className="conceptStyles">
+        <img src={conceptImg}></img>
         <p> Here you will find all articles, sorted by beginner to advanced. All planned content at the bottom!</p> 
         <p className="font-bold">I highly suggest 
         starting with the preface so you understand how the guides are structured.</p>
@@ -22,6 +29,7 @@ export default function Concepts() {
         <Link to="../low_commitment_neutral">Satsui no Hado: the Power of (doing) Nothing</Link>
         <Link to="../pokes">Pokes and How to Use Them</Link>
         <Link to="../space_control">Holding Your Ground and Controlling Space</Link>
+        <Link to="../losing_and_tilt">It's OK to Lose- A Healthy Approach to Tilting Situations</Link>
         </ul>
         
     
@@ -60,6 +68,8 @@ export default function Concepts() {
         <li>Exploiting habits</li>
         <li>Dealing with bracket nerves and fighting top players</li>
         </ul>
+        </article>
         </div>
+        </>
     )
 }

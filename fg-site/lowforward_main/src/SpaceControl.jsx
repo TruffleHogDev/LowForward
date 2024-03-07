@@ -1,8 +1,12 @@
 import mySpace from "../src/assets/images/mySpace.jpg";
+import BnbBanner from "../src/banners/BnbBanner.jsx";
 
 export default function SpaceControl() {
     return (
-        <div className="articleStyles">
+        <>
+        <BnbBanner />
+        <div className="container">
+        <article className="articleStyles">
             <h1>Holding Your Ground and Controlling Space</h1>
 
             <p>In the previous article, we learned how to develop a poking gameplan by thinking about what normals we can base our character's gameplan around, and then thinking about ways 
@@ -98,7 +102,8 @@ export default function SpaceControl() {
             in a healthy way, and talk about more specific ways to workshop botched plays and learn from them.</p>
 
             <hr className="smallDivider" />
-
+        </article>
         </div>
+        </>
     )
 }
