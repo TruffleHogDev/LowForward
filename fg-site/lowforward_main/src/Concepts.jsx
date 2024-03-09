@@ -6,10 +6,10 @@ export default function Concepts() {
     return(
         <>
         <BnbBanner />
-        <div className="container">
 
+        <div className="container">
+        <img className="w-4/6 lg:w-2/5 m-auto justify-center" src={conceptImg}></img>
         <article className="conceptStyles">
-        <img src={conceptImg}></img>
         <p> Here you will find all articles, sorted by beginner to advanced. All planned content at the bottom!</p> 
         <p className="font-bold">I highly suggest 
         starting with the preface so you understand how the guides are structured.</p>
