@@ -1,17 +1,16 @@
 import { Link } from 'react-router-dom';
 import BnbBanner from './banners/BnbBanner';
+import resourcesImg from "../src/assets/images/resourcesImg.png";
+
 
 export default function Resources() {
     return (
         <>
          <BnbBanner />
          <div className="container">
-         <article className="resourceStyles">
+         <img className="w-4/6 lg:w-2/5 m-auto justify-center" src={resourcesImg}></img>
 
-         <h1>External Resources</h1>
-        <p>
-        Here you'll find some external resources that are invaluable for learning fighting games, along with a brief description.
-        </p>
+         <article className="resourceStyles">
 
         <hr className="smallDivider"></hr>
 

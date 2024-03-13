@@ -1,17 +1,24 @@
 import React from 'react'
+import conceptImg from "../src/assets/images/conceptImg.png";
+import AAPreview from "../src/assets/images/AAPreview.png";
+import lowCommitPreview from "../src/assets/images/lowCommitPreview.png";
+import defensePreview from "../src/assets/images/defensePreview.png";
+
 
 const ConceptItem = ({tag, title, details}) => {
     return (
-    <ol className='flex flex-col md:flex-row relative border-l border-stone-200'>
-        <li className='mb-10 ml-4'>
-            <div className='absolute w-3 h-3 bg-stone-200 rounded-full mt-1.5 -left-1.5 border-emerald-500' />
-             <p className='flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm'>
-                <span className='inline-block px-2 py-1 font-semibold text-white bg-[#001b5e] rounded-md'>{tag}</span>
-                <span className='text-lg font-semibold text-[#001b5e]'>{title}</span>
-             </p>
-             <p className='my-2 text-base font-normal text-whitesmoke'>{details}</p>
-        </li>
-    </ol>
+        
+        <div className="container">
+        <img className="w-4/6 lg:w-2/5 m-auto justify-center" src={conceptImg}></img>
+        <h3>Refine your knowledge of fighting games.</h3>  
+
+        <div className="grid grid-cols-3 place-items-center gap-1 p-2">
+        <img class="w-32 md:w-60" src={defensePreview}></img>
+        <img class="w-32 md:w-52" src={AAPreview}></img>
+        <img class="w-32 md:w-60" src={lowCommitPreview}></img>
+
+            </div> {/*Div for banner images */}
+        </div>
     )
 }
 

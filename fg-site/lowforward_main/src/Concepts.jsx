@@ -1,18 +1,20 @@
 import { Link } from "react-router-dom";
 import BnbBanner from "./banners/BnbBanner";
-import conceptImg from "../src/assets/images/conceptImg.png";
+import ConceptItem from "./ConceptItem";
+
 
 export default function Concepts() {
     return(
         <>
         <BnbBanner />
+        <ConceptItem />
 
-        <div className="container">
+      {/*  <div className="container">
         <img className="w-4/6 lg:w-2/5 m-auto justify-center" src={conceptImg}></img>
         <article className="conceptStyles">
-        <p> Here you will find all articles, sorted by beginner to advanced. All planned content at the bottom!</p> 
-        <p className="font-bold">I highly suggest 
-        starting with the preface so you understand how the guides are structured.</p>
+        <h3>Refine your knowledge of fighting games.</h3>
+        <img className="w-1/6 m-auto justify-center" src={AAPreview}></img>
+
 
 
         <h2>Beginner</h2>
@@ -31,13 +33,6 @@ export default function Concepts() {
         <Link to="../space_control">Holding Your Ground and Controlling Space</Link>
         <Link to="../losing_and_tilt">It's OK to Lose- A Healthy Approach to Tilting Situations</Link>
         </ul>
-        
-    
-      {/*  <h2>Intermediate</h2>
-
-        <hr className="smallDivider"></hr>
-
-        <h2>Advanced</h2> */}
 
         <hr className="smallDivider"></hr> 
 
@@ -69,7 +64,7 @@ export default function Concepts() {
         <li>Dealing with bracket nerves and fighting top players</li>
         </ul>
         </article>
-        </div>
+        </div> */}
         </>
     )
 }
