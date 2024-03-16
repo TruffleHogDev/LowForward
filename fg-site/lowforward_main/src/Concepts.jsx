@@ -7,12 +7,56 @@ const data = [
   {
     tag: 'Read first',
     title: 'Preface',
-    details: 'The preface outlines how the guides are structured and how it is intended to be used as a learning aid.'
+    details: 'The preface outlines how the guides are structured and how it is intended to be used as a learning aid.',
+    location: '../preface',
   }, 
   {
     tag: 'Fundamentals',
     title: 'Anti-airs',
-    details: 'Stop your opponent from jumping and rack up free damage with anti-airs, arguably the most important skill to learn as a beginner.'
+    details: 'Stop your opponent from jumping and rack up free damage with anti-airs, arguably the most important skill to learn as a beginner.',
+    location: '../antiairs',
+  },
+  {
+    tag: 'Fundamentals',
+    title: 'BnBs: Basic Combos',
+    details: 'Learn what combos to prioritize as a beginner, alongside some drills and tips for building muscle memory.',
+    location: '../bnbs',
+  },
+  {
+    tag: 'Fundamentals',
+    title: 'Meaties and Hit Confirms',
+    details: 'Meaties are a common pressure starter, and hit confirming them is a great way to practice using your combos.',
+    location: '../meaties_and_confirms',
+  },
+  {
+    tag: 'Fundamentals',
+    title: 'Fundamentals of Strike/Throw Offense',
+    details: 'Learn the basics of strike/throw offense- how you get it, how to do it, and more.',
+    location: '../strikethrow',
+  },
+  {
+    tag: 'Fundamentals',
+    title: 'Playing Around Reversals',
+    details: 'Learn the properties of reversal moves and how to play around them.',
+    location: '../reversals',
+  },
+  {
+    tag: 'Fundamentals',
+    title: 'Fundamental Defensive Options',
+    details: 'Offense is incredibly powerful, but so are your defensive tools. Learn what your options are, how to do them, and when to use them.',
+    location: '../defense',
+  },
+  {
+    tag: 'Theory',
+    title: 'Satsui no Hado: The Power of (Doing) Nothing',
+    details: 'Low-commitment neutral is a hallmark of top-level play. Learn what exactly it entails, why it\'s so strong, and how you can start implementing it too.',
+    location: '../low_commitment_neutral',
+  },
+  {
+    tag: 'Fundamentals',
+    title: 'Pokes and How to Use Them',
+    details: 'Poking is an essential part of any character\'s gameplan, but it can be hard to know intuitively what buttons to poke with and when.',
+    location: '../pokes',
   }
 
 ]
@@ -21,8 +65,11 @@ export default function Concepts() {
     return(
         <>
         <BnbBanner />
-        <div className="container">
+        <div>
+
+        <article className="container">
         <ConceptBanner />
+        </article>
 
         {data.map((item, idx) => (
         <ConceptItem
@@ -30,57 +77,18 @@ export default function Concepts() {
         tag={item.tag}
         title={item.title}
         details={item.details}
+        location={item.location}
          />
         ))}
 
         </div>
 
-      {/*  <div className="container">
-        <img className="w-4/6 lg:w-2/5 m-auto justify-center" src={conceptImg}></img>
-        <article className="conceptStyles">
-        <h3>Refine your knowledge of fighting games.</h3>
-        <img className="w-1/6 m-auto justify-center" src={AAPreview}></img>
-
-
-
-        <h2>Beginner</h2>
-
-        <hr className="smallDivider"></hr>
-        <ul>
-        <Link to="../preface">Preface</Link>
-        <Link to="../antiairs">Anti-airs</Link>
-        <Link to="../bnbs">Basic Combos and How to Learn Them</Link>
-        <Link to="../meaties_and_confirms">Meaties and Hit Confirms</Link>
-        <Link to="../strikethrow">Fundamentals of Strike/Throw Offense</Link>
-        <Link to="../reversals">Playing Around Reversals</Link>
-        <Link to="../defense">Fundamental Defensive Options</Link>
-        <Link to="../low_commitment_neutral">Satsui no Hado: the Power of (doing) Nothing</Link>
-        <Link to="../pokes">Pokes and How to Use Them</Link>
-        <Link to="../space_control">Holding Your Ground and Controlling Space</Link>
+      {/* 
         <Link to="../losing_and_tilt">It's OK to Lose- A Healthy Approach to Tilting Situations</Link>
-        </ul>
-
-        <hr className="smallDivider"></hr> 
-
-        <ul>
-        <h3>Upcoming beginner content:</h3>
-        <li>Putting it all together- forming a strong baseline</li>
-        </ul>
-        
-        <hr className="smallDivider"></hr>
-
-        <ul>
-        <h3>Upcoming intermediate content:</h3>
         <li>What constitutes "good" decision making?</li>
         <li>Combo utility and why damage isn't everything</li>
         <li>Meter management and resource awareness</li>
-        <li>The drive gauge and you</li>
-        </ul>
-
-        <hr className="smallDivider"></hr>
-
-        <ul>
-        <h3>Upcoming advanced content:</h3>
+        <li>Learning matchups
         <li>Focusing on your opponent's character</li>
         <li>Layering your pressure: offensive conditioning</li>
         <li>Layering your options: midscreen conditioning</li>
