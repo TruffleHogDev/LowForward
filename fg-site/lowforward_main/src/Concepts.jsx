@@ -1,13 +1,39 @@
 import { Link } from "react-router-dom";
 import BnbBanner from "./banners/BnbBanner";
+import ConceptBanner from "./banners/ConceptBanner";
 import ConceptItem from "./ConceptItem";
 
+const data = [
+  {
+    tag: 'Read first',
+    title: 'Preface',
+    details: 'The preface outlines how the guides are structured and how it is intended to be used as a learning aid.'
+  }, 
+  {
+    tag: 'Fundamentals',
+    title: 'Anti-airs',
+    details: 'Stop your opponent from jumping and rack up free damage with anti-airs, arguably the most important skill to learn as a beginner.'
+  }
+
+]
 
 export default function Concepts() {
     return(
         <>
         <BnbBanner />
-        <ConceptItem />
+        <div className="container">
+        <ConceptBanner />
+
+        {data.map((item, idx) => (
+        <ConceptItem
+        key={idx}
+        tag={item.tag}
+        title={item.title}
+        details={item.details}
+         />
+        ))}
+
+        </div>
 
       {/*  <div className="container">
         <img className="w-4/6 lg:w-2/5 m-auto justify-center" src={conceptImg}></img>

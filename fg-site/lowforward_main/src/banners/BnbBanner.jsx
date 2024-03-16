@@ -1,5 +1,4 @@
 import React from 'react';
-import bnbBanner from "../assets/images/bnbBanner.jpg";
 
 const BnbBanner = () => {
     return (
