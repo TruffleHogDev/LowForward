@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import BnbBanner from "./banners/BnbBanner";
 import ConceptBanner from "./banners/ConceptBanner";
 import ConceptItem from "./ConceptItem";
