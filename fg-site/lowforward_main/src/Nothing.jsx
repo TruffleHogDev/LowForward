@@ -119,7 +119,7 @@ export default function Nothing() {
             opponents of all skill levels. You don't have to react to everything, punish everything, or play perfectly all the time, and it's unrealistic to expect that will happen; 
             the entire point of this style is to make it hard for them to get a clean hit on you even if you do screw up. To be honest, I wasn't even particularly happy with how I played the set- 
             I didn't even want to play the game and was kind of in a slump, and all my replays were deleted, but I feel showing games with several mistakes can also illustrate just how consistent 
-            playing like this can be against strong opponents. As an aside, Chains is a great Guilty Gear player as well.</p>
+            playing like this can be against strong opponents. As an aside, Chains is a great Guilty Gear player as well. Shoutout to the FGCC.</p>
 
             <hr className="smallDivider" />
         </article>
