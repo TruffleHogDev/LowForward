@@ -25,8 +25,10 @@ export default function SpaceControl() {
             that they cannot enter that area without an immediate threat of being hit. To help
             illustrate the point, imagine an invisible line down the center of the screen at roundstart, with everything on your half of the line being under your control and the other half 
             belonging to your opponent. Your goal is to push that line towards the corner by making your opponent back up. While some moving back and forth is necessary to get a better
-            position to engage the enemy, you generally always want that line to be moving forward, only going backwards when it benefits you to do so. That way, in the event that you do need 
-            to back up, you have a lot more space to work with, and by extension you have more options available. If you are backing up without your 
+            position to engage the enemy, you generally always want that line to be moving forward, only going backwards when it benefits you to do so.</p> 
+            
+            <p>That way, when you do need 
+            to back up, you have a lot more space to work with, and by extension you have more options available. If you find yourself frequently backing up without your 
             opponent actively threatening things that force you to back up, you're probably approaching the ground game wrong- the main exceptions to this would be if you're going to zone them or 
             are stalling out the 
             timer with a significant life lead, and even then you would use the space you gained earlier to have room to play lame. After all, a Guile sitting fullscreen and throwing booms is 
@@ -40,8 +42,8 @@ export default function SpaceControl() {
             </figure>
 
             <p>All of your movement in a fighting game should be deliberate, including walking. Footsies is a lot more than moving back and forth in a nebulous area around the tip of 
-            your opponent's effective range, though that definitely is one aspect of it. If you're going forward and back and then forward and back and then go forward and back then press 
-            one low forward without a concrete goal in mind, such as baiting a specific button they have been trying to poke you with, you're liable to get swept or poked as you move 
+            your opponent's effective range, though that definitely is one aspect of it. If you're going forward and back and occasionally pressing a button 
+            without a concrete goal in mind, such as baiting a specific button they have been trying to poke you with, you're liable to get hit as you move 
             forward because you are moving predictably and without a plan. It's generally better at first, in my opinion, to walk forward slightly and then downback to see what kind of response it 
             elicits from your opponent. If they back up in response, inch forward and do your best to maintain your position. 
             Keep in mind that if you move forward every single time they back up, you're 
@@ -98,8 +100,7 @@ export default function SpaceControl() {
             and get used to being in that spot. It will take time, and you will not always succeed, and that's okay- the most important thing is that you're making the effort and getting comfortable 
             with the strategy. Take failed interactions and losses as a moment of growth. Reflect on what lead up to what lost you the interaction, and think about if there was anything you could have 
             done differently to either win or avoid the situation in the first place. This is one of the most difficult aspects of fighting games to both teach and learn, and many players take several 
-            years to become comfortable playing like this, so have fun and do your best to improve one small step at a time. In the next article, we'll talk a bit more about how to process losses 
-            in a healthy way, and talk about more specific ways to workshop botched plays and learn from them.</p>
+            years to become comfortable playing like this, so have fun and do your best to improve one small step at a time.</p>
 
             <hr className="smallDivider" />
         </article>

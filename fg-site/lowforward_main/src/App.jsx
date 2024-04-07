@@ -18,6 +18,7 @@ import { Route, Routes } from "react-router-dom" //allows defining and grouping 
 import SpaceControl from './SpaceControl.jsx';
 import Pokes from './Pokes.jsx';
 import Tilt from './Tilt.jsx';
+import NewTech from './NewTech.jsx';
 
 function App() {
   return ( 
@@ -39,6 +40,7 @@ function App() {
     <Route path="/low_commitment_neutral" element={<Nothing />} />
     <Route path="/space_control" element={<SpaceControl />} />
     <Route path="/pokes" element={<Pokes />} />
+    <Route path="/new_tech" element={<NewTech />} />
     <Route path="/losing_and_tilt" element={<Tilt />} />
     <Route path="*" element={<NotFound />} />
   </Routes>

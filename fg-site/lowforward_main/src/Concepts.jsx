@@ -56,6 +56,18 @@ const data = [
     title: 'Pokes and How to Use Them',
     details: 'Poking is an essential part of any character\'s gameplan, but it can be hard to know intuitively what buttons to poke with and when.',
     location: '../pokes',
+  },
+  {
+    tag: 'Fundamentals',
+    title: 'Holding Your Ground and Controlling Space',
+    details: 'Discover how to combine your poking normals with your low-commitment neutral to enforce your will on your opponent and control the pace of the match.',
+    location: '../space_control',
+  },
+  {
+    tag: 'Labbing',
+    title: 'How to Pick Up New Tech',
+    details: 'Make labbing fun by learning how to do cool things you see other people do and figuring out how you can do those things in game!',
+    location: '../new_tech'
   }
 
 ]
