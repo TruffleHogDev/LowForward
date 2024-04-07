@@ -72,11 +72,11 @@ export default function NewTech() {
 
         <p>When thinking about situations where doing the combo is actually realistic, think about where you would be using the starter. For this example, two main ways come to mind: 
         As a 9-frame punish counter starter, or by using 214HP as a frametrap. As a punish starter it's not likely to come up often outside of perfect parries, so in those instances we can 
-        default to the 4hp-214MK confirm as spending resources on the damage will usually not be worth it. For other situations such as after blocking a DP, 5HK is a much better 
+        default to the 4HP-214MK confirm as spending resources on the damage will usually not be worth it. For other situations such as after blocking a DP, 5HK is a much better 
         starter overall. Even if you were to get into a position where a 9-frame 2HP would technically connect but your optimal starter would be too slow, you're incredibly unlikely to be 
         in range for your move to reach- you'd be looking at something like blocking a point blank sweep in the corner.</p>
 
-        <p>Given this, that leaves us with looking into frametrapping options. Even if done off of incredibly advantageous buttons meaty drive rush 2MP, the 30-frame startup of 214HP is mashable
+        <p>Given this, that leaves us with looking into frametrapping options. Even if done off of incredibly advantageous buttons like meaty drive rush 2MP, the 30-frame startup of 214HP is mashable
         by 4-frame moves or even throws. To make things worse, we can't counter DI if they react to the startup (though level 3 buffers can save you there potentially)! What this means is that while we have no guaranteed 
         way to set up this frametrap outside of burnout- more on this later- we can still go for it on either a heavily conditioned opponent, or we can play around spacing to punish attempted 
         jab checks. This is most effective when you are able to poke with max range 5HP but aren't often swinging afterwards, making it safer to try and sneak a 214HP in.</p>
