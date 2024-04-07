@@ -89,7 +89,7 @@ export default function NewTech() {
          </figure>
 
         <p>The last way we can fish for this starter is when our opponent is in burnout. 214HP is a terrifying button to have to deal with in burnout at a whopping +6 on block while dealing 
-        200 chip damage, so these are MUCH more likely to land. To make these true frametraps, you still need to use a drive rush normal, and you have three options: 5HP and 4HK(2), or 
+        200 chip damage, so these are MUCH more likely to land. To make these true frametraps, you still need to use a drive rush normal, and you have three options: 5HP, 4HK(2), or 
         2HP, which sets up a trade combo with an outrageous 26 frames of advantage- just plus enough to combo into DI. In fact, with a tiny delay, you can set up an inescapable stun if they 
         don't have a reversal super to get them out of it.</p>
 
