@@ -116,8 +116,10 @@ export default function Nothing() {
             <p>In summary, low commitment neutral is a strong baseline approach for figuring out your opponent's habits, countering 
             stereotypical online playstyles, and dictating the pace of a match. It takes a lot of practice and a strong understanding 
             of what your options are on offence and defence to pull off consistently, but it is one of the most reliable ways to beat 
-            opponents of all skill levels. In the next article, we'll break down some of the individual techniques shown in the video as 
-            we deepen our understanding of how to hold our ground and control space.</p>
+            opponents of all skill levels. You don't have to react to everything, punish everything, or play perfectly all the time, and it's unrealistic to expect that will happen; 
+            the entire point of this style is to make it hard for them to get a clean hit on you even if you do screw up. To be honest, I wasn't even particularly happy with how I played the set- 
+            I didn't even want to play the game and was kind of in a slump, and all my replays were deleted, but I feel showing games with several mistakes can also illustrate just how consistent 
+            playing like this can be against strong opponents. As an aside, Chains is a great Guilty Gear player as well.</p>
 
             <hr className="smallDivider" />
         </article>
