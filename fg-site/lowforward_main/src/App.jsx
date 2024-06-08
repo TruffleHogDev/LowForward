@@ -17,7 +17,6 @@ import Nothing from './Nothing.jsx';
 import { Route, Routes } from "react-router-dom" //allows defining and grouping of all of our routes
 import SpaceControl from './SpaceControl.jsx';
 import Pokes from './Pokes.jsx';
-import Tilt from './Tilt.jsx';
 import NewTech from './NewTech.jsx';
 
 function App() {
@@ -41,7 +40,6 @@ function App() {
     <Route path="/space_control" element={<SpaceControl />} />
     <Route path="/pokes" element={<Pokes />} />
     <Route path="/new_tech" element={<NewTech />} />
-    <Route path="/losing_and_tilt" element={<Tilt />} />
     <Route path="*" element={<NotFound />} />
   </Routes>
   </div>

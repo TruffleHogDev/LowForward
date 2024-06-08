@@ -11,14 +11,14 @@ export default function Navbar() {
     const content = <> {/*Mobile navbar/dropdown*/}
         <div className="lg:hidden md:hidden block absolute top-16 w-full left-0 right-0 bg-nav-background transition">
 
-        <ul className="text-center text-xl p-20">
-             <CustomLink onClick={handleClick} spy={true} smooth={true} to="/resources">
+        <ul onClick={handleClick} className="text-center text-xl p-20">
+             <CustomLink spy={true} smooth={true} to="/resources">
                 <li className="my-4 py-4 border-b border-nav-hover hover:bg-nav-hover hover:rounded hover:duration-300 text-whitesmoke active:bg-nav-focus">Resources</li>
              </CustomLink>
-            <CustomLink onClick={handleClick} spy={true} smooth={true} to="/concepts">
+            <CustomLink spy={true} smooth={true} to="/concepts">
                 <li className="my-4 py-4 border-b border-nav-hover hover:bg-nav-hover hover:rounded hover:duration-300 text-whitesmoke active:bg-nav-focus">Concepts</li>
             </CustomLink>
-            <CustomLink onClick={handleClick} spy={true} smooth={true} to="/support">
+            <CustomLink spy={true} smooth={true} to="/support">
                  <li className="my-4 py-4 border-b border-nav-hover hover:bg-nav-hover hover:rounded hover:duration-300 text-whitesmoke active:bg-nav-focus">Support</li>
             </CustomLink>
         </ul>
@@ -54,7 +54,7 @@ export default function Navbar() {
             {click && content}
         </div>
 
-        <button className="block md:hidden" onClick={handleClick} >
+        <button className="block md:hidden translate-x-8" onClick={handleClick} >
             {click ? <FaTimes/> : <RiMenuLine />}
         </button>
         </div>
