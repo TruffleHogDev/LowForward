@@ -11,15 +11,15 @@ export default function Navbar() {
     const content = <> {/*Mobile navbar/dropdown*/}
         <div className="lg:hidden md:hidden block absolute top-16 w-full left-0 right-0 bg-nav-background transition">
 
-        <ul onClick={handleClick} className="text-center text-xl p-20">
+        <ul onClick={handleClick} className="text-center text-xl p-8">
              <CustomLink spy={true} smooth={true} to="/resources">
-                <li className="my-4 py-4 border-b border-nav-hover hover:bg-nav-hover hover:rounded hover:duration-300 text-whitesmoke active:bg-nav-focus">Resources</li>
+                <li className="my-4 py-4 border-b hover:bg-nav-hover hover:rounded hover:duration-300 text-whitesmoke active:bg-nav-focus">Resources</li>
              </CustomLink>
             <CustomLink spy={true} smooth={true} to="/concepts">
-                <li className="my-4 py-4 border-b border-nav-hover hover:bg-nav-hover hover:rounded hover:duration-300 text-whitesmoke active:bg-nav-focus">Concepts</li>
+                <li className="my-4 py-4 border-b hover:bg-nav-hover hover:rounded hover:duration-300 text-whitesmoke active:bg-nav-focus">Concepts</li>
             </CustomLink>
             <CustomLink spy={true} smooth={true} to="/support">
-                 <li className="my-4 py-4 border-b border-nav-hover hover:bg-nav-hover hover:rounded hover:duration-300 text-whitesmoke active:bg-nav-focus">Support</li>
+                 <li className="my-4 py-4 border-b hover:bg-nav-hover hover:rounded hover:duration-300 text-whitesmoke active:bg-nav-focus">Support</li>
             </CustomLink>
         </ul>
     </div>
@@ -27,7 +27,7 @@ export default function Navbar() {
 
     return (
         <nav>
-        <div className="h-10vh flex justify-between z-50 text-whitesmoke lg:py-1 px-20 py-4 bg-nav-background">
+        <div className="h-10vh flex justify-between z-50 text-whitesmoke lg:py-1 px-10 py-4 bg-nav-background">
             <div className="flex items-center flex-1">
                 <Link spy={true} smooth={true} to="/" className="text-[1.9rem] font-style: italic text-whitesmoke">
                     LowForward
@@ -38,13 +38,13 @@ export default function Navbar() {
             <div className="flex-10">
                 <ul className="flex gap-8 mr-12 text-[18px]">
                  <CustomLink spy={true} smooth={true} to="/resources">
-                    <li className="border-nav-hover hover:bg-nav-hover hover:rounded hover:duration-300 text-whitesmoke active:bg-nav-focus">Resources</li>
+                    <li className="hover:duration-300 text-whitesmoke hover:text-emerald-300 active:text-emerald-400 hover:underline">Resources</li>
                  </CustomLink>
                 <CustomLink spy={true} smooth={true} to="/concepts">
-                    <li className="border-nav-hover hover:bg-nav-hover hover:rounded hover:duration-300 text-whitesmoke active:bg-nav-focus">Concepts</li>
+                    <li className="hover:duration-300 text-whitesmoke hover:text-emerald-300 active:text-emerald-400 hover:underline">Concepts</li>
                 </CustomLink>
                  <CustomLink spy={true} smooth={true} to="/support">
-                    <li className="border-nav-hover hover:bg-nav-hover hover:rounded hover:duration-300 text-whitesmoke active:bg-nav-focus">Support</li>
+                    <li className="hover:duration-300 text-whitesmoke hover:text-emerald-300 active:text-emerald-400 hover:underline">Support</li>
                 </CustomLink>
                  </ul>
             </div>
@@ -54,7 +54,7 @@ export default function Navbar() {
             {click && content}
         </div>
 
-        <button className="block md:hidden translate-x-8" onClick={handleClick} >
+        <button className="block md:hidden translate-x-6 text-whitesmoke bg-transparent border-none text-lg hover:text-emerald-200 hover:duration-300 focus:text-emerald-400" onClick={handleClick} > {/*Mobile toggle*/}
             {click ? <FaTimes/> : <RiMenuLine />}
         </button>
         </div>

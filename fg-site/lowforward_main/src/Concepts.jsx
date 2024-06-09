@@ -93,23 +93,6 @@ export default function Concepts() {
         ))}
 
         </div>
-
-      {/* 
-        <Link to="../losing_and_tilt">It's OK to Lose- A Healthy Approach to Tilting Situations</Link>
-        <li>What constitutes "good" decision making?</li>
-        <li>Combo utility and why damage isn't everything</li>
-        <li>Meter management and resource awareness</li>
-        <li>Learning matchups
-        <li>Focusing on your opponent's character</li>
-        <li>Layering your pressure: offensive conditioning</li>
-        <li>Layering your options: midscreen conditioning</li>
-        <li>Layering your defense: creating opportunities</li>
-        <li>Taking calculated risks</li>
-        <li>Exploiting habits</li>
-        <li>Dealing with bracket nerves and fighting top players</li>
-        </ul>
-        </article>
-        </div> */}
         </>
     )
 }

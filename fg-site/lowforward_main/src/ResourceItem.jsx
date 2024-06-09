@@ -12,7 +12,7 @@ const ResourceItem = ({tag, title, details, location}) => {
                <ul className="mb-5 mr-4 lg:ml-28">
                 <p className='flex flex-wrap gap-4 items-center text-xs md:text-sm'>
                 <Link to={location}>
-                <span className='text-2xl font-semibold text-whitesmoke hover:bg-nav-hover active:bg-nav-focus duration-300 rounded-sm max-w-xs'>{title}</span>
+                <span className='text-2xl font-semibold text-whitesmoke hover:text-emerald-300 active:text-emerald-400 hover:underline duration-300 rounded-sm max-w-xs'>{title}</span>
                 </Link>
                 <span className='inline-block px-2 py-1 font-semibold text-white bg-emerald-500 rounded-md'>{tag}</span>
 
