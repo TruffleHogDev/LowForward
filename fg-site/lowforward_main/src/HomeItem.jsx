@@ -9,7 +9,7 @@ const HomeItem = ({img, title, page}) => {
                 {title}
             </h3>
             <a href={page}>
-                <p className='text-center p-3 rounded-lg drop-shadow-lg bg-whitesmoke hover:bg-gradient-to-l active:bg-gradient-to-r active:from-emerald-300 active:to-slate-300 hover:from-emerald-200 hover:to-slate-200 text-gray-600 hover:text-gray-700 active:text-slate-800/95 font-bold cursor-pointer text-lg duration-200'>Click here!</p>
+                <p className='text-center p-3 rounded-lg drop-shadow-lg bg-whitesmoke hover:bg-gradient-to-l active:bg-gradient-to-r active:from-emerald-300 active:to-slate-300 hover:from-emerald-200 hover:to-slate-200 text-gray-700 hover:text-gray-700 active:text-slate-800/95 font-bold cursor-pointer text-lg duration-200'>Click here!</p>
             </a>
         </div>
     </div>
