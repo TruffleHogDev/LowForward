@@ -107,6 +107,8 @@ export default function Reversals() {
           <li>Rashid</li>
           <li>Ed</li>
           <li>Akuma</li>
+          <li>Terry</li>
+          <li>Mai</li>
 
           <hr className="smallDivider" />
 
