@@ -31,20 +31,15 @@ export default function Bnbs() {
             keep in mind that spending meter for damage when you're low on drive
             is almost never a good idea unless the combo will kill, since
             burning out can automatically lose you the round in some matchups,
-            even with a large life lead. In the next article, we will take our
-            light and medium BnBs and learn more about how to hit confirm them,
-            with the idea being that we will be able to reinforce the threat of
-            our strikes with meaningful damage and potent, looping mixups should
-            they connect. An added bonus of having these basic combos already
-            learned is that because we no longer have to think about our routing
-            as much, we can focus on our opponent and the choices they make on
-            defence.
-          </p>
-
-          <p>
-            With that out of the way, there are a few basic combos with any
-            character that I feel should be prioritized in order to have a
-            functional gameplan:
+            even with a large life lead. SF6 has relatively easy combos compared
+            to other fighting games, but the complexity comes from how many
+            routing options you have and choosing the correct one quickly. An
+            added bonus of having these basic combos already learned is that
+            because we no longer have to think about our routing as much, we can
+            focus on our opponent and the choices they make on defence. With
+            that out of the way, there are a few basic combos with any character
+            that I feel should be prioritized in order to have a functional
+            gameplan:
           </p>
 
           <hr className="smallDivider"></hr>
@@ -67,8 +62,8 @@ export default function Bnbs() {
             can end most light combos with a level 1 or level 3 super cancel,
             useful for securing KOs, pushing your opponents into burnout, or
             recovering your drive. Light combos are also a reliable way to
-            punish after a perfect parry, though typically PC throw is used for
-            the lengthy knockdown and drive depletion it provides.
+            punish after a perfect parry, though you can typically go for a PC
+            throw or heavy starter in those situations.
           </ul>
 
           <figure>
@@ -96,9 +91,9 @@ export default function Bnbs() {
             {" "}
             The second most useful combo to have, typically used for confirms
             off of meaty buttons, punishes, drive rush filler, and so on- more
-            or less the same things you would use light combos for, but more
-            situational due to the slower startup or range requirements of the
-            moves. Mediums also generally have access to combo enders with
+            or less the same things you would use light combos for, but slightly
+            more situational due to the slower startup or range requirements of
+            the moves. Mediums also generally have access to combo enders with
             better damage and corner carry than lights, and can allow for
             stronger mixup options from their knockdowns. Many characters have a
             medium-medium link on normal hit that's useful for hit confirms,
@@ -107,7 +102,7 @@ export default function Bnbs() {
             Mixing these in with our lights on offense can make our opponents
             unsure of when to challenge and open them up to frametraps and
             throws, and due to their utility and damage these should be learned
-            right after your light combos, if not at the same time.{" "}
+            at the same time you learn your light combos.{" "}
           </ul>
 
           <ul>
@@ -115,15 +110,17 @@ export default function Bnbs() {
             cancelable medium poke (often a 2MK or similar button) and input a
             special move or drive rush as the normal is pressed (colloquially
             known as a buffer). This automatically allows for a quick combo on
-            hit, and nothing if the move is whiffed. Be careful about overusing
+            hit, and nothing if the move is whiffed. Mastering this technique is
+            a hallmark of high level play, but be careful about overusing
             buffers, as they can easily open you up to burnout, DI, perfect
-            parry, or easy whiff punishes if done predictably. Dedicated
-            long-range poking normals are usually bad for meaties due to their
-            poor frame advantage on block and high damage proration, but are
-            sometimes linked into in certain punish counter or drive rush routes
-            when nothing else will reach. On landing counterhit jabs, many
-            characters are able to link a medium or long-range light that they
-            normally couldn't for a better punish.
+            parry, or easy whiff punishes if done predictably. While dedicated
+            long-range, non-cancelable poking normals are usually bad for
+            meaties due to their poor frame advantage on block and high damage
+            proration, they are sometimes linked into in certain punish counter
+            or drive rush routes when nothing else will reach- for instance,
+            Terry's 5mk. On landing counterhit or punish counter jabs, you're
+            generally able to link into a medium or even heavy button for a
+            better punish.
           </ul>
 
           <figure>
@@ -163,12 +160,13 @@ export default function Bnbs() {
             with drive rush normals can lead to very tricky resets with most
             characters once you've established the full combo. DI is an
             incredibly risky option to just throw out and should not be relied
-            on as a core part of your offense, and for that reason it's a lower
-            priority. Landing a DI will do a minimum of 1 bar of drive damage to
-            your opponent, so if their drive is low enough you can route into a
-            quick super (or sometimes even combo into a DI itself!)to burn them
-            out. For basic stun combos you can simply do your strongest jump-in
-            combo and extend with drive or supers if desired.
+            on as a core part of your offense outside of burnout or when your
+            opponent is predictably overusing moves that lose to DI. Landing a
+            DI will do a minimum of 1 bar of drive damage to your opponent, so
+            if their drive is low enough you can route into a quick super (or
+            sometimes even combo into a DI itself!)to burn them out. For basic
+            stun combos you can simply do your strongest jump-in combo and
+            extend with drive or supers if desired.
           </ul>
 
           <figure>
@@ -192,19 +190,20 @@ export default function Bnbs() {
 
           <ul>
             This will usually just end up being your best jump-in normal
-            followed by a confirm into either your light or medium BnB. If
-            you're confirming off of a crossup, your light combo will be your
-            most reliable choice, and for other jump-ins you'll typically be
-            going for the medium. If you're punishing a fireball, dp, or throw
-            bait, you can combo into your heavies instead for better damage;
-            these normals are usually impractical for use in blockstrings
-            because they're slow or unsafe without a large commitment of meter
-            or other resources. Many players will tech or mash repeatedly after
-            blocking a jump-in, making your light and medium strings powerful
-            pressure tools against them. Make sure you practice the angles and
-            timings of your jump-in buttons so that you can choose your moves
-            appropriately, and be careful and deliberate about when you go for
-            jumps- I taught you anti-airs first for a reason.
+            followed by a confirm into the best BnB you have. If you're
+            confirming off of a crossup, your light combo will be your most
+            reliable choice, and for other jump-ins you'll typically be going
+            for the medium. If you're punishing a fireball, dp, or throw bait,
+            you can combo into your heavies instead for better damage; these
+            normals are sometimes impractical for use in blockstrings because
+            they're slow or unsafe without a large commitment of meter or other
+            resources, but it depends highly on the character. Many players will
+            tech or mash repeatedly after blocking a jump-in, making your light
+            and medium strings powerful pressure tools against them. Make sure
+            you practice the angles and timings of your jump-in buttons so that
+            you can choose your moves appropriately, and be careful and
+            deliberate about when you go for jumps- I taught you anti-airs first
+            for a reason.
           </ul>
 
           <figure>
@@ -229,20 +228,21 @@ export default function Bnbs() {
           <hr className="smallDivider"></hr>
 
           <ul>
-            Most commonly reserved for blocked supers, DPs, etc. These usually
-            will have punish counter heavies or special moves for starters and
-            will lead to your highest damage routes. All you need for a good
-            heavy punish is one or two heavy/medium normals you can link into
-            followed by the strongest special move you can end with. If you have
-            level 3 super, you can cancel into it from most characters' specials
-            to tack on more damage and gain back some drive gauge. You don't
-            need it to be fancy or super optimized, but you do want a cashout
-            combo to close out rounds when the opening presents itself. Make the
-            punishes count, or your opponent won't ever be afraid to take risks.
-            Since this type of combo is incredibly situational relative to the
-            others, it's our lowest priority. If you ever panic and don't know
-            what to do if you get one of these openings, you can substitute your
-            best medium or heavy BnB that will reach and do quite well.
+            Most commonly reserved for blocked supers, DPs, or strong drive rush
+            confirms. These usually will have punish counter heavies or special
+            moves for starters and will lead to your highest damage routes. All
+            you need for a good heavy punish is one or two heavy/medium normals
+            you can link into followed by the strongest special move you can end
+            with. If you have level 3 super, you can cancel into it from most
+            characters' specials to tack on more damage and gain back some drive
+            gauge. You don't need it to be fancy or super optimized, but you do
+            want a cashout combo to close out rounds when the opening presents
+            itself, and you want to know how to route into all of your supers.
+            Make the punishes count, or your opponent won't ever be afraid to
+            take risks. If you ever panic and don't know what to do if you get
+            one of these openings, you can substitute your best medium or heavy
+            BnB that will reach and do quite well- even if it's not optimal,
+            it's better than nothing.
           </ul>
 
           <figure>
