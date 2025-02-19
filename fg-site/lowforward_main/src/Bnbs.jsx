@@ -67,8 +67,9 @@ export default function Bnbs() {
             throw or heavy starter in those situations. You should also learn
             what your character gets off of a jab-drive rush for squeezing out a
             little bit of extra damage or a better oki situation that you need
-            to secure the round. Just be careful about using drive in jab combos
-            otherwise, as drive is precious and very costly when mismanaged.
+            to secure the round, as well as what OD moves combo off of your
+            lights, if any. Just be careful about using drive in jab combos, as
+            drive is precious and very costly when mismanaged.
           </ul>
 
           <figure>
