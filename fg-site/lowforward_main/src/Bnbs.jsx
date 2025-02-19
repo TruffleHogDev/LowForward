@@ -64,7 +64,11 @@ export default function Bnbs() {
             useful for securing KOs, pushing your opponents into burnout, or
             recovering your drive. Light combos are also a reliable way to
             punish after a perfect parry, though you can typically go for a PC
-            throw or heavy starter in those situations.
+            throw or heavy starter in those situations. You should also learn
+            what your character gets off of a jab-drive rush for squeezing out a
+            little bit of extra damage or a better oki situation that you need
+            to secure the round. Just be careful about using drive in jab combos
+            otherwise, as drive is precious and very costly when mismanaged.
           </ul>
 
           <figure>
@@ -117,11 +121,12 @@ export default function Bnbs() {
             parry, or easy whiff punishes if done predictably. While dedicated
             long-range, non-cancelable poking normals are usually bad for
             meaties due to their poor frame advantage on block and high damage
-            proration, they are sometimes linked into in certain punish counter
-            or drive rush routes when nothing else will reach- for instance,
-            Terry's 5mk. On landing counterhit or punish counter jabs, you're
-            generally able to link into a medium or even heavy button for a
-            better punish.
+            proration, they are sometimes used in certain punish counter or
+            drive rush routes when nothing else will reach- for instance,
+            Terry's 5mk will usually link into his level 1 on punish counter,
+            somewhat compensating for the terrible startup on his sweep. On
+            landing counterhit or punish counter jabs, you're generally able to
+            link into a medium or even heavy button for a better punish.
           </ul>
 
           <figure>
