@@ -3,6 +3,7 @@ import medBnb from "../src/assets/videos/medbnb.mp4";
 import diCombo from "../src/assets/videos/pcdi.mp4";
 import jumpIn from "../src/assets/videos/jumpin.mp4";
 import heavyBnb from "../src/assets/videos/heavypunish.mp4";
+import driveRegen from "../src/assets/videos/driveregen.mp4";
 import slowMo from "../src/assets/images/slowmo.jpg";
 import BnbBanner from "../src/banners/BnbBanner.jsx";
 
@@ -261,6 +262,10 @@ export default function Bnbs() {
 
           <hr className="divider"></hr>
 
+          <h3>Tips for training and learning how to link</h3>
+
+          <hr className="divider"></hr>
+
           <p>
             If you find it difficult to link your normals together and do your
             special cancels, don't worry. That's normal for beginners, and the
@@ -299,7 +304,7 @@ export default function Bnbs() {
             games is that they'll mash the buttons as quickly as they can
             because they're not confident in their timing. You will get the hang
             of it much more quickly if you force yourself to slow down and focus
-            on timing the hits correctly Normals are linked together by timing
+            on timing the hits correctly. Normals are linked together by timing
             the second button right as the first one recovers, and you need
             enough frame advantage for them to connect (ex: if you're +5 on hit,
             you can only link with a normal that's 5 frames or faster). Mistakes
@@ -361,6 +366,46 @@ export default function Bnbs() {
             still adding a minimum of 2000 damage, which will make the
             difference in a lot of cases.
           </p>
+
+          <hr className="divider"></hr>
+
+          <h3>Adding drive and closing thoughts</h3>
+
+          <hr className="divider"></hr>
+
+          <p>
+            While the main focus of this page has been on prioritizing your
+            meterless damage, drive is undeniably the most important resource in
+            the game, and managing it properly is essential. Always be aware of
+            both players' drive, and be cognizant of when and how you choose to
+            spend it. Drive rush combos are important and powerful, but at 3
+            bricks for a regular drive rush cancel, they're incredibly
+            expensive. Consider using OD moves over drive rush cancels if you
+            want to spend meter when you can, as your natural drive regeneration
+            stops when you drive rush mid-combo, but not if you use an OD move.
+            Smart routing choices can exploit that to give you much more meter
+            to work with in the long run, as you can almost fully restore the
+            resources you spend to land the combo. While an advanced
+            optimization, microwalks can give you just enough meter to get an
+            extra drive rush cancel in a combo if you have enough meter to
+            start. Experiment with what your character can do once you learn
+            your core meterless combos, and learn what you can do with different
+            meter levels.
+          </p>
+
+          <figure>
+            <video
+              className="w-5/6 sm:w-3/4 md:w-4/6"
+              src={driveRegen}
+              type="video/mp4"
+              preload="metadata"
+              controls
+            ></video>
+            <figcaption>
+              Demonstrating the significance of drive regen when using OD moves
+              vs using drive rush early in a combo.
+            </figcaption>
+          </figure>
 
           <p>
             Once you feel confident in your basic BnBs on both sides of the
