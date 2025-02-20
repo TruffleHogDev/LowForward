@@ -7,9 +7,10 @@ import master from "../src/assets/images/master.png";
 const HomeNav = () => {
   return (
     <div id="pages" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-      <p className="text-2xl font-bold text-center text-[whitesmoke]">
-        Your resource for learning how to play fighting games at a high level.
-      </p>
+      <h1 className="text-2xl font-bold text-center text-[whitesmoke]">
+        The ultimate guide for learning fighting games, for beginners and
+        experts!
+      </h1>
       <img
         className="w-full max-w-screen-md h-600 p-12 object-cover justify-center"
         src={master}
