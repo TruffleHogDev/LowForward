@@ -38,7 +38,7 @@ export default function Support() {
             </Link>
             .
           </h4>
-          <p className="text-center text-sm">
+          <p className="text-center mb-4">
             Thank you for being part of this community. Together, we can create
             something truly valuable.
           </p>
