@@ -56,53 +56,63 @@ export default function Navbar() {
   );
 
   return (
-    <nav>
-      <div className="h-10vh flex justify-between z-50 text-whitesmoke lg:py-1 px-10 py-4 bg-nav-background">
-        <div className="flex items-center flex-1">
-          <Link
-            spy={true}
-            smooth={true}
-            to="/"
-            className="text-[1.9rem] font-style: italic text-whitesmoke"
-          >
-            LowForward
-          </Link>
-        </div>
-
-        <div className="lg:flex md:flex lg: flex-1 items center justify-end font-normal hidden">
-          <div className="flex-10">
-            <ul className="flex gap-8 mr-12 text-[18px]">
-              <CustomLink spy={true} smooth={true} to="/resources">
-                <li className="hover:duration-300 text-whitesmoke hover:text-emerald-300 active:text-emerald-400 hover:underline">
-                  Resources
-                </li>
-              </CustomLink>
-              <CustomLink spy={true} smooth={true} to="/concepts">
-                <li className="hover:duration-300 text-whitesmoke hover:text-emerald-300 active:text-emerald-400 hover:underline">
-                  Concepts
-                </li>
-              </CustomLink>
-              <CustomLink spy={true} smooth={true} to="/support">
-                <li className="hover:duration-300 text-whitesmoke hover:text-emerald-300 active:text-emerald-400 hover:underline">
-                  Support
-                </li>
-              </CustomLink>
-            </ul>
+    <>
+      {/* Navbar */}
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-nav-background bg-gradient-to-b from-transparent to-nav-background">
+        <div className="h-10vh flex justify-between z-50 text-whitesmoke lg:py-1 px-10 py-4">
+          <div className="flex items-center flex-1">
+            <Link
+              spy={true}
+              smooth={true}
+              to="/"
+              className="text-[1.9rem] font-style: italic text-whitesmoke"
+            >
+              LowForward
+            </Link>
           </div>
+
+          <div className="lg:flex md:flex lg: flex-1 items center justify-end font-normal hidden">
+            <div className="flex-10">
+              <ul className="flex gap-8 mr-12 text-[18px]">
+                <CustomLink spy={true} smooth={true} to="/resources">
+                  <li className="hover:duration-300 text-whitesmoke hover:text-emerald-300 active:text-emerald-400 hover:underline">
+                    Resources
+                  </li>
+                </CustomLink>
+                <CustomLink spy={true} smooth={true} to="/concepts">
+                  <li className="hover:duration-300 text-whitesmoke hover:text-emerald-300 active:text-emerald-400 hover:underline">
+                    Concepts
+                  </li>
+                </CustomLink>
+                <CustomLink spy={true} smooth={true} to="/support">
+                  <li className="hover:duration-300 text-whitesmoke hover:text-emerald-300 active:text-emerald-400 hover:underline">
+                    Support
+                  </li>
+                </CustomLink>
+              </ul>
+            </div>
+          </div>
+
+          <div>{click && content}</div>
+
+          <button
+            className="block md:hidden translate-x-6 text-whitesmoke bg-transparent border-none text-lg hover:text-emerald-200 hover:duration-300 focus:text-emerald-400"
+            onClick={handleClick}
+          >
+            {" "}
+            {/*Mobile toggle*/}
+            {click ? <FaTimes /> : <RiMenuLine />}
+          </button>
         </div>
+      </nav>
 
-        <div>{click && content}</div>
-
-        <button
-          className="block md:hidden translate-x-6 text-whitesmoke bg-transparent border-none text-lg hover:text-emerald-200 hover:duration-300 focus:text-emerald-400"
-          onClick={handleClick}
-        >
-          {" "}
-          {/*Mobile toggle*/}
-          {click ? <FaTimes /> : <RiMenuLine />}
-        </button>
+      {/* Main content below navbar */}
+      <div className="pt-10">
+        {" "}
+        {/* Add padding-top to prevent overlap */}
+        {/* Your main content here */}
       </div>
-    </nav>
+    </>
   );
 }
 
