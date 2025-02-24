@@ -51,7 +51,7 @@ const HomeNav = () => {
             <div className="max-w-[90%] md:max-w-[700px] md:max-h-[500px] w-full h-[350px]">
               <HomeItem
                 img={Logo}
-                title="Start your path to mastery with my comprehensive articles, designed to help you no matter your skill level."
+                title="Learn how to form and implement an unstoppable gameplan in fighting games, designed to help absolute newcomers and seasoned veterans."
                 page="https://lowforward.com/#/concepts"
               />
             </div>
