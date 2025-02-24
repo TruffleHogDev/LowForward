@@ -1,33 +1,76 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import HomeItem from "./HomeItem.jsx";
 import Logo from "../src/assets/images/Logo.png";
 import meditation from "../src/assets/images/meditation.png";
 import master from "../src/assets/images/master.png";
 
 const HomeNav = () => {
+  const [selectedItem, setSelectedItem] = useState(0);
+
+  // Handle key navigation
+  const handleKeyDown = (e) => {
+    if (e.key === "ArrowRight") {
+      setSelectedItem((prev) => (prev + 1) % 2); // 2 is the number of slides
+    } else if (e.key === "ArrowLeft") {
+      setSelectedItem((prev) => (prev - 1 + 2) % 2); // 2 is the number of slides
+    }
+  };
+
+  // Set up event listener for keydown
+  useEffect(() => {
+    window.addEventListener("keydown", handleKeyDown);
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, []);
+
   return (
     <div id="pages" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
+      <img
+        className="w-full max-w-screen-md h-600 p-8 object-cover justify-center"
+        src={master}
+        alt="/"
+      />
+      <div className="relative flex justify-center items-center">
+        <Carousel
+          selectedItem={selectedItem}
+          onChange={setSelectedItem} // Keep the carousel in sync with the state. MUST manage selected slide directly or functionality will break.
+          showThumbs={false}
+          infiniteLoop
+          autoPlay={false}
+          swipeable={true}
+          emulateTouch={true}
+          centerMode={false}
+          showStatus={false}
+          width="100%" // Make carousel width responsive
+          dynamicHeight={false}
+        >
+          <div className="flex justify-center items-center w-full h-full">
+            <div className="max-w-[90%] md:max-w-[700px] md:max-h-[500px] w-full h-[350px]">
+              <HomeItem
+                img={Logo}
+                title="Start your path to mastery with my comprehensive articles, designed to help you no matter your skill level."
+                page="https://lowforward.com/#/concepts"
+              />
+            </div>
+          </div>
+          <div className="flex justify-center items-center">
+            <div className="max-w-[90%] md:max-w-[700px] md:max-h-[500px] w-full h-[350px]">
+              <HomeItem
+                img={meditation}
+                title="Need to brush up on your fighting game terminology or need some character resources?"
+                page="https://lowforward.com/#/resources"
+              />
+            </div>
+          </div>
+        </Carousel>
+      </div>
       <h1 className="text-2xl font-bold text-center text-[whitesmoke]">
         The ultimate guide for learning fighting games, for beginners and
         experts!
       </h1>
-      <img
-        className="w-full max-w-screen-md h-600 p-12 object-cover justify-center"
-        src={master}
-        alt="/"
-      />
-      <div className="grid sm:grid-cols-2 gap-12 object-contain">
-        <HomeItem
-          img={meditation}
-          title="Need to brush up on your fighting game terminology or need some character resources?"
-          page="https://lowforward.com/#/resources"
-        />
-        <HomeItem
-          img={Logo}
-          title="Start your path to mastery with my comprehensive articles, designed to help you no matter your skill level."
-          page="https://lowforward.com/#/concepts"
-        />
-      </div>
     </div>
   );
 };

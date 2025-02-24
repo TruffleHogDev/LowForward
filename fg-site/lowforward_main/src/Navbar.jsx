@@ -28,11 +28,10 @@ export default function Navbar() {
 
   const content = (
     <>
-      {" "}
-      {/*Mobile navbar/dropdown*/}
+      {/* Mobile navbar/dropdown */}
       <div
         ref={dropdownRef} // Attach the ref to the dropdown
-        className="lg:hidden md:hidden block absolute top-16 w-full left-0 right-0 bg-nav-background transition"
+        className="lg:hidden md:hidden block absolute top-16 w-full left-0 right-0 bg-nav-background transition max-h-[50vh] overflow-y-auto"
       >
         <ul onClick={handleClick} className="text-center text-xl p-8">
           <CustomLink spy={true} smooth={true} to="/resources">
@@ -71,7 +70,7 @@ export default function Navbar() {
             </Link>
           </div>
 
-          <div className="lg:flex md:flex lg: flex-1 items center justify-end font-normal hidden">
+          <div className="lg:flex md:flex lg: flex-1 items-center justify-end font-normal hidden">
             <div className="flex-10">
               <ul className="flex gap-8 mr-12 text-[18px]">
                 <CustomLink spy={true} smooth={true} to="/resources">
