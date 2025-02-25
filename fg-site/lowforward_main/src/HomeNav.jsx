@@ -27,7 +27,10 @@ const HomeNav = () => {
   }, []);
 
   return (
-    <div id="pages" className="max-w-[1040px] m-auto md:pl-20 p-4">
+    <div
+      id="pages"
+      className="max-w-[1040px] m-auto md:pl-20 p-4 overflow-hidden"
+    >
       <img
         className="w-full max-w-screen-md h-600 object-cover justify-center"
         src={master}
@@ -36,7 +39,7 @@ const HomeNav = () => {
       <div className="relative flex justify-center items-center">
         <Carousel
           selectedItem={selectedItem}
-          onChange={setSelectedItem} // Keep the carousel in sync with the state. MUST manage selected slide directly or functionality will break.
+          onChange={setSelectedItem}
           showThumbs={false}
           infiniteLoop
           autoPlay={false}
@@ -44,11 +47,11 @@ const HomeNav = () => {
           emulateTouch={true}
           centerMode={false}
           showStatus={false}
-          width="100%" // Make carousel width responsive
+          width="100%"
           dynamicHeight={false}
         >
           <div className="flex justify-center items-center w-full h-full">
-            <div className="max-w-[90%] md:max-w-[700px] md:max-h-[500px] w-full h-[350px]">
+            <div className="max-w-[90%] md:max-w-[700px] md:max-h-[500px] w-full h-[350px] min-h-0">
               <HomeItem
                 img={Logo}
                 title="Form and implement an unstoppable gameplan in fighting games, for absolute newcomers and veterans alike."
@@ -57,7 +60,7 @@ const HomeNav = () => {
             </div>
           </div>
           <div className="flex justify-center items-center">
-            <div className="max-w-[90%] md:max-w-[700px] md:max-h-[500px] w-full h-[350px]">
+            <div className="max-w-[90%] md:max-w-[700px] md:max-h-[500px] w-full h-[350px] min-h-0">
               <HomeItem
                 img={meditation}
                 title="Need to brush up on your fighting game terminology or need some character resources?"
