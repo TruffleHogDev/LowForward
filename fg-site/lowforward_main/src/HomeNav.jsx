@@ -29,7 +29,7 @@ const HomeNav = () => {
   return (
     <div id="pages" className="max-w-[1040px] m-auto md:pl-20 p-4">
       <img
-        className="w-full max-w-screen-md h-600 p-8 object-cover justify-center"
+        className="w-full max-w-screen-md h-600 object-cover justify-center"
         src={master}
         alt="/"
       />
