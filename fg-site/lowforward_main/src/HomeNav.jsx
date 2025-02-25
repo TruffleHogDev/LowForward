@@ -29,7 +29,7 @@ const HomeNav = () => {
   return (
     <div
       id="pages"
-      className="min-h-screen max-w-[1040px] w-full m-auto md:pl-20 p-4 overflow-hidden"
+      className="min-h-screen max-w-[1040px] w-full m-auto md:pl-20 p-4 overflow-hidden full-height"
     >
       <img
         className="w-full max-w-screen-md h-600 object-cover justify-center"
