@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Helmet>
         <title>
-          Learn Fighting Games - Strategies & Resources | LowForward
+          Learn Fighting Games - Guides & Resources | LowForward
         </title>
         <meta
           name="description"
