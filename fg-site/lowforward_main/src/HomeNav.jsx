@@ -34,7 +34,7 @@ const HomeNav = () => {
       <img
         className="w-full max-w-screen-md h-600 object-cover justify-center"
         src={master}
-        alt="/"
+        alt="LowForward: Learn fighting game strategies and how to improve your skills with beginner friendly guides."
       />
       <div className="relative flex justify-center items-center">
         <Carousel
@@ -56,6 +56,7 @@ const HomeNav = () => {
                 img={Logo}
                 title="Form and implement an unstoppable strategy in fighting games."
                 page="https://lowforward.com/#/concepts"
+                alt="Street Fighter 6 Guides - Tips and Tricks for Beginners"
               />
             </div>
           </div>
@@ -64,6 +65,7 @@ const HomeNav = () => {
               <HomeItem
                 img={meditation}
                 title="Need to brush up on your fighting game terminology or need some character resources?"
+                alt="Fighting Game Terminology and Character Resources"
                 page="https://lowforward.com/#/resources"
               />
             </div>
