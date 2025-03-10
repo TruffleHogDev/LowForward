@@ -73,7 +73,7 @@ const HomeNav = () => {
         </Carousel>
       </div>
       <h1 className="text-2xl font-bold text-center text-[whitesmoke]">
-        The ultimate guide for learning fighting games, for beginners and
+        The ultimate guide for learning Street Fighter 6, for beginners and
         experts!
       </h1>
     </div>
