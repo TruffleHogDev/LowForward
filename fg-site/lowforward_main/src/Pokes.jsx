@@ -147,7 +147,14 @@ export default function Pokes() {
               commit more heavily to contest a specific space, such as JP right
               outside of his 5MK range, I simply need to be a bit more careful
               when I choose to attack and/or use things like feint ghosts to
-              bait a response I can counter and get my gameplan going.
+              bait a response I can counter and get my gameplan going. I can
+              generally chip away at their drive over time and put myself in a
+              good spot even if I'm not doing much damage at first, then go for
+              devastating offense that they have very few answers to without
+              drive. I should remember that making them whiff parry in neutral
+              still gives me an advantage in meter even if I don't punish it,
+              and it can help me be ready if they decide to cancel the whiff
+              parry into a drive rush.
             </dd>
 
             <dt>Conclusion:</dt>
