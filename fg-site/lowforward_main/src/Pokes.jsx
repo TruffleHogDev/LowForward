@@ -140,7 +140,14 @@ export default function Pokes() {
               with the threat of high drive damage on moves like 5HK and 5HP
               when they fear moves like 5LK, 2MK, 2MP, and 5MK. All of these
               work together to make Ken incredibly difficult to fight for most
-              of the cast.
+              of the cast. If I were to not play Ken, I could apply any other
+              character's normals to fill similar niches, and use their unique
+              tools to compensate for anything they can't quite do the way Ken
+              would. If my character has a notable deadzone where they must
+              commit more heavily to contest a specific space, such as JP right
+              outside of his 5MK range, I simply need to be a bit more careful
+              when I choose to attack and/or use things like feint ghosts to
+              bait a response I can counter and get my gameplan going.
             </dd>
 
             <dt>Conclusion:</dt>
