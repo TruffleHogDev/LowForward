@@ -38,7 +38,7 @@ export default function Support() {
             I want to bridge that gap in knowledge for all levels of play, and
             condense that wisdom into my articles here so that you are
             guaranteed to learn something, whether this is your first fighting
-            game or you've been playing for years and pushing 1600 MR. Your
+            game or you've been playing for years and are pushing 1600 MR. Your
             support helps me maintain and grow this platform. Whether it's
             feedback, suggestions, or a small donation, every contribution makes
             a difference.
