@@ -69,7 +69,7 @@ export default function Pokes() {
             "Perhaps," begins the Ken player, "I have been using Ken's kit
             incorrectly. Maybe Ken's kit isn't primarily designed around getting
             in with dragonlash, and in fact I am using it as a crutch instead of
-            addressing my inability to play neutral? They begin frantically
+            addressing my inability to play neutral?" They begin frantically
             brainstorming alternatives, and come up with the following:
           </p>
 
@@ -93,7 +93,7 @@ export default function Pokes() {
               then press my advancing normals to counterhit them when they try
               to attack me. This will result in them being domed from
               approximately 3 city blocks away, and they will then go and get in
-              a Twitter argument because somebody's tier list said Luke is
+              a Twitter argument because somebody's tier list said Akuma is
               better.
             </dd>
           </dl>
@@ -120,18 +120,27 @@ export default function Pokes() {
               doesn't stop people from harassing me from further away. Perhaps
               the disjointed hitbox and speed of 2MP or the moving hitbox of a
               hadoken are exactly the tools I need to complement my core
-              buttons. Doing this can frustrate my opponent into other options
+              buttons. Doing this can frustrate my opponent into riskier options
               like jumping or neutral skips, and if they become passive because
               they can't break through, I can at last walk up and bully them
               with 5HP, pester them with 5LK, take my chances with a midrange
               dragonlash, or go for a fireball into drive rush and RPS around
-              that. I can supplement real drive rush approaches with fakeout
+              that. If I'm really feeling confident, I can go for a walk-up
+              throw. I can supplement real drive rush approaches with fakeout
               jabs to bait reversals, or mix in runstop with run into stepkick
-              behind fireballs to make it harder to know when to check me and
-              bait parries. Finally, I can set up powerful spacing traps with my
-              normals and force them to contend with the threat of high drive
-              damage on moves like 5HK when they fear moves like 5LK, 2MK, 2MP,
-              and 5MK.
+              to make it harder to know when to check me and bait parries,
+              especially if I approach behind a hadoken. I can switch up how and
+              when I press my normals to make it difficult to know when to
+              challenge me, and I can even use them to whiff punish- either by
+              reacting to a move with long recovery, or by proactively buffering
+              behind a cancelable poke when I think they will press a button,
+              and score some damage and corner carry. This is exceptionally
+              potent when done off of one of Ken's powerful spacing traps.
+              Leveraging these tools intelligently will force them to contend
+              with the threat of high drive damage on moves like 5HK and 5HP
+              when they fear moves like 5LK, 2MK, 2MP, and 5MK. All of these
+              work together to make Ken incredibly difficult to fight for most
+              of the cast.
             </dd>
 
             <dt>Conclusion:</dt>
