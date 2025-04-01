@@ -105,12 +105,7 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/* Main content below navbar */}
-      <div className="pt-10">
-        {" "}
-        {/* Add padding-top to prevent overlap */}
-        {/* Your main content here */}
-      </div>
+      <div className="pt-10"> </div>
     </>
   );
 }

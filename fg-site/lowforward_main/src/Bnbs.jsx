@@ -43,11 +43,7 @@ export default function Bnbs() {
             gameplan:
           </p>
 
-          <hr className="smallDivider"></hr>
-
-          <h3>1. A light confirm</h3>
-
-          <hr className="smallDivider"></hr>
+          <h3 className="section">1. A light confirm</h3>
 
           <ul>
             The first thing you need is something you can easily route into off
@@ -87,11 +83,7 @@ export default function Bnbs() {
             </figcaption>
           </figure>
 
-          <hr className="smallDivider"></hr>
-
-          <h3>2. A medium BnB</h3>
-
-          <hr className="smallDivider"></hr>
+          <h3 className="section">2. A medium BnB</h3>
 
           <ul>
             {" "}
