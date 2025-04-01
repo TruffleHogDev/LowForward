@@ -110,7 +110,7 @@ ul {
 /*-----Main styles for general articles-----*/
 
 .articleStyles p {
-    display: flex;
+    display: block;
     text-align: left;
     text-indent: 2em;
     margin: auto;

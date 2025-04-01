@@ -45,7 +45,7 @@ export default function Bnbs() {
 
           <h3 className="section">1. A light confirm</h3>
 
-          <ul>
+          <p>
             The first thing you need is something you can easily route into off
             of your fastest jab or your low starter (typically a 2LK). These
             combos consist of 2-3 jabs into a special move and are most often
@@ -66,7 +66,7 @@ export default function Bnbs() {
             to secure the round, as well as what OD moves combo off of your
             lights, if any. Just be careful about using drive in jab combos, as
             drive is precious and very costly when mismanaged.
-          </ul>
+          </p>
 
           <figure>
             <video
@@ -85,7 +85,7 @@ export default function Bnbs() {
 
           <h3 className="section">2. A medium BnB</h3>
 
-          <ul>
+          <p>
             {" "}
             The second most useful combo to have, typically used for confirms
             off of meaty buttons, punishes, drive rush filler, and so on- more
@@ -101,9 +101,9 @@ export default function Bnbs() {
             unsure of when to challenge and open them up to frametraps and
             throws, and due to their utility and damage these should be learned
             at the same time you learn your light combos.{" "}
-          </ul>
+          </p>
 
-          <ul>
+          <p>
             When playing at midrange, a common tactic is to use a special
             cancelable medium poke (often a 2MK or similar button) and input a
             special move or drive rush as the normal is pressed (colloquially
@@ -120,7 +120,7 @@ export default function Bnbs() {
             somewhat compensating for the terrible startup on his sweep. On
             landing counterhit or punish counter jabs, you're generally able to
             link into a medium or even heavy button for a better punish.
-          </ul>
+          </p>
 
           <figure>
             <video
@@ -143,7 +143,7 @@ export default function Bnbs() {
 
           <hr className="smallDivider"></hr>
 
-          <ul>
+          <p>
             After your core light and medium routes, you want combos off of DI,
             both for when you land it as a punish counter or as a wallsplat when
             blocked in the corner. As a punish counter, the damage and pressure
@@ -166,7 +166,7 @@ export default function Bnbs() {
             sometimes even combo into a DI itself!)to burn them out. For basic
             stun combos you can simply do your strongest jump-in combo and
             extend with drive or supers if desired.
-          </ul>
+          </p>
 
           <figure>
             <video
@@ -187,7 +187,7 @@ export default function Bnbs() {
 
           <hr className="smallDivider"></hr>
 
-          <ul>
+          <p>
             This will usually just end up being your best jump-in normal
             followed by a confirm into the best BnB you have. If you're
             confirming off of a crossup, your light combo will be your most
@@ -203,7 +203,7 @@ export default function Bnbs() {
             you can choose your moves appropriately, and be careful and
             deliberate about when you go for jumps- I taught you anti-airs first
             for a reason.
-          </ul>
+          </p>
 
           <figure>
             <video
@@ -226,7 +226,7 @@ export default function Bnbs() {
 
           <hr className="smallDivider"></hr>
 
-          <ul>
+          <p>
             Most commonly reserved for blocked supers, DPs, or strong drive rush
             confirms. These usually will have punish counter heavies or special
             moves for starters and will lead to your highest damage routes. All
@@ -242,7 +242,7 @@ export default function Bnbs() {
             one of these openings, you can substitute your best medium or heavy
             BnB that will reach and do quite well- even if it's not optimal,
             it's better than nothing.
-          </ul>
+          </p>
 
           <figure>
             <video
