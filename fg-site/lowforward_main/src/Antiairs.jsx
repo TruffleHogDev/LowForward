@@ -1,3 +1,4 @@
+import WhatYoullLearn from "./WhatYoullLearn.jsx";
 import aaTraining from "../src/assets/images/AA training.jpg";
 import airToAir from "../src/assets/images/airtoair.jpg";
 import crossCut from "../src/assets/videos/crosscut.mp4";
@@ -10,6 +11,18 @@ export default function Antiairs() {
       <BnbBanner />
       <div className="container">
         <article className="articleStyles">
+          <WhatYoullLearn
+            topics={[
+              {
+                what: "Anti-airs",
+                why: "Deal damage and control their movement.",
+              },
+              {
+                what: "Types of anti-airs",
+                why: "Different anti-airs work in different situations.",
+              },
+            ]}
+          />
           <h1>Anti-Airs</h1>
           <p>
             One of the first and most important skills you should learn as a
