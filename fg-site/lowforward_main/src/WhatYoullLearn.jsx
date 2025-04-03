@@ -5,7 +5,9 @@ import "./App.css";
 const WhatYoullLearn = ({ topics }) => {
   return (
     <div className="learning-container">
-      <h2 className="learning-header">What You'll Learn</h2>
+      <h1 className="learning-header">
+        What You'll Learn: {topics[0]?.theme || "General Concepts"}
+      </h1>
       <div className="learning-grid">
         {topics.map((topic, index) => (
           <div key={index} className="learning-item">

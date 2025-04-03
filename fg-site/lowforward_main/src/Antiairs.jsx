@@ -14,6 +14,7 @@ export default function Antiairs() {
           <WhatYoullLearn
             topics={[
               {
+                theme: "Anti-Airs",
                 what: "Anti-airs",
                 why: "Deal damage and control their movement.",
               },
