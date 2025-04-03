@@ -3,6 +3,8 @@ import levelOnePunish from "../src/assets/videos/levelOnePunish.mp4";
 import safeJump from "../src/assets/videos/safeJump.mp4";
 import dontSendIt from "../src/assets/images/dontSendIt.jpg";
 import BnbBanner from "../src/banners/BnbBanner.jsx";
+import CharacterList from "./CharacterList.jsx";
+import ken from "../src/assets/images/ken.png";
 
 export default function Reversals() {
   return (
@@ -11,7 +13,6 @@ export default function Reversals() {
       <div className="container">
         <article className="articleStyles">
           <h1>Playing Around Reversals</h1>
-
           <p>
             If you've been following the guides so far, you'll have begun
             building a solid foundation with your anti-airs, and simple but
@@ -26,7 +27,6 @@ export default function Reversals() {
             trying to press your advantage can be intimidating, and even the
             threat of a reversal can completely halt your offensive momentum.
           </p>
-
           <p>
             Understanding how reversals work is the first part of understanding
             how to play around them, and in this article we're going to cover
@@ -36,7 +36,6 @@ export default function Reversals() {
             understanding of managing risk/reward and how to quickly evaluate a
             position.
           </p>
-
           <p>
             {" "}
             As a general rule, the strength of an invincible reversal is, as the
@@ -47,15 +46,10 @@ export default function Reversals() {
             made safe. Knowing a high damage punish to discourage their use is
             important.
           </p>
-
           <hr className="smallDivider" />
-
           <h2>Types of reversals and their properties</h2>
-
           <hr className="smallDivider" />
-
           <h3>1: DPs/Flash Kicks</h3>
-
           <p>
             DPs are the most commonly used type of reversal. In SF6, they are
             fully invincible on frame 1 and cost 2 drive bars per use. Their
@@ -63,7 +57,6 @@ export default function Reversals() {
             are available at the beginning of a round and can be used multiple
             times while preserving super meter for later in the game.{" "}
           </p>
-
           <p>
             Their drive cost is their primary weakness. They can't be used at
             all in burnout, and using them when low on drive can burn you out or
@@ -75,7 +68,6 @@ export default function Reversals() {
             defensive options which can create setups that at worst literally
             can't be escaped.
           </p>
-
           <p>
             In the case of flash kick style reversals that require down charge
             instead of a command input, they have a slightly unique strength and
@@ -86,34 +78,34 @@ export default function Reversals() {
             walking around to try and reposition without committing to a command
             normal that will move for them.
           </p>
-
           <hr className="smallDivider" />
-
           <li>
             A list of all characters that have some form of wakeup DP are as
             follows:
           </li>
 
-          <li>Luke</li>
-          <li>Jamie</li>
-          <li>Juri</li>
-          <li>Dee Jay (charge)</li>
-          <li>Cammy</li>
-          <li>Ryu</li>
-          <li>Blanka (charge)</li>
-          <li>Guile (charge)</li>
-          <li>Ken</li>
-          <li>Chun-Li</li>
-          <li>Rashid</li>
-          <li>Ed</li>
-          <li>Akuma</li>
-          <li>Terry</li>
-          <li>Mai</li>
+          <CharacterList
+            characters={[
+              { name: "Luke", image: ken },
+              { name: "Jamie", image: ken },
+              { name: "Juri", image: ken },
+              { name: "Dee Jay", image: ken },
+              { name: "Cammy", image: ken },
+              { name: "Ryu", image: ken },
+              { name: "Blanka", image: ken },
+              { name: "Guile", image: ken },
+              { name: "Ken", image: ken },
+              { name: "Chun-Li", image: ken },
+              { name: "Rashid", image: ken },
+              { name: "Ed", image: ken },
+              { name: "Akuma", image: ken },
+              { name: "Terry", image: ken },
+              { name: "Mai", image: ken },
+            ]}
+          />
 
           <hr className="smallDivider" />
-
           <h2>1b: Pseudo-reversals</h2>
-
           <p>
             While these aren't traditional invincible reversals, some characters
             have more niche reversal options with slightly different properties,
@@ -121,11 +113,9 @@ export default function Reversals() {
             character can still take lethal damage from absorbing a hit if their
             life is low enough.{" "}
           </p>
-
           <li>
             A list of all pseudo-reversals and their properties are as follows:
           </li>
-
           <dl>
             <dt>E. Honda</dt>
 
@@ -155,7 +145,6 @@ export default function Reversals() {
 
             <dd>OD Snake Step- strike/projectile invuln, loses to throws.</dd>
           </dl>
-
           <p>
             JP's counter has distinction in that it not only parries strikes and
             throws, but also command grabs and even non-projectile supers. The
@@ -174,7 +163,6 @@ export default function Reversals() {
             properties combined with JP having two reversal super options and
             strong abare tools make him uniquely dangerous to pressure.{" "}
           </p>
-
           <figure>
             <video
               className="w-5/6 sm:w-3/4 md:w-4/6"
@@ -190,13 +178,9 @@ export default function Reversals() {
               throw.
             </figcaption>
           </figure>
-
           <hr className="smallDivider" />
-
           <h3>2: Reversal Supers</h3>
-
           <h4>Level 1 Supers</h4>
-
           <p>
             Level 1 supers are a common reversal option that most characters
             have access to, and are used most often either when a character
@@ -212,7 +196,6 @@ export default function Reversals() {
             recover safely and defend against something like a wakeup DI or
             fully invincible reversal.
           </p>
-
           <p>
             It's important to note that Zangief does not have a traditional
             level 1 or 2 reversal super- while his level 1 is invincible, it
@@ -222,20 +205,17 @@ export default function Reversals() {
             window for his opponent to recover from their meaty and block. As
             such, he is forced to rely on his level 3 as his only true reversal.
           </p>
-
           <p>
             Dhalsim's level 1 is also notable in that it lacks strike
             invincibility, though it is immune to throws. His level 2 is fully
             invincible from frames 1-9, but completely whiffs on crouchers,
             making him especially susceptible to lows.
           </p>
-
           <p>
             Finally, Marisa's level 1 is armoured, and therefore it also loses
             to throws. Her level 2 and 3 can both be used as invincible
             reversals, however.
           </p>
-
           <figure>
             <video
               className="w-5/6 sm:w-3/4 md:w-4/6"
@@ -249,9 +229,7 @@ export default function Reversals() {
               tracks.
             </figcaption>
           </figure>
-
           <h4>Level 3 Supers</h4>
-
           <p>
             Reversal level 3 supers are a universal tool that every character
             has access to. They are the most extreme example of high risk, high
@@ -262,20 +240,15 @@ export default function Reversals() {
             Manon and Lily, since it becomes active one frame before the
             cinematic begins.
           </p>
-
           <p>
             Level 3 supers also boast full invulnerability, including to
             projectiles; notably, some long-range supers like Cammy and JP's can
             punish fireballs on reaction from nearly full screen, making them
             significantly more dangerous to engage from long range.
           </p>
-
           <hr className="smallDivider" />
-
           <h2>Safejumps</h2>
-
           <hr className="smallDivider" />
-
           <p>
             Safejumps are a way of landing a meaty jump-in that is extremely
             advantageous on hit or on block, while recovering quickly enough to
@@ -289,7 +262,6 @@ export default function Reversals() {
             attacking) into a throw or a low once they have been conditioned to
             respect the overhead. Note that safejumps can be perfect parried.
           </p>
-
           <figure>
             <video
               className="w-5/6 sm:w-3/4 md:w-4/6"
@@ -304,13 +276,9 @@ export default function Reversals() {
               offense.
             </figcaption>
           </figure>
-
           <hr className="smallDivider" />
-
           <h2>Understanding when to respect reversals</h2>
-
           <hr className="smallDivider" />
-
           <p>
             Now that we understand the properties of the reversals in this game,
             we can talk about when to respect them. As a general rule, you
@@ -325,7 +293,6 @@ export default function Reversals() {
             better idea of when they like to use their reversals and can
             leverage that against them.
           </p>
-
           <p>
             One thing beginner and intermediate players do very poorly is manage
             their meter, so pay close attention to how much drive and super
@@ -336,7 +303,6 @@ export default function Reversals() {
             harass them with long range pokes and fireballs to chip away at
             their drive and compel them to take a risk to avoid burning out.
           </p>
-
           <p>
             In low life situations where your opponent has a large life lead,
             using a reversal super is almost always a bad idea if you can
@@ -358,7 +324,6 @@ export default function Reversals() {
             what lead to you being in such a precarious situation so you can
             avoid repeating it instead of agonizing over guessing wrong.
           </p>
-
           <figure>
             <img
               className="w-5/6 sm:w-3/4 md:w-4/6"
@@ -375,7 +340,6 @@ export default function Reversals() {
               round if it doesn't work out.
             </figcaption>
           </figure>
-
           <p>
             You should respect reversals when your opponents use them frequently
             in the same spots, or if you notice they're a type that likes to
@@ -394,7 +358,6 @@ export default function Reversals() {
             them throw. Sometimes backing off when you expect a delay tech or a
             throw can be a good spot to see if they want to DP or super.
           </p>
-
           <p>
             On the flipside, if your opponent has predictable offense or
             autopilots the same blockstrings, it can be a good idea to use a
@@ -405,7 +368,6 @@ export default function Reversals() {
             reversals, the reward on hit usually isn't great, so it's something
             that should be used sparingly and with intent.
           </p>
-
           <p>
             Now that you hopefully have a better understanding of the mindgames
             around reversals and how to approach them, we can build on that in

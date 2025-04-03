@@ -10,7 +10,7 @@ export default function Support() {
         <img
           className="w-4/6 lg:w-2/5 m-auto justify-center"
           src={supportImg}
-          alt="Support Us"
+          alt="Support my work!"
         />
         <article className="articleStyles p-3">
           <h2 className="text-2xl font-bold text-center mb-4">
