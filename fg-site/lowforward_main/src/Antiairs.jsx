@@ -24,7 +24,7 @@ export default function Antiairs() {
               },
             ]}
           />
-          <h1>Anti-Airs</h1>
+          <h2 className="section">Intro to Anti-Airs</h2>
           <p>
             One of the first and most important skills you should learn as a
             fighting game player is how to anti-air. Aside from the free damage

@@ -4,6 +4,7 @@ import safeJump from "../src/assets/videos/safeJump.mp4";
 import dontSendIt from "../src/assets/images/dontSendIt.jpg";
 import BnbBanner from "../src/banners/BnbBanner.jsx";
 import CharacterList from "./CharacterList.jsx";
+import WhatYoullLearn from "./WhatYoullLearn.jsx";
 import ken from "../src/assets/images/ken.png";
 
 export default function Reversals() {
@@ -12,7 +13,20 @@ export default function Reversals() {
       <BnbBanner />
       <div className="container">
         <article className="articleStyles">
-          <h1>Playing Around Reversals</h1>
+          <WhatYoullLearn
+            topics={[
+              {
+                theme: "Reversals",
+                what: "Know Thy Enemy",
+                why: "If you know their options, you can make better decisions.",
+              },
+              {
+                what: "He's Gonna Do It",
+                why: "Make game-winning plays when you guess correctly.",
+              },
+            ]}
+          />
+          <h2 className="section">Playing Around Reversals</h2>
           <p>
             If you've been following the guides so far, you'll have begun
             building a solid foundation with your anti-airs, and simple but
@@ -46,10 +60,7 @@ export default function Reversals() {
             made safe. Knowing a high damage punish to discourage their use is
             important.
           </p>
-          <hr className="smallDivider" />
-          <h2>Types of reversals and their properties</h2>
-          <hr className="smallDivider" />
-          <h3>1: DPs/Flash Kicks</h3>
+          <h2 className="section">1: DPs/Flash Kicks</h2>
           <p>
             DPs are the most commonly used type of reversal. In SF6, they are
             fully invincible on frame 1 and cost 2 drive bars per use. Their
@@ -103,9 +114,7 @@ export default function Reversals() {
               { name: "Mai", image: ken },
             ]}
           />
-
-          <hr className="smallDivider" />
-          <h2>1b: Pseudo-reversals</h2>
+          <h2 className="section">1b: Pseudo-reversals</h2>
           <p>
             While these aren't traditional invincible reversals, some characters
             have more niche reversal options with slightly different properties,
@@ -178,9 +187,8 @@ export default function Reversals() {
               throw.
             </figcaption>
           </figure>
-          <hr className="smallDivider" />
-          <h3>2: Reversal Supers</h3>
-          <h4>Level 1 Supers</h4>
+          <h2 className="section">2: Reversal Supers</h2>
+          <h3>Level 1 Supers</h3>
           <p>
             Level 1 supers are a common reversal option that most characters
             have access to, and are used most often either when a character
@@ -229,7 +237,7 @@ export default function Reversals() {
               tracks.
             </figcaption>
           </figure>
-          <h4>Level 3 Supers</h4>
+          <h2 className="section">Level 3 Supers</h2>
           <p>
             Reversal level 3 supers are a universal tool that every character
             has access to. They are the most extreme example of high risk, high
@@ -246,9 +254,7 @@ export default function Reversals() {
             punish fireballs on reaction from nearly full screen, making them
             significantly more dangerous to engage from long range.
           </p>
-          <hr className="smallDivider" />
-          <h2>Safejumps</h2>
-          <hr className="smallDivider" />
+          <h2 className="section">Safejumps</h2>
           <p>
             Safejumps are a way of landing a meaty jump-in that is extremely
             advantageous on hit or on block, while recovering quickly enough to
@@ -276,9 +282,7 @@ export default function Reversals() {
               offense.
             </figcaption>
           </figure>
-          <hr className="smallDivider" />
-          <h2>Understanding when to respect reversals</h2>
-          <hr className="smallDivider" />
+          <h2 className="section">Understanding when to respect reversals</h2>
           <p>
             Now that we understand the properties of the reversals in this game,
             we can talk about when to respect them. As a general rule, you

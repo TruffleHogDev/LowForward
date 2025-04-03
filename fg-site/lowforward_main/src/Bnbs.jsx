@@ -6,6 +6,7 @@ import heavyBnb from "../src/assets/videos/heavypunish.mp4";
 import driveRegen from "../src/assets/videos/driveregen.mp4";
 import slowMo from "../src/assets/images/slowmo.jpg";
 import BnbBanner from "../src/banners/BnbBanner.jsx";
+import WhatYoullLearn from "./WhatYoullLearn.jsx";
 
 export default function Bnbs() {
   return (
@@ -13,7 +14,19 @@ export default function Bnbs() {
       <BnbBanner />
       <div className="container">
         <article className="articleStyles">
-          <h1>BnBs: Basic Combos and How to Learn Them</h1>
+          <WhatYoullLearn
+            topics={[
+              {
+                theme: "Combos",
+                what: "Bread and Butter",
+                why: "You need easy combos that always work.",
+              },
+              {
+                what: "Types of combos",
+                why: "You need different combos from different starters.",
+              },
+            ]}
+          />
           <p>
             Now that you have a handle on anti-airs, we can work on BnBs- a
             common abbreviation for bread and butter combos: your staple, easy,
@@ -137,11 +150,7 @@ export default function Bnbs() {
             </figcaption>
           </figure>
 
-          <hr className="smallDivider"></hr>
-
-          <h3>3. Drive Impact (DI) combos</h3>
-
-          <hr className="smallDivider"></hr>
+          <h3 className="section">3. Drive Impact (DI) combos</h3>
 
           <p>
             After your core light and medium routes, you want combos off of DI,
@@ -181,11 +190,7 @@ export default function Bnbs() {
             </figcaption>
           </figure>
 
-          <hr className="smallDivider"></hr>
-
-          <h3>4. A jump-in combo</h3>
-
-          <hr className="smallDivider"></hr>
+          <h3 className="section">4. A jump-in combo</h3>
 
           <p>
             This will usually just end up being your best jump-in normal
@@ -220,11 +225,9 @@ export default function Bnbs() {
             </figcaption>
           </figure>
 
-          <hr className="smallDivider"></hr>
-
-          <h3>5. A dedicated cashout combo for closing out rounds</h3>
-
-          <hr className="smallDivider"></hr>
+          <h3 className="section">
+            5. A dedicated cashout combo for closing out rounds
+          </h3>
 
           <p>
             Most commonly reserved for blocked supers, DPs, or strong drive rush
@@ -258,11 +261,9 @@ export default function Bnbs() {
             </figcaption>
           </figure>
 
-          <hr className="divider"></hr>
-
-          <h3>Tips for training and learning how to link</h3>
-
-          <hr className="divider"></hr>
+          <h3 className="section">
+            Tips for training and learning how to combo
+          </h3>
 
           <p>
             If you find it difficult to link your normals together and do your
@@ -365,11 +366,7 @@ export default function Bnbs() {
             difference in a lot of cases.
           </p>
 
-          <hr className="divider"></hr>
-
-          <h3>Adding drive and closing thoughts</h3>
-
-          <hr className="divider"></hr>
+          <h3 className="section">Drive meter and closing thoughts</h3>
 
           <p>
             While the main focus of this page has been on prioritizing your

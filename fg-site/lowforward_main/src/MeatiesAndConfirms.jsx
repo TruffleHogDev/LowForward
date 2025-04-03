@@ -3,6 +3,7 @@ import lightCombo from "../src/assets/videos/lightcombopractice.mp4";
 import confirmDrill from "../src/assets/videos/confirmDrill.mp4";
 import confirmSettings from "../src/assets/images/confirmSettings.jpg";
 import BnbBanner from "../src/banners/BnbBanner.jsx";
+import WhatYoullLearn from "./WhatYoullLearn.jsx";
 
 export default function Confirms() {
   return (
@@ -10,7 +11,20 @@ export default function Confirms() {
       <BnbBanner />
       <div className="container">
         <article className="articleStyles">
-          <h1>Meaties and Hit Confirms</h1>
+          <WhatYoullLearn
+            topics={[
+              {
+                theme: "Meaties and Confirms",
+                what: "Punch them!",
+                why: "Score big damage when they don't block.",
+              },
+              {
+                what: "Wait, don't punch them!",
+                why: "Avoid doing something punishable if they do block.",
+              },
+            ]}
+          />
+          <h2 className="section">Meaties and Hit Confirms</h2>
           <p>
             Now that we've got a set of combos to work with, we can use them as
             a starting point for our strike offense, using our combo starters to
@@ -30,9 +44,7 @@ export default function Confirms() {
             we got the first hit.
           </p>
 
-          <hr className="divider"></hr>
-
-          <h2>Meaties</h2>
+          <h2 className="section">Meaties</h2>
 
           <p>
             The easiest and by far most common way to set up these blockstrings
@@ -128,9 +140,7 @@ export default function Confirms() {
             </figcaption>
           </figure>
 
-          <hr className="divider"></hr>
-
-          <h2>Confirms</h2>
+          <h2 className="section">Confirms</h2>
 
           <p>
             Once you feel more confident in landing your meaties and can
@@ -239,9 +249,7 @@ export default function Confirms() {
             8-9/10 consistency on both sides.
           </p>
 
-          <hr className="divider"></hr>
-
-          <h2>Next steps</h2>
+          <h2 className="section">Next steps</h2>
 
           <p>
             Now that you've mastered your light confirms, go and practice them

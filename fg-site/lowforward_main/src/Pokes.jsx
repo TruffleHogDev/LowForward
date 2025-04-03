@@ -1,5 +1,6 @@
 import lucidDream from "../src/assets/videos/lucidDream.mp4";
 import BnbBanner from "../src/banners/BnbBanner.jsx";
+import WhatYoullLearn from "./WhatYoullLearn.jsx";
 
 export default function Pokes() {
   return (
@@ -7,7 +8,20 @@ export default function Pokes() {
       <BnbBanner />
       <div className="container">
         <article className="articleStyles">
-          <h1>Pokes and How to Use Them</h1>
+          <WhatYoullLearn
+            topics={[
+              {
+                theme: "Poking",
+                what: "Teach A Man To Fish",
+                why: "Learn how to intuitively form a gameplan.",
+              },
+              {
+                what: "Blissful Harmony",
+                why: "Each move has a purpose- make them work together.",
+              },
+            ]}
+          />
+          <h2 className="section">Pokes and How to Use Them</h2>
           <p>
             Understanding how to use pokes properly can be an especially vague
             and intimidating concept for someone trying to learn how their
@@ -22,12 +36,7 @@ export default function Pokes() {
             thought exercise that will hopefully guide you in the right
             direction as you figure out how to form your own gameplan.
           </p>
-
-          <hr className="smallDivider" />
-
-          <h2>Thinking about how your character plays neutral</h2>
-
-          <hr className="smallDivider" />
+          <h2 className="section">Thought Exercise: Form a Gameplan</h2>
 
           <p>
             Understanding how to poke is more art than science, and your
@@ -48,7 +57,6 @@ export default function Pokes() {
             winrate that got them all the way to Master rank and sigh. Why would
             Capcom do this?{" "}
           </p>
-
           <p>
             The Ken player posts some of their replays to their community
             discord for help, and despite getting some unhinged ramblings from
@@ -64,7 +72,6 @@ export default function Pokes() {
             be others? They breathe deeply to calm their racing heart, and try
             to make sense of things.{" "}
           </p>
-
           <p>
             "Perhaps," begins the Ken player, "I have been using Ken's kit
             incorrectly. Maybe Ken's kit isn't primarily designed around getting
@@ -72,9 +79,6 @@ export default function Pokes() {
             addressing my inability to play neutral?" They begin frantically
             brainstorming alternatives, and come up with the following:
           </p>
-
-          <hr className="smallDivider" />
-
           <dl>
             <dt>Think:</dt>
             <dd>
@@ -97,7 +101,6 @@ export default function Pokes() {
               better.
             </dd>
           </dl>
-
           <figure>
             <video
               className="w-5/6 sm:w-3/4 md:w-4/6"
@@ -108,7 +111,6 @@ export default function Pokes() {
             ></video>
             <figcaption>By Jove! It's working!</figcaption>
           </figure>
-
           <dl>
             <dt>Iterate:</dt>
             <dd>
@@ -172,9 +174,7 @@ export default function Pokes() {
               to say they forgive me for being a Ken main.
             </dd>
           </dl>
-
           <hr className="smallDivider" />
-
           <p>
             As you can see, our hypothetical Ken has achieved fighting game
             enlightenment and has smashed through their plateau by thinking
@@ -193,8 +193,6 @@ export default function Pokes() {
             exactly everything combines to allow you to hold your ground and
             control space.{" "}
           </p>
-
-          <hr className="smallDivider" />
         </article>
       </div>
     </>

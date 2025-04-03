@@ -1,5 +1,6 @@
 import aCrumbOfFootsies from "../src/assets/videos/aCrumbOfFootsies.mp4";
 import BnbBanner from "../src/banners/BnbBanner.jsx";
+import WhatYoullLearn from "./WhatYoullLearn.jsx";
 
 export default function Nothing() {
   return (
@@ -7,8 +8,22 @@ export default function Nothing() {
       <BnbBanner />
       <div className="container">
         <article className="articleStyles">
-          <h1>Satsui no Hado: The Power of (doing) Nothing</h1>
-
+          <WhatYoullLearn
+            topics={[
+              {
+                theme: "Neutral",
+                what: "Immovable Object",
+                why: "Hold your ground and push them back.",
+              },
+              {
+                what: "Unstoppable Force",
+                why: "Limit the openings you give them and create opportunities.",
+              },
+            ]}
+          />
+          <h2 className="section">
+            Satsui no Hado: The Power of (doing) Nothing
+          </h2>
           <p>
             If you've been following the guides to this point, you should now
             have an understanding of AAs, combos and confirms, and a basic
@@ -17,7 +32,6 @@ export default function Nothing() {
             focused on explaining how and why low commitment neutral works, and
             my approach to it.
           </p>
-
           <p>
             It's very important to note that playing low commitment does not
             mean playing passively. Being overly passive is something I would
@@ -29,13 +43,7 @@ export default function Nothing() {
             challenge, and intelligently choosing your moments to commit to
             bigger moves.
           </p>
-
-          <hr className="smallDivider" />
-
-          <h3>Commitment in fighting games</h3>
-
-          <hr className="smallDivider" />
-
+          <h2 className="section">Commitment in fighting games</h2>
           <p>
             Any time you take an action in a fighting game, you can think of it
             as committing to that action, in the sense that you are locked in to
@@ -49,7 +57,6 @@ export default function Nothing() {
             time can make more patient opponents hesitant to hold their ground
             and back away from you.
           </p>
-
           <p>
             On the flipside, not committing to bigger buttons can also empower
             your opponents to do something risky and press their big buttons or
@@ -62,7 +69,6 @@ export default function Nothing() {
             position since you have no incentive to approach, or you're in
             burnout and can afford to block until the duration ends.{" "}
           </p>
-
           <p>
             Low commitment neutral works best as a baseline when you can use
             your basic movement and blocks to get an idea for how your opponent
@@ -81,13 +87,7 @@ export default function Nothing() {
             in, and when your opponent is patient and playing non-committally
             themselves.
           </p>
-
-          <hr className="smallDivider" />
-
-          <h3>Musings on low commitment neutral</h3>
-
-          <hr className="smallDivider" />
-
+          <h2 className="section">Musings on low commitment neutral</h2>
           <p>
             Weaker opponents will generally lose outright to someone who does
             not constantly present big openings to punish, since they don't
@@ -113,7 +113,6 @@ export default function Nothing() {
             things to respond to everything they're doing instead of potentially
             5 or more.{" "}
           </p>
-
           <p>
             Even at higher levels of play, many people have fairly linear
             attacking and defending flowcharts that you can figure out with
@@ -146,13 +145,7 @@ export default function Nothing() {
             neutral as you become a more well-rounded player, especially when
             you come across strong opponents who do adapt quickly.
           </p>
-
-          <hr className="smallDivider" />
-
-          <h3>What low commitment neutral looks like</h3>
-
-          <hr className="smallDivider" />
-
+          <h2 className="section">What low commitment neutral looks like</h2>
           <p>
             In the following video example, you can see low commitment neutral
             in action. The Dictator player was bullying me hard midrange, and
@@ -175,7 +168,6 @@ export default function Nothing() {
             crossups. The string before the jinrai was actually a setup for a
             spacing trap.
           </p>
-
           <figure>
             <video
               className="w-5/6 sm:w-3/4 md:w-4/6"
@@ -188,9 +180,7 @@ export default function Nothing() {
               Example of a round won primarily through low commitment neutral.
             </figcaption>
           </figure>
-
           <hr className="smallDivider" />
-
           <p>
             In summary, low commitment neutral is a strong baseline approach for
             figuring out your opponent's habits, countering stereotypical online
@@ -203,8 +193,6 @@ export default function Nothing() {
             entire point of this style is to make it hard for them to get a
             clean hit on you even when you do screw up.
           </p>
-
-          <hr className="smallDivider" />
         </article>
       </div>
     </>
