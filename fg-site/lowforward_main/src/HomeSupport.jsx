@@ -1,4 +1,4 @@
-import meditation from "../src/assets/images/meditation.png";
+import supRyu from "../src/assets/images/supRyu.png";
 
 export default function HomeSupport() {
   return (
@@ -6,7 +6,7 @@ export default function HomeSupport() {
       <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center gap-10">
         <div className="md:w-1/2 max-w-xs mx-auto">
           <img
-            src={meditation}
+            src={supRyu}
             alt="Support LowForward"
             className="rounded-xl shadow-lg w-full h-auto object-contain"
           />
