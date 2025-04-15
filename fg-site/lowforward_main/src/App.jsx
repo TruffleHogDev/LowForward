@@ -1,7 +1,10 @@
 import React from "react";
+import { Route, Routes, useLocation } from "react-router-dom";
 import "./App.css";
+
 import ScrollToTop from "./ScrollToTop.jsx";
 import Navbar from "./Navbar.jsx";
+
 import Home from "./Home.jsx";
 import Resources from "./Resources.jsx";
 import Concepts from "./Concepts.jsx";
@@ -15,16 +18,18 @@ import StrikeThrow from "./StrikeThrow.jsx";
 import Reversals from "./Reversals.jsx";
 import Defense from "./Defense.jsx";
 import Nothing from "./Nothing.jsx";
-import { Route, Routes } from "react-router-dom"; //allows defining and grouping of all of our routes
 import SpaceControl from "./SpaceControl.jsx";
 import Pokes from "./Pokes.jsx";
 import NewTech from "./NewTech.jsx";
 
 function App() {
+  const location = useLocation();
+  const isHome = location.pathname === "/";
+
   return (
     <>
       <ScrollToTop />
-      <Navbar />
+      {!isHome && <Navbar />}
       <div>
         <Routes>
           <Route path="/" element={<Home />} />

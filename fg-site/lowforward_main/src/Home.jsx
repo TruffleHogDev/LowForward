@@ -1,23 +1,21 @@
 import { Helmet } from "react-helmet";
-import HomeNav from "./HomeNav.jsx";
-import BnbBanner from "./banners/BnbBanner.jsx";
+import HeroBanner from "./HeroBanner.jsx";
+import HomeGrid from "./HomeGrid.jsx";
+import HomeSupport from "./HomeSupport.jsx";
 
 export default function Home() {
   return (
     <>
       <Helmet>
-        <title>
-          Learn Fighting Games - Guides & Resources | LowForward
-        </title>
+        <title>Learn Fighting Games - Guides & Resources | LowForward</title>
         <meta
           name="description"
           content="LowForward - Your SF6 Learning Hub: Strategies, Beginner Guides, Resources, and More"
         />
       </Helmet>
-      <BnbBanner />
-      <div className="container">
-        <HomeNav />
-      </div>
+      <HeroBanner />
+      <HomeGrid />
+      <HomeSupport />
     </>
   );
 }
