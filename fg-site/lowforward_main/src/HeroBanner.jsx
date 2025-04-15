@@ -34,7 +34,7 @@ export default function HeroBanner() {
       <div className="w-full md:max-w-md">
         <img
           src={master}
-          alt="Fighting game training illustration"
+          alt="LowForward - Fight like a master!"
           className="rounded-xl shadow-xl w-full h-auto object-cover"
         />
       </div>
