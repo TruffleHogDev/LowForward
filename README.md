@@ -12,4 +12,4 @@ LF is currently in the middle of yet another dramatic design overhaul- the bulk 
 
 3: Support page needs to look cleaner. It's very blocky and wordy and ugly to look at compared to the other navbar pages.
 
-4: Homepage to have a component that suggests articles- this is currently planned for after the rewrites because of the significance of the changes, but may be implemented sooner.
+4: Homepage to have a component that suggests articles- this was planned for after the rewrites because of the significance of the changes, but will likely be implemented sooner and updated as needed.
