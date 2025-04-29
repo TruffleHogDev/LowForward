@@ -9,3 +9,7 @@ LF is currently in the middle of yet another dramatic design overhaul- the bulk 
 1: Improve the layout and readability of the homepage and navigation pages slightly more, especially on landscape mode mobile devices- there's a bug I notice on Android where you have to scroll a little bit to get the very bottom of the page to render.
 
 2: Articles need to be rewritten. The feedback I generally get is that the content is good, but difficult to read. The UI redesign came before the rewrites, but the articles will be rewritten with a tone more appropriate for a general reading audience, and aim to be more engaging by introducing the concept, asking a "why", then answering that why. Complementary article-specific UI improvements still need to be made, though some are partially completed. This will overall take the most amount of time.
+
+3: Support page needs to look cleaner. It's very blocky and wordy and ugly to look at compared to the other navbar pages.
+
+4: Homepage to have a component that suggests articles- this is planned for after the rewrites because of the significance of the changes.
