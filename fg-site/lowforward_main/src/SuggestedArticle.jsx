@@ -18,17 +18,80 @@ const suggestions = [
     page: "bnbs",
     messages: [
       "You have a character you want to try—what combos are important?",
-      "Learn what to prioritize.",
+      "Learn what combos to prioritize.",
       "Winning starts with consistent, meaningful damage.",
+    ],
+  },
+  {
+    title: "Meaties and Hit Confirms",
+    page: "meaties_and_confirms",
+    messages: [
+      "How do I do strong blockstrings?",
+      "Want to stop mashers easily?",
+      "How do I start my offense?",
+    ],
+  },
+  {
+    title: "Strike/Throw Offense",
+    page: "strikethrow",
+    messages: [
+      "How do I open up people who turtle?",
+      "What do I do when I get a knockdown?",
+      "How do I know when to throw them?",
+    ],
+  },
+  {
+    title: "Playing Around Reversals",
+    page: "reversals",
+    messages: [
+      "When do I respect their wakeup?",
+      "Sometimes you can run offense and beat invincible moves.",
+      "Sometimes, getting hit by a wakeup super is fine- here's why.",
+    ],
+  },
+  {
+    title: "Defensive Options",
+    page: "defense",
+    messages: [
+      "Make the most of the game's defensive mechanics.",
+      "Is it ever a bad idea to block?",
+      "Give yourself as many chances to win as you can.",
+    ],
+  },
+  {
+    title: "Low-Commitment Neutral",
+    page: "low_commitment_neutral",
+    messages: [
+      "Win more by NOT pressing buttons!",
+      "How high-level players learn habits quickly.",
+      "Force respect (and mistakes) from your opponents.",
+    ],
+  },
+  {
+    title: "Space Control",
+    page: "space_control",
+    messages: [
+      "How do I stop getting cornered?",
+      "Do everything with intent.",
+      "The real secrets to controlling the screen.",
     ],
   },
   {
     title: "Using Pokes to Form a Gameplan",
     page: "pokes",
     messages: [
-      "How do you use pokes well?",
-      "How do you make your moves work together?",
+      "How do I use pokes well?",
+      "How do I make your moves work together?",
       "Every move has a purpose.",
+    ],
+  },
+  {
+    title: "Make Labbing Fun!",
+    page: "new_tech",
+    messages: [
+      "Get the most out of your lab time.",
+      "Try the cool things you see!",
+      '"Impractical" things are still worth doing.',
     ],
   },
 ];
