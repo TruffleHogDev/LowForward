@@ -10,7 +10,7 @@ export default function HomeGrid() {
           Explore Our Core Guides
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="h-[250px] md:h-[300px]">
+          <div className="h-[250px] md:h-[300px] mb-10 md:mb-0">
             <HomeItem
               img={Logo}
               title="Form and implement an unstoppable strategy in fighting games."
