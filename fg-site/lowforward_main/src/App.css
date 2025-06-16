@@ -173,14 +173,6 @@ ul {
     text-align: center;
 }
 
-.articleStyles video {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 1.5rem;
-    padding-bottom: 1rem;
-}
-
 .numpadImg {
     display: block;
     margin-left: auto;
@@ -385,4 +377,50 @@ ul {
         width: 100%;
         height: 90px;
     }
+}
+
+/* === ConceptSection Figure Layout === */
+.concept-figure {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+/* Float figure on large screens, center on small */
+@media (min-width: 1024px) {
+    .concept-figure {
+        float: right;
+        width: 50%;
+        margin-left: 2rem;
+    }
+}
+
+/* === Video inside figure === */
+.concept-video {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* === Main caption === */
+.concept-caption {
+    display: block;
+    margin: auto;
+    padding-top: 1rem;
+    font-style: italic;
+    font-size: 0.9rem;
+    max-width: 55%;
+    text-align: center;
+}
+
+/* === Optional question caption === */
+.concept-question {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-align: center;
 }

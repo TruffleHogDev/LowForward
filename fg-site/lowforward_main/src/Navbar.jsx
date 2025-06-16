@@ -34,15 +34,15 @@ export default function Navbar() {
         className="lg:hidden md:hidden block absolute top-16 w-full left-0 right-0 bg-nav-background transition max-h-[50vh] overflow-y-auto"
       >
         <ul onClick={handleClick} className="text-center text-xl p-8">
-          <CustomLink spy={true} smooth={true} to="/resources">
-            <li className="my-4 py-4 border-b hover:bg-nav-hover hover:rounded hover:duration-300 text-whitesmoke active:bg-nav-focus">
-              Resources
-            </li>
-          </CustomLink>
           <CustomLink spy={true} smooth={true} to="/concepts">
             <li className="my-4 py-4 border-b hover:bg-nav-hover hover:rounded hover:duration-300 text-whitesmoke active:bg-nav-focus">
               Concepts
             </li>
+            <CustomLink spy={true} smooth={true} to="/resources">
+              <li className="my-4 py-4 border-b hover:bg-nav-hover hover:rounded hover:duration-300 text-whitesmoke active:bg-nav-focus">
+                Resources
+              </li>
+            </CustomLink>
           </CustomLink>
           <CustomLink spy={true} smooth={true} to="/support">
             <li className="my-4 py-4 border-b hover:bg-nav-hover hover:rounded hover:duration-300 text-whitesmoke active:bg-nav-focus">
@@ -73,14 +73,14 @@ export default function Navbar() {
           <div className="lg:flex md:flex lg: flex-1 items-center justify-end font-normal hidden">
             <div className="flex-10">
               <ul className="flex gap-8 mr-12 text-[18px]">
-                <CustomLink spy={true} smooth={true} to="/resources">
-                  <li className="hover:duration-300 text-whitesmoke hover:text-emerald-300 active:text-emerald-400 hover:underline">
-                    Resources
-                  </li>
-                </CustomLink>
                 <CustomLink spy={true} smooth={true} to="/concepts">
                   <li className="hover:duration-300 text-whitesmoke hover:text-emerald-300 active:text-emerald-400 hover:underline">
                     Concepts
+                  </li>
+                </CustomLink>
+                <CustomLink spy={true} smooth={true} to="/resources">
+                  <li className="hover:duration-300 text-whitesmoke hover:text-emerald-300 active:text-emerald-400 hover:underline">
+                    Resources
                   </li>
                 </CustomLink>
                 <CustomLink spy={true} smooth={true} to="/support">
