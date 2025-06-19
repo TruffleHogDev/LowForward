@@ -388,12 +388,32 @@ ul {
     padding-bottom: 1rem;
 }
 
-/* Float figure on large screens, center on small */
+/* === ConceptSection FLEX Layout === */
+.concept-flex {
+    display: flex;
+    flex-direction: column; /* stacked by default for small/medium screens */
+    gap: 1.5rem;
+}
+
+.concept-text {
+    padding-top: 1.5rem; /* ensures text doesn't get hidden by sticky header on small/medium */
+}
+
 @media (min-width: 1024px) {
+    .concept-flex {
+        flex-direction: row; /* side-by-side layout on large screens */
+        align-items: flex-start;
+    }
+
+    .concept-text {
+        flex: 1;
+        padding-top: 2rem; /* extra offset for nicer alignment with figure on large screens */
+    }
+
     .concept-figure {
-        float: right;
-        width: 50%;
-        margin-left: 2rem;
+        flex: 0 0 50%; /* figure fixed at 50% width in flex layout */
+        margin: 0; /* no extra margin needed in flex context */
+        padding-top: 0; /* remove extra top padding for tight side alignment */
     }
 }
 
@@ -423,4 +443,34 @@ ul {
     font-weight: bold;
     margin-bottom: 0.5rem;
     text-align: center;
+}
+
+/* === Concept text block === */
+.concept-summary p {
+    text-align: left;
+    margin: 0 0 1rem 0;
+    max-width: 100%;
+    line-height: 1.6;
+}
+
+/* === Sticky Section Heading === */
+.section {
+    position: sticky;
+    top: 60px; /* base for small screens: match typical navbar height */
+    z-index: 40;
+    background: #1f2022;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+    .section {
+        top: 80px; /* medium screens: slightly taller navbar with more padding */
+    }
+}
+
+@media (min-width: 1024px) {
+    .section {
+        top: 60px; /* large screens: nav is shorter again, so revert to base */
+    }
 }
