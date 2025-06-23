@@ -353,11 +353,9 @@ ul {
 /* Small screens: 5 items per row */
 @media (max-width: 768px) {
     .character-grid {
-        max-width: calc(
-            5 * 100px + 4 * 0.5rem
-        ); /* 5 items per row on small screens */
-        grid-template-columns: repeat(5, 1fr); /* 5 items per row */
-        gap: 0.5rem; /* Slightly reduce the gap */
+        max-width: calc(5 * 100px + 4 * 0.5rem);
+        grid-template-columns: repeat(5, 1fr);
+        gap: 0.5rem;
     }
     .character-item {
         width: 100%;
@@ -368,9 +366,7 @@ ul {
 /* Extra small screens: 2 items per row */
 @media (max-width: 480px) {
     .character-grid {
-        max-width: calc(
-            2 * 90px + 1 * 1rem
-        ); /* 2 items per row on extra small screens */
+        max-width: calc(2 * 90px + 1 * 1rem);
         grid-template-columns: repeat(2, 1fr);
     }
     .character-item {
@@ -397,6 +393,15 @@ ul {
 
 .concept-text {
     padding-top: 1.5rem; /* ensures text doesn't get hidden by sticky header on small/medium */
+    padding-bottom: 1rem;
+}
+
+.concept-figure {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
 }
 
 @media (min-width: 1024px) {
@@ -407,13 +412,15 @@ ul {
 
     .concept-text {
         flex: 1;
-        padding-top: 2rem; /* extra offset for nicer alignment with figure on large screens */
+        padding-top: 2rem;
+        padding-bottom: 0;
     }
 
     .concept-figure {
         flex: 0 0 50%; /* figure fixed at 50% width in flex layout */
-        margin: 0; /* no extra margin needed in flex context */
-        padding-top: 0; /* remove extra top padding for tight side alignment */
+        margin: 0;
+        padding-top: 2rem;
+        padding-bottom: 0;
     }
 }
 
