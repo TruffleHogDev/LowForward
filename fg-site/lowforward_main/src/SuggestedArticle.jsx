@@ -81,7 +81,7 @@ const suggestions = [
     page: "pokes",
     messages: [
       "How do I use pokes well?",
-      "How do I make your moves work together?",
+      "How do I make my moves work together?",
       "Every move has a purpose.",
     ],
   },

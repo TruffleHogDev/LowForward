@@ -21,7 +21,7 @@ export default function HomeGrid() {
           <div className="h-[250px] md:h-[300px]">
             <HomeItem
               img={meditation}
-              title="Need to brush up on your fighting game terminology or need some character resources?"
+              title="Need to brush up on your fighting game terminology or need some external character resources?"
               page="#/resources"
               buttonText="Explore Resources"
             />
