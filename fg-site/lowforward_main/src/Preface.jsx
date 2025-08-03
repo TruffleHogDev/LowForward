@@ -82,9 +82,9 @@ export default function Preface() {
             top 100 chipp in the world thing from ratingupdate but rest assured
             the grind has continued in silence, and I am absolutely committed to
             helping everyone reach their full potential in the FGC. Unless
-            you're Chris G, because you said I had no neutral. Fuck you, I
-            didn't know how to dashblock until 5 minutes after that set, and I
-            still mixed your shit.
+            you're Chris G, because you said I had no neutral. I didn't know how
+            to dashblock until 5 minutes after that set, and I still mixed your
+            shit. Wherever you are, I hope your day is as pleasant as you are.
           </p>
           <p>
             This is also very much <b>not</b> a character focused series of
