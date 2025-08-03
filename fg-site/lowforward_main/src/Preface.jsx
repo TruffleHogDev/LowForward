@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import numPadNotation from "../src/assets/images/numpad.jpg";
 import frameData from "../src/assets/images/frameData.jpg";
 import BnbBanner from "./banners/BnbBanner";
+import WhatYoullLearn from "./WhatYoullLearn.jsx";
+import ConceptSection from "./ConceptSection.jsx";
 
 export default function Preface() {
   return (
@@ -9,23 +11,30 @@ export default function Preface() {
       <BnbBanner />
       <div className="container">
         <article className="articleStyles">
-          <h1>Preface</h1>
-          <h3>
-            The learning process, training plans, input notation, and more.
-          </h3>
-
-          <hr className="smallDivider"></hr>
+          <WhatYoullLearn
+            topics={[
+              {
+                theme: "Preface",
+                what: "What this site will do",
+                why: "The essentials you need to succeed, explained simply.",
+              },
+              {
+                what: "What this site isn't",
+                why: "A resource for character specific guides.",
+              },
+            ]}
+          />
 
           <h4>
-            Important note: if you are brand new to fighting games, check out
-            the Supercombo Wiki's
-            <Link to="https://wiki.supercombo.gg/w/Street_Fighter_6/Game_Data">
-              {" "}
-              Game Data guide
-            </Link>{" "}
-            for an introduction to the concept of framedata. It is mandatory to
-            understand framedata in order to understand fighting games. You can
-            also see a quick explanation in SF6's training mode below.{" "}
+            Important note: this and every other article on this site is
+            currently in the middle of a major rework based on reader feedback-
+            more succinct explanations, smoother page layout, and a better focus
+            on bridging the intermediate to advanced gap coming Soon™. I want
+            this to be a resource that lasts beyond SF6's lifespan and the
+            quality of the content I write must reflect that. Also I really
+            haven't felt like playing in several months and that's rough when I
+            feel compelled to go beat up on GMs and higher to show you all that
+            this stuff works on everyone.
           </h4>
 
           <figure>
@@ -35,80 +44,110 @@ export default function Preface() {
               alt="Brief explanation of framedata."
             ></img>
             <figcaption>
-              Brief explanation of framedata. You must understand concepts like
-              startup and frame advantage for many lessons to make sense.
+              Brief explanation of framedata. Understanding when it's your turn
+              will make learning fighting games much easier.
             </figcaption>
           </figure>
 
-          <hr className="divider"></hr>
+          <h2 className="section">What is LowForward for?</h2>
 
           <p>
-            Before we get to the good stuff, there are a few housekeeping things
-            to talk about. First, the playstyle, strategies, and training plans
-            written here are not the objectively "best" or most "correct" way to
-            play the game, nor is it the only viable winning strategy in
-            fighting games. It is simply my preferred playstyle, the one I am
-            most familiar with, and one that I know through experience can find
-            success at all skill levels. Some of the routing choices might not
-            be optimal either, but I'm more trying to demonstrate the concepts
-            without much fluff. I also am not writing character guides, though I
-            do have a guide on how to learn new characters using my main as an
-            example.
+            LowForward is primarily designed for two things: Helping newer
+            players know how to progress as a fighting game player, and as a
+            desperately needed resource to learn about fighting game theory. I
+            think that fighting games tend to be seen as a very difficult genre
+            to learn and improve in, and I want to challenge that assumption by
+            breaking down how to think about fighting game strategy and how to
+            use those concepts to succeed with any character in any game. If
+            you're familiar with coaching or "learning how to learn" in sports
+            or just about any other hobby, you'll find a lot of parallels here.
           </p>
           <p>
-            Next, with regards to practicing the concepts in the articles, they
-            are written in a way that provides a general outline that you can
-            follow in the way that makes the most sense to you. For anything
-            involving mechanical execution, especially things written for
-            beginners, a great rule of thumb to follow is the rule of 10: you
-            should practice each motion (or sequence, etc.) until you can do 10
-            reps in a row without making a mistake. If you ever fumble for any
-            reason, start back at zero. Once you successfully do 10 reps on one
-            side, switch sides and start back at zero. The idea behind the
-            exercise being so demanding is so that you build up enough muscle
-            memory that you can do it consistently in real matches without
-            thinking, and by extension give you the confidence to go for them
-            since you know you can do it on both sides. I also may give
-            suggestions for advanced things to practice when you are comfortable
-            with the basic concepts, and you may choose to implement them as you
-            see fit.
+            With that being said, my playstyle, strategies, and training plans
+            are not the objectively "best" or most "correct" way to play the
+            game, nor is it the only viable winning strategy in fighting games.
+            It is simply my preferred playstyle, the one I am most familiar
+            with, and one that I know through experience can find success at all
+            skill levels.
           </p>
 
           <p>
-            You will also see a lot of overlap when it comes to the concepts
-            being discussed on this site, and that's because many of these
-            fundamental skills work together in tandem to form a complete
-            gameplan; it's very difficult to speak about something like combos
-            without also mentioning meaties or hit confirms, or talking about
-            meaties without also touching on strike/throw mixups. Hopefully it
-            will give you an idea for how all of these building blocks work
-            together as you grow stronger as a player, and I have done my best
-            to create an intuitive feeling lesson plan that naturally moves from
-            one concept to the next to help make things less confusing and give
-            you a well-rounded toolset from the outset.
+            This is also very much <b>not</b> a character focused series of
+            guides. I'm focusing on teaching you fundamentals that will apply to
+            literally any character in any fighting game. I don't care who you
+            pick, I care that you're thinking about the right things and have
+            the right mentality to learning.
+          </p>
+          <p>
+            When it comes to practicing new things and building muscle memory, a
+            great rule of thumb to follow is the rule of 5- practice until you
+            can do the thing you're working on 5 times in a row with no
+            mistakes. Start back from 0 if you make a mistake for any reason,
+            and optionally switch sides to make sure you can do it on P1 and P2
+            side. You don't need to spend hours and hours in training mode doing
+            drills unless you want to- get a feel for what to do in training
+            mode, then go play some games. Make your only goal for the set to do
+            whatever it is you're practicing- a new combo, consistent antiairs,
+            etc. If you're experienced but start messing up your inputs, do
+            yourself a favour, spend two minutes doing your reps, and avoid the
+            headache that comes with being too stubborn to practice outside of
+            live games.
           </p>
 
-          <hr className="divider"></hr>
+          <h2 className="section">Input Notation and Framedata</h2>
 
           <p>
             When it comes to discussing inputs, I will for the most part be
             using numpad notation. If you're not familiar with numpad notation,
-            that's okay! You can refer to the following graphic below- 2MK
-            would, for instance, refer to a characters' crouching medium kick.
-            It might take a little while to get used to it if you've never seen
-            it before, but it's a fairly standardized way of communicating
-            inputs across multiple 2d fighting games, so it's mostly for
-            clarity.
+            that's okay! It's a fairly standardized way of writing 2D fighting
+            game inputs. If you need it, the Dustloop wiki has an in-depth
+            writeup on numpad notation{" "}
+            <Link
+              to="https://www.dustloop.com/w/Notation"
+              className="inlineConceptLink"
+            >
+              here,
+            </Link>{" "}
+            but for simplicity's sake, something like "5MP" would mean "standing
+            medium punch", and 214LK would mean "quarter circle back + light
+            kick".
           </p>
 
-          <figure className="numpadImg">
-            <img
-              className="w-5/6 sm:w-3/4 md:w-4/6"
-              src={numPadNotation}
-              alt="Numpad notation"
-            ></img>
-            <figcaption>Guide to numpad notation- author unknown</figcaption>
-          </figure>
+          <p>
+            As for framedata, you don't necessarily need to know it super in
+            depth. What you should know is that if you're plus on block, your
+            attacks come out first, and if you're minus (or negative) on block,
+            your opponent's attacks come out first. If a move is negative
+            enough, it becomes what's known as unsafe or punishable, meaning
+            that it's physically impossible to avoid getting hit after it's
+            blocked if you have a move that's fast enough. If the move is
+            negative on block but not punishable, it's considered "safe".
+          </p>
+
+          <p>
+            If a move is, say, +5 on hit, that means if you have a move that's 5
+            frames or faster, it will combo. If nothing is fast enough to combo,
+            then it usually means you have a chance to continue your pressure.
+          </p>
+          <p>
+            You can use this rough idea of frame advantage to know when it's
+            your "turn" to move, and it's strongly recommended that you know
+            what your fastest moves are for both punishes and moving first when
+            you have the advantage on block. You should also know what moves are
+            unsafe so that you don't take unnecessary damage. A lot of strategy
+            both in neutral and on offence revolves around the idea of taking
+            turns- for a common example, you can poke with a safe normal from
+            further away, and then if your opponent presses a button because
+            it's their turn, you can actually make their move whiff and
+            counterattack them! All that means is that{" "}
+            <b>
+              while it's good to know when it's your turn, you don't always have
+              to do something.
+            </b>{" "}
+            It's more to help give you an idea of what your options are in any
+            given situation.
+          </p>
+          <h2 className="section">Closing Thoughts</h2>
 
           <p>
             Finally and most importantly: your progression will have peaks and
@@ -122,21 +161,17 @@ export default function Preface() {
             embrace this growth-oriented approach to wins, losses, and personal
             progression in the genre in general. After all, even if you miss an
             opportunity to try the new thing you're working on and you recognize
-            it, that's still progress! Make your goal for the next
-            set/session/whatever to only focus on the thing you're trying to
-            practice. Losing is part of everyone's journey, and so is an uneven
-            path of progression.
+            it, that's still progress! Losing is part of everyone's journey, and
+            so is an uneven path of progression.
           </p>
 
           <p>
-            Never compare your results or rate of progression to others or else
-            you will never be happy- your only goal in this regard should be to
-            be stronger than your past self. With all that in mind, you're ready
-            to dig in to the rest of the content here. I hope you find it
-            informative.
+            Never compare your results to others and do not obsess over your
+            stats or else you will never be happy- your only goal in this regard
+            should be to be stronger than your past self. With all that in mind,
+            you're ready to dig in to the rest of the content here. I hope you
+            find it informative.
           </p>
-
-          <hr className="divider"></hr>
         </article>
       </div>
     </>

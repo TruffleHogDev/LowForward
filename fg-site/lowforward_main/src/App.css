@@ -179,6 +179,11 @@ ul {
     margin-right: auto;
 }
 
+.inlineConceptLink {
+    @apply text-whitesmoke no-underline font-semibold transition duration-300 hover:underline hover:text-emerald-300 active:text-emerald-400;
+    color: #f5f5f5;
+}
+
 /*-----Error page styles -----*/
 
 .notFound a {

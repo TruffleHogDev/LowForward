@@ -41,17 +41,22 @@ export default function Defense() {
               it should be used when you're not sure what to expect. While
               blocking, look for opportunities to reset to neutral or
               counterattack, and especially pay attention to what your opponent
-              does when you block. Note if and when they try to go for throws,
-              if they end their blockstrings safely, if they try to gimmick you
-              with things like DI or special moves like Kim teleport, etc, and
-              use that information to make an educated guess on when and how to
-              challenge them.
+              does when you block.
+            </p>
+
+            <p>
+              {" "}
+              It's especially helpful to note when your opponent likes to go for
+              throws, if they end their blockstrings safely, if they try to
+              gimmick you with things like DI or special moves like Kim
+              teleport, etc, and use that information to make an educated guess
+              on when and how to challenge them.
             </p>
           </ConceptSection>
 
           <ConceptSection
             title={"Parry"}
-            question="Can you figure out what Joe could have done differently here?"
+            question=""
             videoSrc={badMistake}
             caption="Parries can be strong options for covering both jump-ins and crossups, but be aware of the counterplay."
           >
@@ -183,16 +188,15 @@ export default function Defense() {
               challenging gaps in pressure, such as when the attacker is
               attempting a tick throw or walking up to reset their blockstring
               pressure. Mashing on wakeup should generally be avoided at all
-              costs with three main exceptions: at high levels of play when
-              attackers are going for delayed buttons to beat delay tech, in +1
-              situations when you believe the attacker is going to throw, or
-              when you have a hard read on your opponent going for a shimmy or
-              reversal bait, and you mash with a button that checks their
-              movement and/or gives you some breathing room- if it's
-              confirmable, even better. In games with throw invulnerability
-              frames on wakeup, such as Guilty Gear Strive or Granblue, mashing
-              becomes a slightly more reliable option since you can do that to
-              challenge meaty throws and command grabs instead of teching.
+              costs with a few exceptions: when attackers are going for delayed
+              buttons to beat delay tech, in situations when you believe the
+              attacker is going to throw, when you have a hard read on a shimmy
+              or reversal bait, or if they're doing button sequences that have
+              mashable gaps- a 2LP-2MP blockstring is a very common example,
+              since jabs are minus on block in SF6. In games with throw
+              invulnerability frames on wakeup, such as Guilty Gear Strive or
+              Granblue, mashing becomes a more reliable wakeup option since you
+              can do that to challenge meaty throws and command grabs.
               Nevertheless, mashing should always be done with caution and with
               intent, unless you really like seeing win screens that aren't
               yours.
@@ -208,7 +212,16 @@ export default function Defense() {
               While Drive Impact is generally ill-advised on wakeup, its utility
               as an advancing armored move makes it a good way to check
               opponents who overuse committal, non-cancelable buttons either in
-              neutral or on offense.
+              neutral or on offense. It's usually much more dangerous when used
+              as an offensive tool when your opponent is either in burnout or
+              very close to burnout.
+            </p>
+
+            <p>
+              Defensive DI is also very strong against some neutral skips with
+              reactable startup, like Ken's heavy dragonlash. Make sure you test
+              what it is and isn't effective against, because it is absolutely
+              not a universal answer to neutral skips.
             </p>
           </ConceptSection>
 
