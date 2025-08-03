@@ -70,21 +70,20 @@ export default function Preface() {
             skill levels.
           </p>
           <p>
-            As for who I am, I'm Hog Squad and you've probably never heard of
-            me, because I haven't competed since 2022 and don't use that tag in
-            fighting games! We're off to a great start. I competed in 9Moons and
-            the FGCC's Strive tournaments for a few months and got a ton of
-            great games against some of the best talent in NA, with an
-            especially big shoutout to my GOAT KI_Storm179, and I wanted to
-            condense the lessons from those hundreds of beatings into something
-            accessible for everyone. I don't have much to show in terms of hard
-            results besides a couple of top 16 locals placements and an ancient
-            top 100 chipp in the world thing from ratingupdate but rest assured
-            the grind has continued in silence, and I am absolutely committed to
-            helping everyone reach their full potential in the FGC. Unless
-            you're Chris G, because you said I had no neutral. I didn't know how
-            to dashblock until 5 minutes after that set, and I still mixed your
-            shit. Wherever you are, I hope your day is as pleasant as you are.
+            As for who I am, I'm Hog Squad! I competed in 9Moons and the FGCC's
+            Strive tournaments for most of 2022 and got a ton of great games
+            against some of the best talent in NA, with an especially big
+            shoutout to my GOAT KI_Storm179, and I wanted to condense the
+            lessons from those hundreds of beatings into something accessible
+            for everyone. I don't have much to show in terms of hard results
+            besides a couple of top 16 locals placements and a peak placement of
+            67th best Chipp in the world placement on ratingupdate, but rest
+            assured the grind has continued in silence, and I am absolutely
+            committed to helping everyone reach their full potential in the FGC.
+            Unless you're Chris G, because you said I had no neutral. I didn't
+            know how to dashblock until 5 minutes after that set, and I still
+            mixed your shit. Wherever you are, I hope your day is as pleasant as
+            you are.
           </p>
           <p>
             This is also very much <b>not</b> a character focused series of
