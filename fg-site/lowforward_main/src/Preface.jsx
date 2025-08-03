@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import numPadNotation from "../src/assets/images/numpad.jpg";
 import frameData from "../src/assets/images/frameData.jpg";
 import BnbBanner from "./banners/BnbBanner";
 import WhatYoullLearn from "./WhatYoullLearn.jsx";
@@ -28,13 +27,13 @@ export default function Preface() {
           <h4>
             Important note: this and every other article on this site is
             currently in the middle of a major rework based on reader feedback-
-            more succinct explanations, smoother page layout, and a better focus
-            on bridging the intermediate to advanced gap coming Soon™. I want
-            this to be a resource that lasts beyond SF6's lifespan and the
-            quality of the content I write must reflect that. Also I really
-            haven't felt like playing in several months and that's rough when I
-            feel compelled to go beat up on GMs and higher to show you all that
-            this stuff works on everyone.
+            more succinct explanations, less wordy articles, smoother page
+            layout, and a stronger focus on bridging the intermediate to
+            advanced gap coming Soon™. I want this to be a resource that lasts
+            beyond SF6's lifespan and the quality of the content I write must
+            reflect that. Also I really haven't felt like playing in several
+            months and that's rough when I feel compelled to go beat up on GMs
+            and higher to show you all that this stuff works on everyone.
           </h4>
 
           <figure>
@@ -70,7 +69,23 @@ export default function Preface() {
             with, and one that I know through experience can find success at all
             skill levels.
           </p>
-
+          <p>
+            As for who I am, I'm Hog Squad and you've probably never heard of
+            me, because I haven't competed since 2022 and don't use that tag in
+            fighting games! We're off to a great start. I competed in 9Moons and
+            the FGCC's Strive tournaments for a few months and got a ton of
+            great games against some of the best talent in NA, with an
+            especially big shoutout to my GOAT KI_Storm179, and I wanted to
+            condense the lessons from those hundreds of beatings into something
+            accessible for everyone. I don't have much to show in terms of hard
+            results besides a couple of top 16 locals placements and an ancient
+            top 100 chipp in the world thing from ratingupdate but rest assured
+            the grind has continued in silence, and I am absolutely committed to
+            helping everyone reach their full potential in the FGC. Unless
+            you're Chris G, because you said I had no neutral. Fuck you, I
+            didn't know how to dashblock until 5 minutes after that set, and I
+            still mixed your shit.
+          </p>
           <p>
             This is also very much <b>not</b> a character focused series of
             guides. I'm focusing on teaching you fundamentals that will apply to
