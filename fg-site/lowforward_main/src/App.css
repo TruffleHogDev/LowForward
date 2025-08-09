@@ -110,12 +110,23 @@ ul {
 /*-----Main styles for general articles-----*/
 
 .articleStyles p {
-    text-align: left; /* ensures left alignment */
-    margin-left: auto; /* centers block in column */
+    text-align: left;
+    margin-left: auto;
     margin-right: auto;
-    max-width: 65ch; /* comfortable line length */
+    max-width: 65ch;
     line-height: 1.8;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
+
+/* Remove the extra padding once the screen is wide enough for the max-width to kick in naturally */
+@media (min-width: 640px) {
+    .articleStyles p {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
 .articleStyles h4 {
     margin: auto;
     text-align: center;
@@ -262,22 +273,55 @@ ul {
 .full-height {
     min-height: 100vh;
 }
-
-/*Sticky scrolling sectioning for major article sections */
+/*ConceptSection divider styling */
 .section {
-    position: -webkit-sticky; /* For Safari */
     position: sticky;
-    top: 60px; /* ensure it's placed below navbar */
-    z-index: 40; /*Navbar is set to 50*/
-    padding: 20px;
-    border-bottom: 1px solid #ddd; /* Divider */
-    background: #1f2022;
+    top: var(--section-sticky-top, 4.5rem);
+    z-index: 10;
+
+    background: var(--site-bg, #1f2022);
+    max-width: 65ch;
+    margin: 0 auto 0.75rem;
+    padding: 0.5rem 1rem 1rem; /* ✅ more bottom padding like smallest screen */
+    scroll-margin-top: 6rem;
+
+    /* Full-bleed mask + inset shadow divider */
+    box-shadow:
+        0 0 0 100vmax var(--site-bg, #1f2022),
+        inset 0 -1px rgba(255, 255, 255, 0.18);
+    clip-path: inset(0 -100vmax 0 -100vmax);
 }
 
+@media (min-width: 640px) {
+    .section {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+/* ✅ Curtain now matches small-screen style at all sizes */
+.section::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%; /* directly under divider */
+    height: 12px; /* taller to hide peeking */
+    background: var(--site-bg, #1f2022);
+    pointer-events: none;
+}
+
+.concept-section {
+    position: relative;
+    z-index: 0;
+    padding-top: 0.5rem; /* same top spacing as smallest screen */
+}
+
+/* Keep your landscape height limit */
 @media screen and (max-width: 768px) and (orientation: landscape) {
     .section {
-        max-height: 50vh; /* Reduce height to prevent it from getting pushed out */
-        overflow-y: auto; /* Allow scrolling if needed */
+        max-height: 50vh;
+        overflow-y: auto;
     }
 }
 
@@ -412,10 +456,27 @@ ul {
     padding-bottom: 1rem;
 }
 
+/* Make both images and videos scale the same inside the media column */
+.concept-media {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media (min-width: 1024px) {
     .concept-flex {
         flex-direction: row; /* side-by-side layout on large screens */
         align-items: flex-start;
+    }
+
+    /*Override ONLY when the media-left class is present */
+
+    @media (min-width: 1024px) {
+        .concept-flex.media-left {
+            flex-direction: row-reverse;
+        }
     }
 
     .concept-text {

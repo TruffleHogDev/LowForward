@@ -56,7 +56,7 @@ export default function Bnbs() {
             gameplan:
           </p>
 
-          <h3 className="section">1. A light confirm</h3>
+          <h3 className="section">Light confirms</h3>
 
           <p>
             The first thing you need is something you can easily route into off
@@ -96,7 +96,7 @@ export default function Bnbs() {
             </figcaption>
           </figure>
 
-          <h3 className="section">2. A medium BnB</h3>
+          <h3 className="section">Medium BnB</h3>
 
           <p>
             {" "}
@@ -150,7 +150,7 @@ export default function Bnbs() {
             </figcaption>
           </figure>
 
-          <h3 className="section">3. Drive Impact (DI) combos</h3>
+          <h3 className="section">Drive Impact (DI) Combos</h3>
 
           <p>
             After your core light and medium routes, you want combos off of DI,
@@ -190,7 +190,7 @@ export default function Bnbs() {
             </figcaption>
           </figure>
 
-          <h3 className="section">4. A jump-in combo</h3>
+          <h3 className="section">Jump-in Combos</h3>
 
           <p>
             This will usually just end up being your best jump-in normal
@@ -225,9 +225,7 @@ export default function Bnbs() {
             </figcaption>
           </figure>
 
-          <h3 className="section">
-            5. A dedicated cashout combo for closing out rounds
-          </h3>
+          <h3 className="section">Dedicated Kill Combos</h3>
 
           <p>
             Most commonly reserved for blocked supers, DPs, or strong drive rush
