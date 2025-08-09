@@ -110,14 +110,12 @@ ul {
 /*-----Main styles for general articles-----*/
 
 .articleStyles p {
-    display: block;
-    text-align: left;
-    text-indent: 2em;
-    margin: auto;
-    max-width: 60%;
-    padding: 0.4rem;
+    text-align: left; /* ensures left alignment */
+    margin-left: auto; /* centers block in column */
+    margin-right: auto;
+    max-width: 65ch; /* comfortable line length */
+    line-height: 1.8;
 }
-
 .articleStyles h4 {
     margin: auto;
     text-align: center;
@@ -126,19 +124,22 @@ ul {
 }
 
 .articleStyles ul {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    margin: auto;
-    max-width: 60%;
-    padding: 0.4rem;
+    display: block;
+    text-align: left;
+    margin: 0 auto 1rem auto;
+    padding: 0 0.4rem;
+    max-width: 65ch;
+}
+
+.articleStyles p + p {
+    text-indent: 1.25em;
 }
 
 .articleStyles li {
-    list-style: none;
-    padding: 2px;
+    list-style: disc;
+    margin-left: 1.25rem;
+    margin-bottom: 0.4rem;
 }
-
 .articleStyles dt {
     font-weight: bold;
     font-size: 1.3em;
@@ -160,8 +161,10 @@ ul {
     transition: 0.1s;
 }
 
-.articleStyles a:focus {
-    color: blueviolet;
+.articleStyles a:focus-visible,
+.inlineConceptLink:focus-visible {
+    outline: 2px solid #34d399; /* emerald-400-ish */
+    outline-offset: 2px;
 }
 
 .articleStyles figcaption {
