@@ -17,8 +17,7 @@ export default function HomeSupport() {
           </h2>
           <p className="text-slate-300">
             If LowForward has helped you grow as a player or understand fighting
-            games better, consider supporting the project. Every little bit
-            helps keep the platform running and free for everyone.
+            games better, consider supporting me!
           </p>
           <a
             href="https://ko-fi.com/hogdev"

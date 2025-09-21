@@ -49,12 +49,11 @@ export default function Preface() {
               resource that lasts beyond SF6's lifespan and the quality of the
               content I write must reflect that. Also I really haven't felt like
               playing in several months and that's rough when I feel compelled
-              to go beat up on GMs and higher to show you all that this stuff
-              works on everyone.
+              to go beat up on GMs and UMs to show you all that this stuff works
+              on everyone.
             </p>
           </Callout>
 
-          {/* Section 1 */}
           <ConceptSection title="What is LowForward for?">
             <p>
               LowForward is primarily designed for two things: Helping newer
@@ -81,7 +80,6 @@ export default function Preface() {
             </p>
           </ConceptSection>
 
-          {/* Section 2 */}
           <ConceptSection title="Input Notation and Framedata">
             <p>
               When it comes to discussing inputs, I will for the most part be
@@ -100,7 +98,6 @@ export default function Preface() {
               + light kick".
             </p>
 
-            {/* Your original framedata figure with comparable sizing */}
             <figure className="concept-figure">
               <figcaption className="concept-question">
                 Brief explanation of framedata
@@ -121,14 +118,13 @@ export default function Preface() {
               As for framedata, you don't necessarily need to know it super in
               depth. What you should know is that if you're plus on block, your
               attacks come out first, and if you're minus (or negative) on
-              block, your opponent’s attacks come out first. This is why “it’s
-              your turn” language matters—you’re deciding whether to continue
-              pressure, back off, or bait a response based on advantage. We’ll
-              reference framedata when it clarifies risk/reward, not as trivia.
+              block, your opponent’s attacks come out first. Knowing when it's
+              your turn helps inform your decision making both on offence and
+              defence- knowing when you have a guaranteed mixup, or knowing when
+              you can escape your opponent's pressure, things like that.
             </p>
           </ConceptSection>
 
-          {/* Section 3 */}
           <ConceptSection title="Closing Thoughts">
             <p>
               Finally and most importantly: your progression will have peaks and
