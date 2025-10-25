@@ -8,12 +8,12 @@ export default function HomeSupport() {
           <img
             src={supRyu}
             alt="Support LowForward"
-            className="rounded-xl shadow-lg w-full h-auto object-contain"
+            className="rounded-xl shadow-lg w-full h-[300px] object-contain"
           />
         </div>
         <div className="md:w-1/2 text-center md:text-left space-y-6">
           <h2 className="text-3xl md:text-4xl font-bold">
-            Support the Mission
+            Support the Project
           </h2>
           <p className="text-slate-300">
             If LowForward has helped you grow as a player or understand fighting

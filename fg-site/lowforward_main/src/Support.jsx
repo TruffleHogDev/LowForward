@@ -29,8 +29,9 @@ export default function Support() {
             <h3>
               I want to help smoothen the learning curve when it comes to
               understanding fighting games on a deeper level by teaching you how
-              to answer those kinds of questions. Your support helps me make
-              LowForward the best community resource it can possibly be.
+              to answer those kinds of questions. Support is and always will be
+              optional, but if you have the means and find a resource like this
+              to be valuable, please consider a small donation to help me out.
             </h3>
 
             <h4 className="text-xl text-center mt-10">
