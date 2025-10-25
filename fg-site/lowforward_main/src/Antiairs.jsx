@@ -96,7 +96,7 @@ export default function Antiairs() {
               English name) are classic example of this. Some characters may
               have specialized anti-air special moves that look a little bit
               different, such as upward angled fireballs, or moves like Honda's
-              headbutt or Blanka's vertical rolling attack.
+              headbutt or Blanka ball.
             </p>
 
             <p>
@@ -109,9 +109,9 @@ export default function Antiairs() {
               them as early as you can. In Street Fighter 6 and some other
               games, an input trick you can do for a traditional DP's 623 input
               is to simply crouch (2) and, while continuing to crouch, double
-              tapping forward (6), then press whichever attack button
-              corresponds with the move. This bypasses the need to do a diagonal
-              input entirely and makes reaction anti-air DPs incredibly easy and
+              tap forward (6), then press whichever attack button corresponds
+              with the move. This bypasses the need to do a diagonal input
+              entirely and makes reaction anti-air DPs incredibly easy and
               consistent with practice. Do note that you cannot be downbacking
               while attempting this or else the game's input reader will give
               you a normal instead of your DP.
@@ -121,14 +121,15 @@ export default function Antiairs() {
           {/* Section: Crosscut video in the media column */}
           <ConceptSection title="Crosscut DP" videoSrc={crossCut}>
             <p>
-              If you have a DP-style option for an anti-air, you have access to
-              an advanced technique known as a crosscut DP to help you deal with
-              opponents going for crossups: while crouching, if you input your
-              special move right as your opponent crosses over you, your DP will
-              autocorrect sides and hit them. Since the timing can be fairly
-              difficult, this is something you can practice later as a lower
-              priority when you feel more confident if it's too much to start
-              with.
+              If your character has an AA DP, you have access to an advanced
+              technique known as a crosscut DP to help you deal with opponents
+              going for crossups: while crouching, if you input your special
+              move right as your opponent crosses over you, your DP will
+              autocorrect sides and hit them. The timing can be a little awkward
+              to get used to, and smart opponents will purposely try to jump at
+              angles that are hard to crosscut, so if you're ever unsure then
+              something like a jumpback air-to-air, or even a dash under to
+              escape the situation can come in clutch.
             </p>
           </ConceptSection>
 
