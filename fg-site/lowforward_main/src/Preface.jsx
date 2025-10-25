@@ -38,7 +38,6 @@ export default function Preface() {
             ]}
           />
 
-          {/* Important meta content → styled callout */}
           <Callout>
             <p>
               Important note: this and every other article on this site is
@@ -47,10 +46,7 @@ export default function Preface() {
               smoother page layout, and a stronger focus on bridging the
               intermediate to advanced gap coming Soon™. I want this to be a
               resource that lasts beyond SF6's lifespan and the quality of the
-              content I write must reflect that. Also I really haven't felt like
-              playing in several months and that's rough when I feel compelled
-              to go beat up on GMs and UMs to show you all that this stuff works
-              on everyone.
+              content I write must reflect that.
             </p>
           </Callout>
 
@@ -74,9 +70,10 @@ export default function Preface() {
               games. I will do my best to present the strategies and advice I
               give in a neutral way that helps you incorporate them into your
               own gameplay, but if you try something and it isn't working for
-              you, that's okay— try something else. What matters is that you
-              have a clear framework to evaluate options, practice effectively,
-              and make better decisions over time.
+              you, that's okay— trust the process, progress will be gradual and
+              more than likely slow for a while. What matters is that you have a
+              clear framework to evaluate options, practice effectively, and
+              make better decisions over time.
             </p>
           </ConceptSection>
 
@@ -84,9 +81,9 @@ export default function Preface() {
             <p>
               When it comes to discussing inputs, I will for the most part be
               using numpad notation. If you're not familiar with numpad
-              notation, that's okay! It's a fairly standardized way of writing
-              2D fighting game inputs. If you need it, the Dustloop wiki has an
-              in-depth writeup on numpad notation{" "}
+              notation, it's a fairly standardized way of writing 2D fighting
+              game inputs. If you need it, the Dustloop wiki has an in-depth
+              writeup on numpad notation{" "}
               <Link
                 to="https://www.dustloop.com/w/Notation"
                 className="inlineConceptLink"
@@ -121,7 +118,7 @@ export default function Preface() {
               block, your opponent’s attacks come out first. Knowing when it's
               your turn helps inform your decision making both on offence and
               defence- knowing when you have a guaranteed mixup, or knowing when
-              you can escape your opponent's pressure, things like that.
+              you can disrespect your opponent's pressure, things like that.
             </p>
           </ConceptSection>
 
@@ -145,9 +142,10 @@ export default function Preface() {
             <p>
               Never compare your results to others and do not obsess over your
               stats or else you will never be happy- your only goal in this
-              regard should be to be stronger than your past self. With all that
-              in mind, you're ready to dig in to the rest of the content here. I
-              hope you find it informative.
+              regard should be to be stronger than your past self. Once you have
+              the baseline skill, the ranks will come, and you'll easily make up
+              for bad days. With all that in mind, you're ready to dig in to the
+              rest of the content here. I hope you find it informative.
             </p>
           </ConceptSection>
         </article>
