@@ -34,26 +34,22 @@ export default function Bnbs() {
             optimals are, you only need a few basic BnBs to make it far in
             fighting games- the ability to win interactions and get consistent
             damage and pressure from them is far more valuable than being able
-            to do an explosive combo once every couple of sets, maybe. This
-            article will give you an idea of what kinds of combos you'll be
-            using the most often, generally focusing on using routes that work
-            off of a variety of starters and avoid using meter so that you have
-            an idea for what you can count on regardless of the resource
-            situation. When you feel comfortable with your meterless routes,
-            you're encouraged to experiment with things like drive rush cancels
-            or OD moves to optimize when you have the resources to spare. Just
-            keep in mind that spending meter for damage when you're low on drive
-            is almost never a good idea unless the combo will kill, since
-            burning out can automatically lose you the round in some matchups,
-            even with a large life lead. SF6 has relatively easy combos compared
-            to other fighting games, but the complexity comes from how many
-            routing options you have and choosing the correct one quickly. An
-            added bonus of having these basic combos already learned is that
-            because we no longer have to think about our routing as much, we can
-            focus on our opponent and the choices they make on defence. With
-            that out of the way, there are a few basic combos with any character
-            that I feel should be prioritized in order to have a functional
-            gameplan:
+            to do an explosive combo once every couple of sets, maybe. Every
+            time I pick up a new character, the first combos I learn are my
+            meterless options so that I know what I can always fall back on, and
+            then I figure out metered combos after. I very strongly recommend
+            you at minimum know your meterless combos before you start playing
+            people, because spending meter when you're low on resources is
+            almost never a good idea unless the combo will kill or you're going
+            to set up some sort of kill sequence, since burning out at the wrong
+            time can automatically lose you the round, even with a large life
+            lead. If you're burnt and blocking AKI but you've got 60% more life
+            than her, you're losing. SF6 has relatively easy combos compared to
+            other fighting games, but the complexity comes from how many routing
+            options you have and choosing the correct one quickly. An added
+            bonus of having these basic combos already learned is that because
+            we no longer have to think about our routing as much, we can focus
+            on our opponent and the choices they make on defence.
           </p>
 
           <h3 className="section">Light confirms</h3>
