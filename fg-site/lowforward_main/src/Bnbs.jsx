@@ -41,11 +41,11 @@ export default function Bnbs() {
             you at minimum know your meterless combos before you start playing
             people, because spending meter when you're low on resources is
             almost never a good idea unless the combo will kill or you're going
-            to set up some sort of kill sequence, since burning out at the wrong
-            time can automatically lose you the round, even with a large life
-            lead. If you're burnt and blocking AKI but you've got 60% more life
-            than her, you're losing. SF6 has relatively easy combos compared to
-            other fighting games, but the complexity comes from how many routing
+            to set up some sort of kill sequence. Burning out at the wrong time
+            can automatically lose you the round, even with a large life lead.
+            If you're burnt and blocking AKI but you've got 60% more life than
+            her, you're losing. SF6 has relatively easy combos compared to other
+            fighting games, but the complexity comes from how many routing
             options you have and choosing the correct one quickly. An added
             bonus of having these basic combos already learned is that because
             we no longer have to think about our routing as much, we can focus
