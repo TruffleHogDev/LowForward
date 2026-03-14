@@ -40,40 +40,32 @@ export default function Preface() {
 
           <Callout>
             <p>
-              Important note: this and every other article on this site is
-              currently in the middle of a major rework based on reader
-              feedback- more succinct explanations, less wordy articles,
-              smoother page layout, and a stronger focus on bridging the
-              intermediate to advanced gap coming Soon™. I want this to be a
-              resource that lasts beyond SF6's lifespan and the quality of the
-              content I write must reflect that.
+              Important note: Much of the content on this site is in the middle
+              of a rework. I am training hard and pushing myself to grow as a
+              player so that I can make this the best possible fighting game
+              resource even past this game's lifespan. I'm working hard on how
+              to best achieve that goal- you can expect a large update around
+              June 2026.
             </p>
           </Callout>
 
           <ConceptSection title="What is LowForward for?">
             <p>
-              LowForward is primarily designed for two things: Helping newer
-              players know how to progress as a fighting game player, and as a
-              desperately needed resource to learn about fighting game theory. I
-              think that fighting games tend to be seen as a very difficult
-              genre to learn and improve in, and I want to challenge that
-              assumption by breaking down how to think about fighting game
-              strategy and how to use those concepts to succeed with any
-              character in any game. If you're familiar with coaching or
-              "learning how to learn" in sports or just about any other hobby,
-              you'll find a lot of parallels here.
+              Lowforward has two main goals- to teach newer players how to play
+              fighting games, and to help intermediate and advanced players
+              elevate their game with tournament-level advice. If you're a
+              beginner, you can already find everything you need to get from
+              rookie to master right here- it's the second part my training is
+              helping me with. By the end of it, LF will be able to guide
+              players to 1700 MR and beyond.
             </p>
             <p>
               With that being said, my playstyle, strategies, and training plans
               are not the objectively "best" or most "correct" way to play the
               game, nor is it the only viable winning strategy in fighting
-              games. I will do my best to present the strategies and advice I
-              give in a neutral way that helps you incorporate them into your
-              own gameplay, but if you try something and it isn't working for
-              you, that's okay— trust the process, progress will be gradual and
-              more than likely slow for a while. What matters is that you have a
-              clear framework to evaluate options, practice effectively, and
-              make better decisions over time.
+              games. What matters to me is that you have a clear framework to
+              evaluate options, practice effectively, and make better decisions
+              over time.
             </p>
           </ConceptSection>
 
@@ -82,8 +74,8 @@ export default function Preface() {
               When it comes to discussing inputs, I will for the most part be
               using numpad notation. If you're not familiar with numpad
               notation, it's a fairly standardized way of writing 2D fighting
-              game inputs. If you need it, the Dustloop wiki has an in-depth
-              writeup on numpad notation{" "}
+              game inputs that comes from anime games. If you need it, the
+              Dustloop wiki has an in-depth writeup on numpad notation{" "}
               <Link
                 to="https://www.dustloop.com/w/Notation"
                 className="inlineConceptLink"
@@ -126,17 +118,33 @@ export default function Preface() {
             <p>
               Finally and most importantly: your progression will have peaks and
               valleys, some days will be more difficult than others, and you
-              will lose. A lot. You might drop a few games when practicing
-              something that you might have otherwise won- this is normal, and
-              it's okay. It's one thing to be able to do something in training
-              mode and another entirely to be able to do it in a live game with
-              someone who's actively trying to punch you in the face. You're
-              basically trading a short-term win for long-term consistency, and
-              you should embrace this growth-oriented approach to wins, losses,
-              and personal progression in the genre in general. After all, even
-              if you miss an opportunity to try the new thing you're working on
-              and you recognize it, that's still progress! Losing is part of
-              everyone's journey, and so is an uneven path of progression.
+              will lose a lot. It's very normal to lose more often than usual
+              when you're trying to work on something specific- it's part of the
+              process. A lot of people have a hard time separating their ego
+              from their rank, and a good way to combat that is to set a goal
+              for the session- something like "I want to hit confirm my lights"
+              or "I want to whiff fewer buttons". That way, even when you lose,
+              the session can still be an overall success.
+            </p>
+
+            <p>
+              {" "}
+              Strong players also understand that even when they have bad days,
+              they will get their points back once they get better at what
+              they're working on, so ultimately it really doesn't matter when
+              you lose points- they will come back when the time is right. One
+              of the worst mistakes you can make is to fixate on your number
+              going up- you focus on the wrong things and it impedes your
+              progress as a player. You also don't always have to play ranked,
+              and you don't have to do long ranked sessions. You can mix it up
+              with training mode, replay reviews, or watching high level
+              matches; you can engage with the game without forcing yourself to
+              do ranked when you absolutely mentally can't. That being said,
+              ranked is a great tool for dealing with all kinds of playstyles
+              and working on what you're practicing in a low stakes environment.
+              Having a healthy, growth-oriented mindset is critical to becoming
+              strong. Ranked is nothing to be afraid of, but it's also not the
+              only way to improve.
             </p>
 
             <p>
