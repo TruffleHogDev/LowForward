@@ -7,7 +7,7 @@ export default function HomeGrid() {
     <section className="text-white py-16 px-4 md:px-12">
       <div className="max-w-screen-lg mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-          Explore Our Core Guides
+          Explore My Core Guides
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="h-[250px] md:h-[300px] mb-10 md:mb-0">
