@@ -44,8 +44,8 @@ export default function Preface() {
               of a rework. I am training hard and pushing myself to grow as a
               player so that I can make this the best possible fighting game
               resource even past this game's lifespan. I'm working hard on how
-              to best achieve that goal- you can expect a large update around
-              June 2026.
+              to best achieve that goal- you can expect a large update by Evo
+              2026.
             </p>
           </Callout>
 
