@@ -141,7 +141,7 @@ export default function Bnbs() {
               damaging combos, usually starting with PC heavies, specials, or
               jump-ins. Weaker starters are totally viable as long as you can
               guarantee the round. Cashout combos are generally what you want to
-              save your meter for- in, you'll notice very often that people will
+              save your meter for; you'll notice very often that people will
               wait until the kill is guaranteed before they spend. You may see
               people deliberately extending with SA2 when they have SA3, so that
               they can push their advantage while keeping a stock for an
