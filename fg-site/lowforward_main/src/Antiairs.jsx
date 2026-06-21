@@ -1,7 +1,7 @@
 import WhatYoullLearn from "./WhatYoullLearn.jsx";
 import ConceptSection from "./ConceptSection.jsx";
 import crossCut from "../src/assets/videos/crosscut.mp4";
-import cornerAA from "../src/assets/images/cornerAA.jpg";
+import jumpBait from "../src/assets/videos/jumpBait.mp4";
 import BnbBanner from "../src/banners/BnbBanner.jsx";
 import jumpOut from "../src/assets/videos/jumpOut.mp4";
 import basicAA from "../src/assets/videos/basicAA.mp4";
@@ -26,7 +26,6 @@ export default function Antiairs() {
             ]}
           />
 
-          {/* Section: Intro (keeps your existing heading text) */}
           <ConceptSection title="Intro to Anti-Airs" videoSrc={null}>
             <p>
               So you've picked a character- this is good; some people never get
@@ -87,7 +86,6 @@ export default function Antiairs() {
             </p>
           </ConceptSection>
 
-          {/* Section: Crosscut video in the media column */}
           <ConceptSection title="Crosscuts" videoSrc={crossCut}>
             <p>
               As mentioned above, crosscuts are a very strong way to deal with
@@ -101,7 +99,7 @@ export default function Antiairs() {
             </p>
           </ConceptSection>
 
-          <ConceptSection title="Baits" videoSrc={null}>
+          <ConceptSection title="Baits" videoSrc={jumpBait}>
             <p>
               Some characters have tricky specials or can otherwise alter the
               trajectory of their jumps, making it harder to tell when you can
