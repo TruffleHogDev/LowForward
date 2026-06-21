@@ -3,7 +3,6 @@ import medBnb from "../src/assets/videos/medbnb.mp4";
 import diCombo from "../src/assets/videos/pcdi.mp4";
 import jumpIn from "../src/assets/videos/jumpin.mp4";
 import heavyBnb from "../src/assets/videos/heavypunish.mp4";
-import slowMo from "../src/assets/images/slowmo.jpg";
 import BnbBanner from "../src/banners/BnbBanner.jsx";
 import WhatYoullLearn from "./WhatYoullLearn.jsx";
 import ConceptSection from "./ConceptSection.jsx";

@@ -12,12 +12,12 @@ export default function Nothing() {
             topics={[
               {
                 theme: "Neutral",
-                what: "Immovable Object",
-                why: "Hold your ground and push them back.",
+                what: "Be Water",
+                why: "Learn how to form a dynamic gameplan.",
               },
               {
-                what: "Unstoppable Force",
-                why: "Limit the openings you give them and create opportunities.",
+                what: "Cohesion",
+                why: "Choose complementary options that are hard to deal with.",
               },
             ]}
           />
